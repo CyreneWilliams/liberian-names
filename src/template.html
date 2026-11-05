@@ -312,6 +312,11 @@ footer .credit{font-weight:600;color:var(--ink)}
 .rv-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .rv-bar span{margin-right:auto}
 .hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.btn.rec{justify-self:start}
+.btn.rec .dot{width:10px;height:10px;border-radius:50%;background:var(--red)}
+.btn.rec[aria-pressed="true"] .dot{border-radius:2px;animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){.btn.rec[aria-pressed="true"] .dot{animation:none}}
 footer .editor-link{color:var(--muted);font-size:13px}
 </style>
 </head>
@@ -483,21 +488,25 @@ footer .editor-link{color:var(--muted);font-size:13px}
           <span style="font-weight:600;font-size:14px">Hear it said <small style="font-weight:400;color:var(--muted)">(optional)</small></span>
           <div class="f2">
             <div class="audio-pick">
-              <label for="c-audio" style="font-weight:600;font-size:14px">At natural speed</label>
+              <span style="font-weight:600;font-size:14px">At natural speed</span>
+              <button class="btn rec" type="button" id="c-audio-rec" data-rec="c" aria-pressed="false"><span class="dot" aria-hidden="true"></span><span class="rec-l">Record</span></button>
+              <label for="c-audio" class="hint">or attach a voice memo</label>
               <input id="c-audio" type="file" accept="audio/*">
               <span class="hint" id="c-audio-hint">Say the name the way family would say it.</span>
               <audio id="c-audio-prev" controls hidden></audio>
               <button class="btn quiet" type="button" id="c-audio-clear" hidden style="justify-self:start">Remove</button>
             </div>
             <div class="audio-pick">
-              <label for="c-slow" style="font-weight:600;font-size:14px">Slowly, sound by sound</label>
+              <span style="font-weight:600;font-size:14px">Slowly, sound by sound</span>
+              <button class="btn rec" type="button" id="c-slow-rec" data-rec="s" aria-pressed="false"><span class="dot" aria-hidden="true"></span><span class="rec-l">Record</span></button>
+              <label for="c-slow" class="hint">or attach a voice memo</label>
               <input id="c-slow" type="file" accept="audio/*">
               <span class="hint" id="c-slow-hint">Break it into its sounds, with a pause between each, like “Deh… con… tee”.</span>
               <audio id="c-slow-prev" controls hidden></audio>
               <button class="btn quiet" type="button" id="c-slow-clear" hidden style="justify-self:start">Remove</button>
             </div>
           </div>
-          <span class="hint">Record each as a voice memo on your phone and attach it. Keep each under about 30 seconds.</span>
+          <span class="hint">Tap Record and say the name, or attach a voice memo. Each can be up to 30 seconds.</span>
         </div>
         <div class="fl"><label for="c-story">The story behind it <small>(optional)</small></label><textarea id="c-story" placeholder="When is it given? Who in your family carries it?"></textarea></div>
         <div class="fl"><label for="c-credit">Credit me as <small>(optional, shown on the name)</small></label><input id="c-credit" placeholder="e.g. Musu K., Atlanta" autocomplete="off"></div>
@@ -920,6 +929,7 @@ async function submit(ev){
   if (!name) { showMsg("warn", "Add the name first."); $("#c-name").focus(); return; }
   if (kind === "spelling" && !variants.length) { showMsg("warn", "Add at least one other spelling, separated by commas."); $("#c-variants").focus(); return; }
   if (kind === "meaning" && !meaning) { showMsg("warn", "Add the meaning you know, or the correction."); $("#c-meaning").focus(); return; }
+  if (rec) { showMsg("warn", "Tap Stop to finish your recording first."); return; }
   if (kind === "audio" && !PICK.c.data && !PICK.s.data) { showMsg("warn", "Attach at least one recording of the name being said."); $("#c-audio").focus(); return; }
   if ($("#c-website").value) { showMsg("ok", `Thank you. <b>${esc(name)}</b> is waiting for review.`); resetForm(); return; }
   if (!sb) { showMsg("warn", "The archive can't be reached right now. Check your connection, reload the page and press Send again."); return; }
@@ -1056,12 +1066,19 @@ async function decide(n, ok){
 /* ---------- audio ---------- */
 const MAX_AUDIO = 2 * 1024 * 1024;
 const PICK = {
-  c: {input:"#c-audio", hint:"#c-audio-hint", prev:"#c-audio-prev", clear:"#c-audio-clear", def:"Say the name the way family would say it.", data:null, url:null},
-  s: {input:"#c-slow", hint:"#c-slow-hint", prev:"#c-slow-prev", clear:"#c-slow-clear", def:"Break it into its sounds, with a pause between each, like “Deh… con… tee”.", data:null, url:null}
+  c: {input:"#c-audio", rec:"#c-audio-rec", hint:"#c-audio-hint", prev:"#c-audio-prev", clear:"#c-audio-clear", def:"Say the name the way family would say it.", data:null, url:null},
+  s: {input:"#c-slow", rec:"#c-slow-rec", hint:"#c-slow-hint", prev:"#c-slow-prev", clear:"#c-slow-clear", def:"Break it into its sounds, with a pause between each, like “Deh… con… tee”.", data:null, url:null}
 };
 let playing = null;
-function clearPick(k){ const p = PICK[k]; p.data = null; $(p.input).value = ""; $(p.prev).hidden = true; $(p.clear).hidden = true; if (p.url) { URL.revokeObjectURL(p.url); p.url = null; } $(p.hint).textContent = p.def; }
-function clearAudio(){ clearPick("c"); clearPick("s"); }
+function clearPick(k){ if (rec && rec.k === k) stopRec(true); const p = PICK[k]; p.data = null; $(p.input).value = ""; $(p.prev).hidden = true; $(p.clear).hidden = true; if (p.url) { URL.revokeObjectURL(p.url); p.url = null; } $(p.hint).textContent = p.def; }
+function clearAudio(){ clearPick("c"); clearPick("s"); recBtn("c", false); recBtn("s", false); }
+function setPick(k, file, type, ext, label){
+  const p = PICK[k];
+  p.data = {file, type, ext};
+  if (p.url) URL.revokeObjectURL(p.url);
+  p.url = URL.createObjectURL(file); const a = $(p.prev); a.src = p.url; a.hidden = false;
+  $(p.clear).hidden = false; $(p.hint).textContent = `${label}. Play it back to check it's clear.`;
+}
 Object.keys(PICK).forEach(k => $(PICK[k].input).addEventListener("change", ev => {
   const p = PICK[k], f = ev.target.files && ev.target.files[0]; if (!f) { clearPick(k); return; }
   const hint = $(p.hint);
@@ -1070,11 +1087,58 @@ Object.keys(PICK).forEach(k => $(PICK[k].input).addEventListener("change", ev =>
   const ext = AUDIO_EXT[type] || (EXT_TYPE[fext] ? fext : "");
   if (!ext || (type && !/^(audio|video)\//.test(type))) { clearPick(k); hint.textContent = "That file isn't a sound recording. Attach a voice memo or audio file."; return; }
   if (f.size > MAX_AUDIO) { clearPick(k); hint.textContent = `That recording is ${(f.size/1048576).toFixed(1)} MB. Keep it under about 30 seconds (2 MB) and attach it again.`; return; }
-  p.data = {file: f, type: AUDIO_EXT[type] ? type : EXT_TYPE[ext], ext};
-  if (p.url) URL.revokeObjectURL(p.url);
-  p.url = URL.createObjectURL(f); const a = $(p.prev); a.src = p.url; a.hidden = false;
-  $(p.clear).hidden = false; hint.textContent = `Attached: ${f.name}. Play it back to check it's clear.`;
+  setPick(k, f, AUDIO_EXT[type] ? type : EXT_TYPE[ext], ext, `Attached: ${f.name}`);
 }));
+
+/* recording in the browser */
+const REC_MAX = 30;
+let rec = null;
+const recType = () => ["audio/mp4", "audio/webm;codecs=opus", "audio/webm", "audio/ogg;codecs=opus"]
+  .find(t => window.MediaRecorder && MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(t)) || "";
+function recBtn(k, on){ const b = $(PICK[k].rec); b.setAttribute("aria-pressed", on ? "true" : "false"); b.querySelector(".rec-l").textContent = on ? "Stop" : (PICK[k].data ? "Record again" : "Record"); }
+async function toggleRec(k){
+  if (rec && rec.k === k) { stopRec(); return; }
+  if (rec) stopRec(true);
+  const p = PICK[k], hint = $(p.hint);
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || !window.MediaRecorder) { hint.textContent = "This browser can't record here. Record a voice memo on your phone and attach it instead."; return; }
+  let stream;
+  try { stream = await navigator.mediaDevices.getUserMedia({audio: {echoCancellation: true, noiseSuppression: true}}); }
+  catch (e) { hint.textContent = e && e.name === "NotAllowedError" ? "Microphone access was blocked. Allow it in your browser's settings and tap Record again, or attach a voice memo." : "No microphone was found. Attach a voice memo instead."; return; }
+  const type = recType();
+  let mr;
+  try { mr = new MediaRecorder(stream, Object.assign({audioBitsPerSecond: 64000}, type ? {mimeType: type} : {})); }
+  catch (_) { stream.getTracks().forEach(t => t.stop()); hint.textContent = "This browser can't record here. Attach a voice memo instead."; return; }
+  const chunks = [], me = {k, mr, stream, t0: Date.now(), timer: 0, discard: false};
+  mr.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+  mr.onstop = () => {
+    stream.getTracks().forEach(t => t.stop());
+    if (me.discard) return;
+    const base = (mr.mimeType || type || "audio/webm").split(";")[0].toLowerCase();
+    const blob = new Blob(chunks, {type: base});
+    const secs = Math.round((Date.now() - me.t0) / 1000);
+    if (blob.size < 1500 || secs < 1) { hint.textContent = "That was too short. Tap Record, say the name, then tap Stop."; recBtn(k, false); return; }
+    if (blob.size > MAX_AUDIO) { hint.textContent = "That recording is too long. Keep it under 30 seconds and try again."; recBtn(k, false); return; }
+    setPick(k, blob, base, AUDIO_EXT[base] || "webm", `Recorded ${secs} second${secs === 1 ? "" : "s"}`);
+    $(p.input).value = ""; recBtn(k, false);
+  };
+  mr.start(250);
+  rec = me; recBtn(k, true);
+  const tick = () => {
+    if (rec !== me) return;
+    const s = Math.floor((Date.now() - me.t0) / 1000);
+    hint.textContent = `Recording… 0:${String(s).padStart(2, "0")} of 0:30. Tap Stop when you're done.`;
+    if (s >= REC_MAX) stopRec();
+  };
+  tick(); me.timer = setInterval(tick, 250);
+}
+function stopRec(discard){
+  if (!rec) return;
+  const me = rec; rec = null;
+  clearInterval(me.timer); me.discard = !!discard;
+  if (me.mr.state !== "inactive") me.mr.stop(); else me.stream.getTracks().forEach(t => t.stop());
+  recBtn(me.k, false);
+  if (discard) $(PICK[me.k].hint).textContent = PICK[me.k].def;
+}
 async function playClip(getUrl, btn, rate){
   const label = btn.innerHTML; btn.disabled = true;
   try {
@@ -1113,8 +1177,9 @@ document.addEventListener("click", ev => {
   if (t.id === "editor-link") { ev.preventDefault(); showReview(); document.getElementById("review").scrollIntoView({behavior: reduce() ? "auto" : "smooth"}); const em = $("#rv-email"); if (em) em.focus({preventScroll:true}); return; }
   if (t.id === "rv-signout") { if (sb) sb.auth.signOut(); return; }
   if (t.id === "rv-refresh") { loadQueue(); return; }
-  if (t.id === "c-audio-clear") { clearPick("c"); return; }
-  if (t.id === "c-slow-clear") { clearPick("s"); return; }
+  if (d.rec) { toggleRec(d.rec); return; }
+  if (t.id === "c-audio-clear") { clearPick("c"); recBtn("c", false); return; }
+  if (t.id === "c-slow-clear") { clearPick("s"); recBtn("s", false); return; }
   if (d.approve !== undefined) { decide(+d.approve, true); return; }
   if (d.decline !== undefined) { decide(+d.decline, false); return; }
   if (t.id === "card-close") { closeName(); return; }
