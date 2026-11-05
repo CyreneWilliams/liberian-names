@@ -1,0 +1,12105 @@
+{
+ "generated": "2026-10-10",
+ "source": "Drive sheet 'Database' (Sheet1)",
+ "raw_rows": 605,
+ "names": [
+  {
+   "id": "aakehtee",
+   "name": "Aakehtee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Let it be so",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    176
+   ],
+   "issues": []
+  },
+  {
+   "id": "adama",
+   "name": "Adama",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Magnificent child",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    414
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "addy",
+   "name": "Addy",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Our ma",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    114
+   ],
+   "issues": []
+  },
+  {
+   "id": "alpato",
+   "name": "Alpato",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Afraid of war",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    6
+   ],
+   "issues": []
+  },
+  {
+   "id": "alpha",
+   "name": "Alpha",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "The beginning",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    462
+   ],
+   "issues": []
+  },
+  {
+   "id": "amina",
+   "name": "Amina",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Trustworthy",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    415,
+    416
+   ],
+   "issues": []
+  },
+  {
+   "id": "ansa",
+   "name": "Ansa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    463
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "armah",
+   "name": "Armah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    464
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "bahgen",
+   "name": "Bahgen",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "You've seen it",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    },
+    {
+     "text": "You have seen it",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    430,
+    431
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "bahwulu",
+   "name": "Bahwulu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Words of prayer",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    7
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "ballah",
+   "name": "Ballah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Don't care",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    377
+   ],
+   "issues": []
+  },
+  {
+   "id": "beaye",
+   "name": "Beaye",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Big elephant",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    115
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "belloh",
+   "name": "Belloh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo",
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Calling grandma but not sure?",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Female warrior",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    116,
+    279
+   ],
+   "issues": []
+  },
+  {
+   "id": "bendu",
+   "name": "Bendu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Wise woman",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    465,
+    605
+   ],
+   "issues": []
+  },
+  {
+   "id": "bi",
+   "name": "Bi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Father / small / Junior",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    514
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "biawo",
+   "name": "Biawo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "God's word / the lord's prayer",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    81
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "blamoh",
+   "name": "Blamoh",
+   "variants": [],
+   "pronunciation": [
+    "Bla-moo/ Blamoh"
+   ],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    361
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "bleemonblee",
+   "name": "Bleemonblee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Home is home",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    8,
+    9
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "blidi",
+   "name": "Blidi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Quarrel / fuss",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    280
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "bloh",
+   "name": "Bloh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Ground",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Land / ground",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    281,
+    282
+   ],
+   "issues": []
+  },
+  {
+   "id": "blohwehtee",
+   "name": "Blohwehtee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Land / ground finished",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    283
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "bloteh",
+   "name": "Bloteh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "This land business",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    284
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "boe",
+   "name": "Boe",
+   "variants": [
+    "Gboe"
+   ],
+   "pronunciation": [
+    "Boe"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    362
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "boima",
+   "name": "Boima",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    466
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "boimah",
+   "name": "Boimah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    515,
+    516
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "bonokai",
+   "name": "Bonokai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    467
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "chenkplen",
+   "name": "Chenkplen",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Good behavior or learn good habits",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    285
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "choko",
+   "name": "Choko",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Usually given to tiny babies",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    10
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "ciannah",
+   "name": "Ciannah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "The trip was fine",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    378
+   ],
+   "issues": []
+  },
+  {
+   "id": "cianneh",
+   "name": "Cianneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Successful journey",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    379,
+    380
+   ],
+   "issues": []
+  },
+  {
+   "id": "ciata",
+   "name": "Ciata",
+   "variants": [
+    "Ciatta"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    468
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "d-jokia",
+   "name": "D'jokia",
+   "variants": [
+    "Jokia"
+   ],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Stay here",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    177
+   ],
+   "issues": []
+  },
+  {
+   "id": "dabah",
+   "name": "Dabah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Gola"
+   ],
+   "meanings": [
+    {
+     "text": "Old ma",
+     "tribes": [
+      "Gola"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    106,
+    107
+   ],
+   "issues": []
+  },
+  {
+   "id": "daleso",
+   "name": "Daleso",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "My mouth is not inside",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    381
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "damnyonnoh",
+   "name": "Damnyonnoh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Call me woman",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    286
+   ],
+   "issues": []
+  },
+  {
+   "id": "danu-wolu",
+   "name": "Danu-wolu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Like someone",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    178
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "dawehdey",
+   "name": "Dawehdey",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Daweh's mom",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    117
+   ],
+   "issues": []
+  },
+  {
+   "id": "deazee",
+   "name": "Deazee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "My ownself own",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    432
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "decontee",
+   "name": "Decontee",
+   "variants": [],
+   "pronunciation": [
+    "Deh-con-tee"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Grebo",
+    "Kru",
+    "Krahn"
+   ],
+   "meanings": [
+    {
+     "text": "Everything has time",
+     "tribes": [
+      "Grebo",
+      "Kru",
+      "Krahn"
+     ],
+     "count": 5
+    }
+   ],
+   "notes": [
+    "Dekonti is found in all the Kru language family languages (formerly / erroneously known as KWA) in Liberia. Kru, Bassa, Krahn, and Grebo all have variations of the name Decontee / Dekonti. Ti - time, kon - everything, De - possesses (in some languages De and Kon take different meanings)."
+   ],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    139,
+    271,
+    287,
+    288,
+    375
+   ],
+   "issues": []
+  },
+  {
+   "id": "deddeh",
+   "name": "Deddeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Beautiful woman with good character",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Good mother",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    382,
+    383
+   ],
+   "issues": []
+  },
+  {
+   "id": "deddeh-boi",
+   "name": "Deddeh Boi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Deddeh White",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    384
+   ],
+   "issues": []
+  },
+  {
+   "id": "dee",
+   "name": "Dee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Mother",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    289
+   ],
+   "issues": []
+  },
+  {
+   "id": "dehkontee",
+   "name": "Dehkontee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Everything get time",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    11
+   ],
+   "issues": []
+  },
+  {
+   "id": "dehlaykle",
+   "name": "Dehlaykle",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "From the same womb (for siblings)",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    290
+   ],
+   "issues": []
+  },
+  {
+   "id": "dehnenuwahmu",
+   "name": "Dehnenuwahmu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Nothing can happen to you",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    291
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "dekonti",
+   "name": "Dekonti",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Everything have time",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    292
+   ],
+   "issues": []
+  },
+  {
+   "id": "domah",
+   "name": "Domah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "King",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    433,
+    434
+   ],
+   "issues": []
+  },
+  {
+   "id": "doryen",
+   "name": "Doryen",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Beautiful",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    293
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "dounard",
+   "name": "Dounard",
+   "variants": [],
+   "pronunciation": [
+    "DoU-naR"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Put something in my mouth",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    179
+   ],
+   "issues": []
+  },
+  {
+   "id": "duo",
+   "name": "Duo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Sufficient / too much (in a good way)",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    82
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "dweh",
+   "name": "Dweh",
+   "variants": [],
+   "pronunciation": [
+    "Du-weh"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Elephant / Strong",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    363
+   ],
+   "issues": []
+  },
+  {
+   "id": "dyu",
+   "name": "Dyu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Children business",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    12
+   ],
+   "issues": []
+  },
+  {
+   "id": "essah",
+   "name": "Essah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Thank you",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    469
+   ],
+   "issues": []
+  },
+  {
+   "id": "eujay",
+   "name": "Eujay",
+   "variants": [
+    "Ujay"
+   ],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Children business",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    13
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "fala",
+   "name": "Fàlà",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Fourth born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    180
+   ],
+   "issues": []
+  },
+  {
+   "id": "fallah",
+   "name": "Fallah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Fourth son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    145
+   ],
+   "issues": []
+  },
+  {
+   "id": "famatta",
+   "name": "Famatta",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    470
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "famink",
+   "name": "Famink",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "I just can't mind / unbothered",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    181
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "fayaa",
+   "name": "Fàyáa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Third born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    182
+   ],
+   "issues": []
+  },
+  {
+   "id": "fayia",
+   "name": "Fayia",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Third son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    146
+   ],
+   "issues": []
+  },
+  {
+   "id": "fela",
+   "name": "Fela",
+   "variants": [
+    "Félá"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi",
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Eighth daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Eighth born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    147,
+    183
+   ],
+   "issues": []
+  },
+  {
+   "id": "finda",
+   "name": "Finda",
+   "variants": [
+    "Fìndà",
+    "Phenda"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi",
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Third daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Third born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 4,
+   "source_rows": [
+    148,
+    149,
+    184,
+    553
+   ],
+   "issues": []
+  },
+  {
+   "id": "fleh",
+   "name": "Fleh",
+   "variants": [
+    "Fldh"
+   ],
+   "pronunciation": [
+    "F-leh"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Skin",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    364
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "foday",
+   "name": "Foday",
+   "variants": [
+    "Folley"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    471
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "fokpoo",
+   "name": "Fòkpòò",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Name given to males during Poro initiation",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    185
+   ],
+   "issues": []
+  },
+  {
+   "id": "fonati",
+   "name": "Fonati",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Wait for your time",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    294
+   ],
+   "issues": []
+  },
+  {
+   "id": "forh",
+   "name": "Forh",
+   "variants": [],
+   "pronunciation": [
+    "For"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Rest, take a break",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    295
+   ],
+   "issues": []
+  },
+  {
+   "id": "forhnati",
+   "name": "Forhnati",
+   "variants": [],
+   "pronunciation": [
+    "For-nah-tee"
+   ],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Wait for your time / Sit down",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    296
+   ],
+   "issues": []
+  },
+  {
+   "id": "fornati",
+   "name": "Fornati",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Wait for your time",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    297
+   ],
+   "issues": []
+  },
+  {
+   "id": "fuaineaitee",
+   "name": "Fuaineaitee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Wait for your time",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    14
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gad",
+   "name": "Gad",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Lucky",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    15
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gardawheh",
+   "name": "Gardawheh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Man is finished",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    16
+   ],
+   "issues": []
+  },
+  {
+   "id": "gardiah",
+   "name": "Gardiah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "New man",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    17
+   ],
+   "issues": []
+  },
+  {
+   "id": "garjay",
+   "name": "Garjay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Man business",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    18,
+    19
+   ],
+   "issues": []
+  },
+  {
+   "id": "garmai",
+   "name": "Garmai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa",
+    "Kpelle",
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "The truth",
+     "tribes": [
+      "Bassa",
+      "Lorma"
+     ],
+     "count": 3
+    },
+    {
+     "text": "God is over us",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    },
+    {
+     "text": "God over us or He is watching over us",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 7,
+   "source_rows": [
+    20,
+    186,
+    187,
+    188,
+    189,
+    385,
+    386
+   ],
+   "issues": []
+  },
+  {
+   "id": "garmen",
+   "name": "Garmen",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "To be above",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    517
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "garmongar",
+   "name": "Garmongar",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Man is man",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    21
+   ],
+   "issues": []
+  },
+  {
+   "id": "garsua",
+   "name": "Garsua",
+   "variants": [
+    "Garsuah"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Old man",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    22
+   ],
+   "issues": []
+  },
+  {
+   "id": "gartay",
+   "name": "Gartay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Spoil child / last born",
+     "tribes": [],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    518,
+    519
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gayduo",
+   "name": "Gayduo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Already paid for?",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    387
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gbarwuo",
+   "name": "Gbarwuo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Prayer woman",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    23
+   ],
+   "issues": []
+  },
+  {
+   "id": "gblandy",
+   "name": "Gblandy",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Fish ma",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    435,
+    436
+   ],
+   "issues": []
+  },
+  {
+   "id": "gbolu",
+   "name": "Gbolu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "A bright person",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    388
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gboto",
+   "name": "Gboto",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    472
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "gbour",
+   "name": "Gbour",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Dump site",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    118
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gbyeh",
+   "name": "Gbyeh",
+   "variants": [],
+   "pronunciation": [
+    "bw-eye-g (emphasis of \"G\" like in dog)"
+   ],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    520
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gedepaw-dyugah",
+   "name": "Gedepaw-Dyugah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "God's son",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    24
+   ],
+   "issues": []
+  },
+  {
+   "id": "glabo",
+   "name": "Glabo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Woman that harvests or produces",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    25
+   ],
+   "issues": []
+  },
+  {
+   "id": "glekea",
+   "name": "Glekea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Tree bark",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    83
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "grayor",
+   "name": "Grayor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Krahn"
+   ],
+   "meanings": [
+    {
+     "text": "To live long",
+     "tribes": [
+      "Krahn"
+     ],
+     "count": 3
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    272,
+    273,
+    274
+   ],
+   "issues": []
+  },
+  {
+   "id": "gruyeh",
+   "name": "Gruyeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "War time (a child born during the 1990 war)",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    },
+    {
+     "text": "War time",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    84,
+    85
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "guladei",
+   "name": "Guladei",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "I take it off you",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    190,
+    521
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "guluma",
+   "name": "Guluma",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "On the stick",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    389,
+    390
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "gunkarpea",
+   "name": "Gunkarpea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Man behind you all",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    86
+   ],
+   "issues": []
+  },
+  {
+   "id": "gygow",
+   "name": "Gygow",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "“eyeball” — the one who see",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    191
+   ],
+   "issues": []
+  },
+  {
+   "id": "hali",
+   "name": "Hàlí",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Sixth born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    192
+   ],
+   "issues": []
+  },
+  {
+   "id": "hallie",
+   "name": "Hallie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Sixth son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    150
+   ],
+   "issues": []
+  },
+  {
+   "id": "hawa",
+   "name": "Hawa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    473,
+    522,
+    523,
+    524,
+    604
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "hne",
+   "name": "Hne",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Fish",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    119
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "jadah",
+   "name": "Jadah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Krahn"
+   ],
+   "meanings": [
+    {
+     "text": "The woman who stands in front",
+     "tribes": [
+      "Krahn"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    144
+   ],
+   "issues": []
+  },
+  {
+   "id": "jahn",
+   "name": "Jahn",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    474
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "jallah",
+   "name": "Jallah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    475,
+    476
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "janjay",
+   "name": "Janjay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "First girl",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 3
+    },
+    {
+     "text": "Grace",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "issues": []
+  },
+  {
+   "id": "jaygbah",
+   "name": "Jaygbah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Chief",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    391
+   ],
+   "issues": []
+  },
+  {
+   "id": "jaylee",
+   "name": "Jaylee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Beautiful female goat (nanny) who is responsible to bring food for the family",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    120
+   ],
+   "issues": []
+  },
+  {
+   "id": "jebbeh",
+   "name": "Jebbeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    477
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "jenneh",
+   "name": "Jenneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    478
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "jla-snohti",
+   "name": "Jla-Snohti",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Ask God",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    298
+   ],
+   "issues": []
+  },
+  {
+   "id": "jlati",
+   "name": "Jlati",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Ask",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    299
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "jludi",
+   "name": "Jludi",
+   "variants": [
+    "Juludi"
+   ],
+   "pronunciation": [
+    "Ju-lu-dee"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Children's mother / nurturing",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    300
+   ],
+   "issues": []
+  },
+  {
+   "id": "jordi",
+   "name": "Jordi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Jorge's mother",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    301
+   ],
+   "issues": []
+  },
+  {
+   "id": "juah",
+   "name": "Juah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Big sister",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    302
+   ],
+   "issues": []
+  },
+  {
+   "id": "judueh",
+   "name": "Judueh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "One child",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    303
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "jumen",
+   "name": "Jumen",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "The results",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    193
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "jumondeh",
+   "name": "Jumondeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Child is something",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    304
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "juta",
+   "name": "Juta",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "One of my kind",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    194
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "jutee",
+   "name": "Jutee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo",
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Child's time",
+     "tribes": [
+      "Grebo",
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    140
+   ],
+   "issues": []
+  },
+  {
+   "id": "juteh",
+   "name": "Juteh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Child business",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    305
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kah-beah",
+   "name": "Kah-beah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Go ahead and talk",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Say whatever you want to say",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    87,
+    88
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kaijaah",
+   "name": "Kaijaah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    479
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "kaikor",
+   "name": "Kaikor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Old man",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 4
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 4,
+   "source_rows": [
+    480,
+    481,
+    482,
+    525
+   ],
+   "issues": []
+  },
+  {
+   "id": "kamusu",
+   "name": "Kamusu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "War woman",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    483
+   ],
+   "issues": []
+  },
+  {
+   "id": "kardeker",
+   "name": "Kardeker",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Make something of yourself",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    89
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "karmo",
+   "name": "Karmo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    484
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "keabeh",
+   "name": "Keabeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Favor",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    392,
+    393
+   ],
+   "issues": []
+  },
+  {
+   "id": "kebeh",
+   "name": "Kebeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Do it for me",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    394
+   ],
+   "issues": []
+  },
+  {
+   "id": "kedor",
+   "name": "Kedor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Strong woman",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    121
+   ],
+   "issues": []
+  },
+  {
+   "id": "kermiah",
+   "name": "Kermiah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Somebody who will succeed",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    90
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "khadija",
+   "name": "Khadija",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Early baby / Respected",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    417,
+    418
+   ],
+   "issues": []
+  },
+  {
+   "id": "kia",
+   "name": "Kia",
+   "variants": [],
+   "pronunciation": [
+    "key-yuh"
+   ],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Seasons / beginning of summer",
+     "tribes": [],
+     "count": 1
+    },
+    {
+     "text": "Seasons beginning",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    526,
+    527
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "kladi",
+   "name": "Kladi",
+   "variants": [
+    "Klahdi"
+   ],
+   "pronunciation": [
+    "Klah - dee"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Klah's mother",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    306
+   ],
+   "issues": []
+  },
+  {
+   "id": "klondeh",
+   "name": "Klondeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Each thing",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    307
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kloteh",
+   "name": "Kloteh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "This world business",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    308
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "klrobah",
+   "name": "Klrobah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Town chief",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    309
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kohnmah",
+   "name": "Kohnmah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Lucky",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    310
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kolleh",
+   "name": "Kolleh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Bright man",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    311
+   ],
+   "issues": []
+  },
+  {
+   "id": "kolu",
+   "name": "Kolu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "First girl child",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    395
+   ],
+   "issues": []
+  },
+  {
+   "id": "kona",
+   "name": "Kona",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    485,
+    528
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "konah",
+   "name": "Konah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Something great has arrived",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    486,
+    487,
+    529
+   ],
+   "issues": []
+  },
+  {
+   "id": "koplah",
+   "name": "Koplah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    312,
+    313
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "korkor",
+   "name": "Korkor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Second daughter / Always on time",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    314
+   ],
+   "issues": []
+  },
+  {
+   "id": "korlu",
+   "name": "Korlu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "First girl to make me woman / first girl child",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    396
+   ],
+   "issues": []
+  },
+  {
+   "id": "kormassa",
+   "name": "Kormassa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    397,
+    530
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "kornu",
+   "name": "Kornu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "My heart",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    151,
+    152
+   ],
+   "issues": []
+  },
+  {
+   "id": "korpo",
+   "name": "Korpo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma",
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Leader / the woman that dances",
+     "tribes": [
+      "Lorma",
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    413
+   ],
+   "issues": []
+  },
+  {
+   "id": "kortee",
+   "name": "Kortee",
+   "variants": [],
+   "pronunciation": [
+    "Koh-tee/ Koti"
+   ],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Wait for your time / Sit down",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    315
+   ],
+   "issues": []
+  },
+  {
+   "id": "kortimai",
+   "name": "Kortimai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "On the rock",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    398
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "korto",
+   "name": "Korto",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Declare war / a woman who starts war",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    195
+   ],
+   "issues": []
+  },
+  {
+   "id": "korvah",
+   "name": "Korvah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "War business",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    399
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kotatee",
+   "name": "Kotatee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Sit down one place",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    316,
+    317
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kou",
+   "name": "Kou",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "First girl child",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 4
+    },
+    {
+     "text": "First born girl",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    437,
+    438,
+    439,
+    440,
+    441
+   ],
+   "issues": []
+  },
+  {
+   "id": "koyonti",
+   "name": "Koyonti",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Lord's time",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    365,
+    376
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kpana",
+   "name": "Kpànà",
+   "variants": [],
+   "pronunciation": [
+    "Kpah-nah"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    196
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kro",
+   "name": "Kro",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Unity",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    318
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "krubo",
+   "name": "Krubo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Woman warrior / takes charge",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    411
+   ],
+   "issues": [
+    "Tribe marked uncertain"
+   ]
+  },
+  {
+   "id": "kulema",
+   "name": "Kulema",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "On our heart",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    197
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kumba",
+   "name": "Kumba",
+   "variants": [
+    "Kùmbà"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi",
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Second girl",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Second daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Second born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    153,
+    154,
+    155,
+    156,
+    198
+   ],
+   "issues": []
+  },
+  {
+   "id": "kundu",
+   "name": "Kundu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Seventh son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    157
+   ],
+   "issues": []
+  },
+  {
+   "id": "kuo",
+   "name": "Kuo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "First female",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    459
+   ],
+   "issues": []
+  },
+  {
+   "id": "kwazae",
+   "name": "Kwazae",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Victorious",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    91
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "kweendor",
+   "name": "Kweendor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Queen mother",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    122
+   ],
+   "issues": []
+  },
+  {
+   "id": "kwen",
+   "name": "Kwen",
+   "variants": [
+    "Kwien"
+   ],
+   "pronunciation": [
+    "Cwen"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Fishing Hook",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    319
+   ],
+   "issues": []
+  },
+  {
+   "id": "lainu",
+   "name": "Lainu",
+   "variants": [],
+   "pronunciation": [
+    "Lay-ah-nu"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "The woman is here (usually given when a girl is born after 1 or several boys)",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    92
+   ],
+   "issues": []
+  },
+  {
+   "id": "lalau",
+   "name": "Lalau",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Laughter",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    199
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "lami",
+   "name": "Lami",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    488
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "lango",
+   "name": "Lango",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Good people",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    200
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "lawolow",
+   "name": "Lawolow",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Patience",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 4
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 4,
+   "source_rows": [
+    79,
+    123,
+    124,
+    125
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "lawuo",
+   "name": "Lawuo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "A great woman / woman that promotes you",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    400
+   ],
+   "issues": []
+  },
+  {
+   "id": "laytay",
+   "name": "Laytay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Big woman",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    201
+   ],
+   "issues": []
+  },
+  {
+   "id": "laywell",
+   "name": "Laywell",
+   "variants": [],
+   "pronunciation": [
+    "Lay-wel-le (silent \"E\")"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Mother's love",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    202
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leasea",
+   "name": "Leasea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "To be a leader",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    93
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leegbele",
+   "name": "Leegbele",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Hold your heart / patience",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    203
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leekepley",
+   "name": "Leekepley",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Patience",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    204
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leekpeley",
+   "name": "Leekpeley",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Patience",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    205
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leela",
+   "name": "Leela",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "My heart",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    206,
+    532
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leemu",
+   "name": "Leemu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "My heart",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 3
+    },
+    {
+     "text": "My heart string",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    207,
+    208,
+    209,
+    210,
+    533
+   ],
+   "issues": []
+  },
+  {
+   "id": "leeneh",
+   "name": "Leeneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Happiness",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    211
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leenein",
+   "name": "Leenein",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "One who brings happiness",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Happiness",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    212,
+    213,
+    534
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "leesai",
+   "name": "Leesai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Peace of mind",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    214,
+    215
+   ],
+   "issues": []
+  },
+  {
+   "id": "lelai",
+   "name": "Lelai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "My heart is satisfied",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 5
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    216,
+    217,
+    218,
+    219,
+    220
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "lemu",
+   "name": "Lemu",
+   "variants": [
+    "Leemue"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Close to my heart",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 3
+    },
+    {
+     "text": "Closest to my heart",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Close to my heart / from the heart",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    221,
+    222,
+    223,
+    224,
+    225
+   ],
+   "issues": []
+  },
+  {
+   "id": "leyeama",
+   "name": "Leyeama",
+   "variants": [],
+   "pronunciation": [
+    "Lee-eh-ma"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "You don't know tomorrow",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    },
+    {
+     "text": "You do not know tomorrow",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    94,
+    95
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "lor",
+   "name": "Lor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "To reap in abundance",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    320
+   ],
+   "issues": []
+  },
+  {
+   "id": "lorpu",
+   "name": "Lorpu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Child / gift of God",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    226,
+    606
+   ],
+   "issues": []
+  },
+  {
+   "id": "loua",
+   "name": "Loua",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Blessing / Blessed one",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    96
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mabasi",
+   "name": "Mabasi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    489
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "mahkonjay",
+   "name": "Mahkonjay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    536
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "maima",
+   "name": "Maima",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    490
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "malurba",
+   "name": "Malurba",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Market day",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    537
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mamawa",
+   "name": "Mamawa",
+   "variants": [],
+   "pronunciation": [
+    "MAWAY"
+   ],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "This is another female's name meaning small-mother. This name is for someone who is the name-sake of your mother or grandmother or just another older person you call Ma or Mama in the family",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    538
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "mamey",
+   "name": "Mamey",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gola"
+   ],
+   "meanings": [
+    {
+     "text": "Walk about",
+     "tribes": [
+      "Gola"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    108
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "manamar",
+   "name": "Manamar",
+   "variants": [
+    "Mnamah",
+    "Mnamar"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Blessed woman",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    32,
+    33
+   ],
+   "issues": []
+  },
+  {
+   "id": "mankazon",
+   "name": "Mankazon",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Relationships between friends and family",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    105
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mardea",
+   "name": "Mardea",
+   "variants": [
+    "Madia"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "New mother",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    },
+    {
+     "text": "A new woman",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    },
+    {
+     "text": "New woman",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 4
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 6,
+   "source_rows": [
+    31,
+    34,
+    35,
+    36,
+    37,
+    535
+   ],
+   "issues": []
+  },
+  {
+   "id": "mardehyee",
+   "name": "Mardehyee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Woman has come",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    38
+   ],
+   "issues": []
+  },
+  {
+   "id": "mariam",
+   "name": "Mariam",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Mother of Hazrat / Jesus",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    419
+   ],
+   "issues": []
+  },
+  {
+   "id": "mariama",
+   "name": "Mariama",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Mary",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    420
+   ],
+   "issues": []
+  },
+  {
+   "id": "mariana",
+   "name": "Mariana",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Gift from God",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    491
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "marpu",
+   "name": "Marpu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Light skin girl",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    39,
+    539,
+    540
+   ],
+   "issues": []
+  },
+  {
+   "id": "marpue",
+   "name": "Marpue",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "White woman",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    40
+   ],
+   "issues": []
+  },
+  {
+   "id": "marvoyie",
+   "name": "Marvoyie",
+   "variants": [],
+   "pronunciation": [
+    "Mar-vo-ee"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Women in abundance / plenty women",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    41
+   ],
+   "issues": []
+  },
+  {
+   "id": "massa",
+   "name": "Massa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "I don't believe it",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Chief",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    492,
+    493,
+    541
+   ],
+   "issues": []
+  },
+  {
+   "id": "matenyeh",
+   "name": "Matenyeh",
+   "variants": [],
+   "pronunciation": [
+    "Matenge"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    421
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mawa",
+   "name": "Mawa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Mother of the house",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    422
+   ],
+   "issues": []
+  },
+  {
+   "id": "mayeadeh",
+   "name": "Mayeadeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Woman see plenty thing",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    42
+   ],
+   "issues": []
+  },
+  {
+   "id": "mayedeh",
+   "name": "Mayedeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Woman sees things / woman can see things",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    43
+   ],
+   "issues": []
+  },
+  {
+   "id": "mayo",
+   "name": "Mayo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Beautiful like the ocean",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    227
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mayonbe",
+   "name": "Mayonbè",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Warrior",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    423
+   ],
+   "issues": []
+  },
+  {
+   "id": "mazoe",
+   "name": "Mazoe",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Leader / Head",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    494
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mbaimba",
+   "name": "Mbaimba",
+   "variants": [
+    "Baimba"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    495
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "meechien",
+   "name": "Meechien",
+   "variants": [],
+   "pronunciation": [
+    "mee-chien"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Tears",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    44
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "miyamu",
+   "name": "Miyamu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Mary",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    424
+   ],
+   "issues": []
+  },
+  {
+   "id": "mohammed",
+   "name": "Mohammed",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "High priest",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    425
+   ],
+   "issues": []
+  },
+  {
+   "id": "mohnkohnmahn",
+   "name": "Mohnkohnmahn",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "You get luck",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    321
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "monconjay",
+   "name": "Monconjay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "For your business",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    45,
+    46
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mondayma",
+   "name": "Mondayma",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Born on monday",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Someone born on monday",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    47,
+    48
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "monee",
+   "name": "Monee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "You're mine",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    49
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "monjou",
+   "name": "Monjou",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Child",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    50
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mosio",
+   "name": "Mosio",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo",
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "God you're great",
+     "tribes": [
+      "Grebo",
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    141
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "mubah",
+   "name": "Mubah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Our ma",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    496
+   ],
+   "issues": []
+  },
+  {
+   "id": "muenti",
+   "name": "Muenti",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Look at life",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    322
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "munah",
+   "name": "Munah",
+   "variants": [],
+   "pronunciation": [
+    "Moo-nah/ M'nah"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Beauty",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    },
+    {
+     "text": "The Lord is with you",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 3
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 4,
+   "source_rows": [
+    323,
+    324,
+    325,
+    531
+   ],
+   "issues": []
+  },
+  {
+   "id": "muso",
+   "name": "Muso",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    542,
+    543
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "musu",
+   "name": "Musu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai",
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Woman",
+     "tribes": [
+      "Vai",
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    513
+   ],
+   "issues": []
+  },
+  {
+   "id": "muta",
+   "name": "Muta",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Outgoing or go out or somewhere",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    326
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "myeonway",
+   "name": "Myeonway",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Small woman",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    51
+   ],
+   "issues": []
+  },
+  {
+   "id": "mynthia",
+   "name": "Mynthia",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano",
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Youngest / final child",
+     "tribes": [
+      "Mano",
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    460
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "na-bea",
+   "name": "Na'bea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "It's finish / last born",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Its finish / last child",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    401,
+    402
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nacopay",
+   "name": "Nacopay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    544,
+    545
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nahdee",
+   "name": "Nahdee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Mother",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    327
+   ],
+   "issues": []
+  },
+  {
+   "id": "nahdi",
+   "name": "Nahdi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "My mother",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    328
+   ],
+   "issues": []
+  },
+  {
+   "id": "naitoh",
+   "name": "Naitoh",
+   "variants": [],
+   "pronunciation": [
+    "Nay-toe"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Mother's wish / Mother was",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    52
+   ],
+   "issues": []
+  },
+  {
+   "id": "naiy",
+   "name": "Naiy",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Father",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Spelling may differ because of accent.",
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    228
+   ],
+   "issues": []
+  },
+  {
+   "id": "nan",
+   "name": "Nân",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Father",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    229
+   ],
+   "issues": []
+  },
+  {
+   "id": "nana",
+   "name": "Nana",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    546
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nancynah",
+   "name": "Nancynah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Nancy's ma",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    329
+   ],
+   "issues": []
+  },
+  {
+   "id": "nati",
+   "name": "Nati",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "This is my time",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    330
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "natu",
+   "name": "Natu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    547,
+    548
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "ndemeh",
+   "name": "Ndemeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Surprise",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    230
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "neejay",
+   "name": "Neejay",
+   "variants": [
+    "Nejay",
+    "Nejae"
+   ],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "For your business",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 2
+    },
+    {
+     "text": "For your sake / Because of you",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    53,
+    54,
+    55
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "neelai",
+   "name": "Neelai",
+   "variants": [
+    "Neelah"
+   ],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "My heart is satisfied",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    231
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "neemai",
+   "name": "Neemai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "My heart is satisfied",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    232
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "neenai",
+   "name": "Neenai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "My heart is satisfied",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    233
+   ],
+   "issues": []
+  },
+  {
+   "id": "nehwah",
+   "name": "Nehwah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "The child's way",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    549
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nenlay",
+   "name": "Nenlay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Children's mother",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    442
+   ],
+   "issues": []
+  },
+  {
+   "id": "nensah",
+   "name": "Nensah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Children are a blessing",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    97,
+    98
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nenwon",
+   "name": "Nenwon",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio",
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "For the sake of a child",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Child business",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    99,
+    443,
+    444
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nesian",
+   "name": "Nesian",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Beautiful",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    550
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "newon",
+   "name": "Newon",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Child business",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    445
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nhenequellie-gheyamah",
+   "name": "Nhenequellie Gheyamah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Bright woman",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    234,
+    235
+   ],
+   "issues": []
+  },
+  {
+   "id": "nimely",
+   "name": "Nimely",
+   "variants": [],
+   "pronunciation": [
+    "Ni - me - Lay"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    360
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "nkipmo",
+   "name": "Nkipmo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Because of you",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    56
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "norwah",
+   "name": "Norwah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Pave the way",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    57
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nowah",
+   "name": "Nowah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "One who is affectionate",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    236,
+    551
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nukpala",
+   "name": "Nukpala",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Dry person (bag of bones)",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    237
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nula",
+   "name": "Nula",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Family business / human being name",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    238
+   ],
+   "issues": []
+  },
+  {
+   "id": "nulee",
+   "name": "Nulee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "New heart",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    239,
+    240
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "numene",
+   "name": "Numene",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Human being business",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    241
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nyan",
+   "name": "Nyan",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Second boy child",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    446
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyanka-ba",
+   "name": "Nyanka-ba",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "My eyes are on you",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    100
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nyeayea",
+   "name": "Nyeayea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Good attitude",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    447,
+    448
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nyema",
+   "name": "Nyema",
+   "variants": [],
+   "pronunciation": [
+    "Ye- ma"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    126
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "nyemade",
+   "name": "Nyemade",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    552
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nyemadi",
+   "name": "Nyemadi",
+   "variants": [
+    "Nyemaday"
+   ],
+   "pronunciation": [
+    "Ye-ma-day"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Nyema's mother",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    366
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyen",
+   "name": "Nyen",
+   "variants": [],
+   "pronunciation": [
+    "Yeh-neh"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Where you there?",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    331
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyendeh",
+   "name": "Nyendeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Gift",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    58
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nyenekon",
+   "name": "Nyenekon",
+   "variants": [],
+   "pronunciation": [
+    "Yeh-neh-kon"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "I have a name",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    367
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyeneplu",
+   "name": "Nyeneplu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "White woman",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    127
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyeniai",
+   "name": "Nyeniai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Life / Water ?",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    242
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nyenoh",
+   "name": "Nyenoh",
+   "variants": [
+    "Nynoh"
+   ],
+   "pronunciation": [
+    "Ye-noh"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Woman",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    332
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyenohsitehkon",
+   "name": "Nyenohsitehkon",
+   "variants": [
+    "Tehkon"
+   ],
+   "pronunciation": [
+    "Yeh-no-c-teh-kon"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "A woman does not have a say",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    333
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyenohti",
+   "name": "Nyenohti",
+   "variants": [],
+   "pronunciation": [
+    "Ye-noh-ti"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Where you there?",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    334
+   ],
+   "issues": []
+  },
+  {
+   "id": "nynowehleh",
+   "name": "Nynowehleh",
+   "variants": [
+    "Nyenoweleh"
+   ],
+   "pronunciation": [
+    "Ye-noh-weh-leh"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Woman Wehleh",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    335
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyonnonenudeh",
+   "name": "Nyonnonenudeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Woman cannot do anything",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    336
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyonodoe",
+   "name": "Nyonodoe",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "One woman",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    337
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyonomuan",
+   "name": "Nyonomuan",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "What a [great] woman",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    128
+   ],
+   "issues": []
+  },
+  {
+   "id": "nyu-jay",
+   "name": "NYU Jay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Child business",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    59
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "nyuma",
+   "name": "Nyuma",
+   "variants": [
+    "Nyùmá"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi",
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Fifth son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Fifth born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    158,
+    243
+   ],
+   "issues": []
+  },
+  {
+   "id": "okuman",
+   "name": "Okuman",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Great man",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    60
+   ],
+   "issues": []
+  },
+  {
+   "id": "paawaa",
+   "name": "Pààwàá",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "“Tax” — a child born during tax time",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    244
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "paye",
+   "name": "Paye",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Third boy child",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    449
+   ],
+   "issues": []
+  },
+  {
+   "id": "pese",
+   "name": "Pese",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    497
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "plenseh",
+   "name": "Plenseh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "All is well",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    101,
+    102
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "pontay",
+   "name": "Pontay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Looking for",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Looking for (a child)",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    129,
+    130
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "putugar",
+   "name": "Putugar",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Hard head",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    61
+   ],
+   "issues": []
+  },
+  {
+   "id": "quatama",
+   "name": "Quatama",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "We are many",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    245
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "reesama",
+   "name": "Reesama",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Money will not pass you",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    62
+   ],
+   "issues": []
+  },
+  {
+   "id": "saa",
+   "name": "Sàà",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "First born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    246
+   ],
+   "issues": []
+  },
+  {
+   "id": "saa-kooli",
+   "name": "Sàà-kòòlì",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Seventh born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    247
+   ],
+   "issues": []
+  },
+  {
+   "id": "saah",
+   "name": "Saah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "First boy child",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "First son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    159,
+    160
+   ],
+   "issues": []
+  },
+  {
+   "id": "saah-kollie",
+   "name": "Saah Kollie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Eighth son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    161
+   ],
+   "issues": []
+  },
+  {
+   "id": "sahntay",
+   "name": "Sahntay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Little Sahn",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    103
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "saki",
+   "name": "Saki",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    554
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sakla",
+   "name": "Sakla",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Left back",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    338
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "saladee",
+   "name": "Saladee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Sarah ma",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    339
+   ],
+   "issues": []
+  },
+  {
+   "id": "salamatu",
+   "name": "Salamatu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "Peaceful",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 3
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    426,
+    427,
+    428
+   ],
+   "issues": []
+  },
+  {
+   "id": "sando",
+   "name": "Sando",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Twin to Zoe",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    498,
+    499,
+    555
+   ],
+   "issues": []
+  },
+  {
+   "id": "sankan",
+   "name": "Sankan",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Joy",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    340
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sankon",
+   "name": "Sankon",
+   "variants": [
+    "Sankun",
+    "Sankor"
+   ],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Mover of mountains",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    131
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sao",
+   "name": "Sao",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    500
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "sarwee",
+   "name": "Sarwee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Open the road",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    341
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "satu",
+   "name": "Satu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    556,
+    557
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sawee",
+   "name": "Sawee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Open road / make way",
+     "tribes": [],
+     "count": 1
+    },
+    {
+     "text": "Make way / open the road",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    2,
+    558
+   ],
+   "issues": [
+    "Tribe unknown",
+    "Tribe marked uncertain",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "saydah",
+   "name": "Saydah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Stay here",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    63
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "saye",
+   "name": "Saye",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "First born boy",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    },
+    {
+     "text": "First male son",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    },
+    {
+     "text": "First boy child",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    450,
+    451,
+    452
+   ],
+   "issues": []
+  },
+  {
+   "id": "sayea",
+   "name": "Sayea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Surprise, Unexpected / God has finally blessed me",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Surprise, unexpected blessing",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    64,
+    65
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "saykon",
+   "name": "Saykon",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Mother",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    66
+   ],
+   "issues": []
+  },
+  {
+   "id": "saypien",
+   "name": "Saypien",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Small woman",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    67
+   ],
+   "issues": []
+  },
+  {
+   "id": "saytoh",
+   "name": "Saytoh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "You're not war",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    132
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "saywah",
+   "name": "Saywah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "Struggling for your homeland",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    104
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "seengiando",
+   "name": "Sèèñgìáñdó",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "“Arguing Parents” — a child born to arguing parents",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    248
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "semoikan",
+   "name": "Semoikan",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "I'm not in your way",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    342
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sennie",
+   "name": "Sennie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    453
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "seny",
+   "name": "Seny",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Gold",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    249
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sia",
+   "name": "Sia",
+   "variants": [
+    "Sìà"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi",
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "First girl child",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 3
+    },
+    {
+     "text": "First girl",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "First daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "First born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 6,
+   "source_rows": [
+    162,
+    163,
+    164,
+    165,
+    166,
+    250
+   ],
+   "issues": []
+  },
+  {
+   "id": "siahbonu",
+   "name": "Siahbonu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "You didn't do it to me",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    461
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "siaka",
+   "name": "Siaka",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "First born \"child who opened his mother\"",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    },
+    {
+     "text": "First born",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    },
+    {
+     "text": "First child (The child who opened his mother)",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    501,
+    502,
+    503
+   ],
+   "issues": []
+  },
+  {
+   "id": "siakor",
+   "name": "Siakor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Walking stick - a person someone can lean on.",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    251
+   ],
+   "issues": []
+  },
+  {
+   "id": "sianea",
+   "name": "Sianea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Walk sweet / leave your good name wherever you go",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Walk sweet. Leave your good name wherever you good.",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    252,
+    253,
+    559
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sianeh",
+   "name": "Sianeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Sweet journey",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 2
+    },
+    {
+     "text": "Sweet strong / sweet journey",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    254,
+    255,
+    560
+   ],
+   "issues": []
+  },
+  {
+   "id": "siedoh",
+   "name": "Siedoh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Sie mother-in-law",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    133
+   ],
+   "issues": []
+  },
+  {
+   "id": "silah",
+   "name": "Silah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Whatever you have to say, say it now.",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    3,
+    561
+   ],
+   "issues": [
+    "Tribe unknown",
+    "Tribe marked uncertain",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "simah",
+   "name": "Simah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "I did not lost",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    343
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sinorti",
+   "name": "Sinorti",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "In God's time",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    134
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "snazwon",
+   "name": "Snazwon",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [
+    "Tribe added by the editor: names ending in -won are usually Kru."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    562
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "snohti",
+   "name": "Snohti",
+   "variants": [
+    "Snoti"
+   ],
+   "pronunciation": [
+    "Snoh - tee"
+   ],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "God's time",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    344,
+    346
+   ],
+   "issues": []
+  },
+  {
+   "id": "snosio",
+   "name": "Snosio",
+   "variants": [
+    "Snohsio"
+   ],
+   "pronunciation": [
+    "So-noh-cio"
+   ],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "God is greater",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    345
+   ],
+   "issues": []
+  },
+  {
+   "id": "sondah",
+   "name": "Sondah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Stranger",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 4
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 4,
+   "source_rows": [
+    504,
+    505,
+    506,
+    563
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "sonii",
+   "name": "Sonii",
+   "variants": [
+    "Sony"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Strong Woman",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    564
+   ],
+   "issues": []
+  },
+  {
+   "id": "soona",
+   "name": "Sóóná",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Seventh born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    256
+   ],
+   "issues": []
+  },
+  {
+   "id": "sunday-ga",
+   "name": "Sunday-ga",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Sunday man / Born on sunday",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    68
+   ],
+   "issues": []
+  },
+  {
+   "id": "sundaymah",
+   "name": "Sundaymah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Girl born on Sunday",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    69
+   ],
+   "issues": []
+  },
+  {
+   "id": "sundayway",
+   "name": "Sundayway",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Sunday",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    70
+   ],
+   "issues": []
+  },
+  {
+   "id": "sunmgboo",
+   "name": "Sùñmgbóó",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "“Fence post” — name given to a stocky man / buff",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    257
+   ],
+   "issues": []
+  },
+  {
+   "id": "surnah",
+   "name": "Surnah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Seventh Daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    167
+   ],
+   "issues": []
+  },
+  {
+   "id": "taiwa",
+   "name": "Taiwa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    168
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "tamba",
+   "name": "Tamba",
+   "variants": [
+    "Tàmbà"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi",
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Second Male child (2nd in command)",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Second son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Second born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    169,
+    170,
+    258
+   ],
+   "issues": []
+  },
+  {
+   "id": "tamba-kollie",
+   "name": "Tamba Kollie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Ninth son",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    171
+   ],
+   "issues": []
+  },
+  {
+   "id": "tamba-kooli",
+   "name": "Tàmbà-kòòli",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Eighth born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    259
+   ],
+   "issues": []
+  },
+  {
+   "id": "tanneh",
+   "name": "Tanneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Be careful / Be careful in life",
+     "tribes": [],
+     "count": 1
+    },
+    {
+     "text": "Be careful / Be mindful in life",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    4,
+    565
+   ],
+   "issues": [
+    "Tribe unknown",
+    "Tribe marked uncertain"
+   ]
+  },
+  {
+   "id": "tannyonah",
+   "name": "Tannyonah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Krahn"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    275
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "targbe-gmah",
+   "name": "Targbe-gmah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    566
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "tarnyenoh",
+   "name": "Tarnyenoh",
+   "variants": [
+    "Tannyonnoh"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Anointed woman / blood",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Tar/Tan: anointed blood or woman",
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    347
+   ],
+   "issues": []
+  },
+  {
+   "id": "taryonnoh",
+   "name": "Taryonnoh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo",
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Lady Warrior",
+     "tribes": [
+      "Grebo",
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    142
+   ],
+   "issues": []
+  },
+  {
+   "id": "tawa",
+   "name": "Tawa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    567
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "tawae-dadua",
+   "name": "Tawae Dadua",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gola",
+    "Dei"
+   ],
+   "meanings": [
+    {
+     "text": "Great warrior",
+     "tribes": [
+      "Gola",
+      "Dei"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    110
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "technikay",
+   "name": "Technikay",
+   "variants": [],
+   "pronunciation": [
+    "teh-ni-kay"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Conqueror",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    348,
+    349
+   ],
+   "issues": []
+  },
+  {
+   "id": "tecomblah",
+   "name": "Tecomblah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Wait for your time",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    350
+   ],
+   "issues": []
+  },
+  {
+   "id": "tene",
+   "name": "Tènè",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Sixth born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    260
+   ],
+   "issues": []
+  },
+  {
+   "id": "teneh",
+   "name": "Teneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Sixth daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    172
+   ],
+   "issues": []
+  },
+  {
+   "id": "tenneh",
+   "name": "Tenneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    507
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "tennesse",
+   "name": "Tennesse",
+   "variants": [],
+   "pronunciation": [
+    "Tinisi"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Time can't pass",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    173
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "teplah",
+   "name": "Teplah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    368
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "teuwa",
+   "name": "Téúwa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Fourth born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    261
+   ],
+   "issues": []
+  },
+  {
+   "id": "tewa",
+   "name": "Tewa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Fourth daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    174
+   ],
+   "issues": []
+  },
+  {
+   "id": "tiawan",
+   "name": "Tiawan",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "God protects the child who suffers",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    454
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "tipoteh",
+   "name": "Tipoteh",
+   "variants": [],
+   "pronunciation": [
+    "Tee-po-teh"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "This matter must be left to rest",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    369
+   ],
+   "issues": []
+  },
+  {
+   "id": "titii",
+   "name": "Titii",
+   "variants": [
+    "Tetee",
+    "Sisi"
+   ],
+   "pronunciation": [
+    "tee-tee"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Sister",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    351
+   ],
+   "issues": []
+  },
+  {
+   "id": "toga",
+   "name": "Toga",
+   "variants": [],
+   "pronunciation": [
+    "To-gah"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "War man",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    71
+   ],
+   "issues": []
+  },
+  {
+   "id": "tomah",
+   "name": "Tomah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "War woman",
+     "tribes": [],
+     "count": 2
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    568,
+    569
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "tonia",
+   "name": "Tonia",
+   "variants": [
+    "Tonean"
+   ],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Gola",
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "You're here to stay",
+     "tribes": [
+      "Gola"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Stay here",
+     "tribes": [
+      "Gola",
+      "Vai"
+     ],
+     "count": 3
+    },
+    {
+     "text": "Stay here. Usually given to a child after the mom have had a miscarriage before the pregnancy or names after someone",
+     "tribes": [
+      "Gola",
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 5,
+   "source_rows": [
+    109,
+    112,
+    113,
+    508,
+    570
+   ],
+   "issues": []
+  },
+  {
+   "id": "tonieh",
+   "name": "Tonieh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [
+    {
+     "text": "Stay here",
+     "tribes": [
+      "Vai"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    509
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "tonwah",
+   "name": "Tonwah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Short black woman",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    262
+   ],
+   "issues": []
+  },
+  {
+   "id": "tuanue",
+   "name": "Tuanue",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Town's Chief",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    403
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "tugba",
+   "name": "Tugba",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Fortitude / Formidable",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    352,
+    353
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "tuzee",
+   "name": "Tuzee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mandingo"
+   ],
+   "meanings": [
+    {
+     "text": "God's child",
+     "tribes": [
+      "Mandingo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    429
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "twebeg",
+   "name": "Twebeg",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Small Axe",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    370
+   ],
+   "issues": []
+  },
+  {
+   "id": "varbah",
+   "name": "Varbah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Precious",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    404
+   ],
+   "issues": []
+  },
+  {
+   "id": "varney",
+   "name": "Varney",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    510
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "wade",
+   "name": "Wade",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    571
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "wahju",
+   "name": "Wahju",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Wah's child",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    354
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "wahnyennh",
+   "name": "Wahnyennh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Wah's wife",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    135
+   ],
+   "issues": []
+  },
+  {
+   "id": "walakehwon",
+   "name": "Walakehwon",
+   "variants": [
+    "Walakewon"
+   ],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "God's doing / God has done it",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Tribe added by the editor: names ending in -won are usually Kru."
+   ],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    572,
+    573
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "wanga",
+   "name": "Wanga",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Gbandi"
+   ],
+   "meanings": [
+    {
+     "text": "To bear fruit / Be fruitful / Blossom",
+     "tribes": [
+      "Gbandi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    80
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "wango",
+   "name": "Wàñgò",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Name given to a light skinned female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    263
+   ],
+   "issues": []
+  },
+  {
+   "id": "wani",
+   "name": "Wani",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    136
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "warti",
+   "name": "Warti",
+   "variants": [],
+   "pronunciation": [
+    "Worh - tee"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Finish",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    137
+   ],
+   "issues": []
+  },
+  {
+   "id": "wayfa",
+   "name": "Wayfa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Beautiful woman",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    264
+   ],
+   "issues": []
+  },
+  {
+   "id": "weedor",
+   "name": "Weedor",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Civilized",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    405
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "weegie",
+   "name": "Weegie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Civilized man",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    406
+   ],
+   "issues": []
+  },
+  {
+   "id": "wehti",
+   "name": "Wehti",
+   "variants": [
+    "Wheyti"
+   ],
+   "pronunciation": [
+    "Where-tee"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "The last, be finished",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    355
+   ],
+   "issues": []
+  },
+  {
+   "id": "weleemongar",
+   "name": "Weleemongar",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Money is man",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    72
+   ],
+   "issues": []
+  },
+  {
+   "id": "welikerma",
+   "name": "Welikerma",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "My love",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    574
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "welleh",
+   "name": "Welleh",
+   "variants": [],
+   "pronunciation": [
+    "Weh-leh"
+   ],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "It is finished / it is done",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Man weleh",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    356,
+    371
+   ],
+   "issues": []
+  },
+  {
+   "id": "wennyenoh",
+   "name": "Wennyenoh",
+   "variants": [
+    "Whenyenoh"
+   ],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Krahn",
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    278
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe marked uncertain",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "weyatta",
+   "name": "Weyatta",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    511
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "wheremongar",
+   "name": "Wheremongar",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Money is man",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    73
+   ],
+   "issues": []
+  },
+  {
+   "id": "wleh",
+   "name": "Wleh",
+   "variants": [],
+   "pronunciation": [
+    "Wee - leh"
+   ],
+   "gender": "Unisex",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Long lasting",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    372
+   ],
+   "issues": []
+  },
+  {
+   "id": "wlehdi",
+   "name": "Wlehdi",
+   "variants": [],
+   "pronunciation": [
+    "Weh-leh-di"
+   ],
+   "gender": "Female",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Wleh's mother",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Weleh's mother",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    357,
+    373
+   ],
+   "issues": []
+  },
+  {
+   "id": "wlehyonnoh",
+   "name": "Wlehyonnoh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo",
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Dancing woman",
+     "tribes": [
+      "Grebo",
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    143
+   ],
+   "issues": []
+  },
+  {
+   "id": "wlynhenoh",
+   "name": "Wlynhenoh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    5
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "Tribe marked uncertain",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "wokie",
+   "name": "Wokie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Vai"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    512
+   ],
+   "issues": [
+    "No meaning yet"
+   ]
+  },
+  {
+   "id": "wonlay",
+   "name": "Wonlay",
+   "variants": [],
+   "pronunciation": [
+    "War-nie"
+   ],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "We are tired. This name is given to a girl whose parents have lost a lot of children in either childbirth or childhood. They are simply saying \"We are tired of all troubles / problems.\"",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    575
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "worto",
+   "name": "Worto",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Woman who resolves conflict",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    138
+   ],
+   "issues": []
+  },
+  {
+   "id": "wotoh",
+   "name": "Wotoh",
+   "variants": [
+    "Woto",
+    "Wortor"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kru",
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Ended the war",
+     "tribes": [
+      "Kru",
+      "Grebo"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    374
+   ],
+   "issues": []
+  },
+  {
+   "id": "yah",
+   "name": "Yah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Walking stick - a person someone can lean on",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    },
+    {
+     "text": "Second girl child",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    455,
+    456,
+    576
+   ],
+   "issues": []
+  },
+  {
+   "id": "yamah",
+   "name": "Yamah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "King's wife / Big ma",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    265
+   ],
+   "issues": []
+  },
+  {
+   "id": "yammah",
+   "name": "Yammah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    577
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yammah-kaifaumah",
+   "name": "Yammah Kaifaumah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "The one blessed by God",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    266
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yangah",
+   "name": "Yangah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "I'm here",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    267
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yanquoi",
+   "name": "Yanquoi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    578,
+    579
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yar",
+   "name": "Yar",
+   "variants": [
+    "Nehpollor"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Grandma",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    268
+   ],
+   "issues": []
+  },
+  {
+   "id": "yarvo",
+   "name": "Yarvo",
+   "variants": [],
+   "pronunciation": [
+    "Yah-voe"
+   ],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Bring more",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    74
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yaryeahah",
+   "name": "Yaryeahah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "People thought",
+     "tribes": [],
+     "count": 1
+    },
+    {
+     "text": "The people thought",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    580,
+    581
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yawa",
+   "name": "Yàwà",
+   "variants": [
+    "Yàùwá"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Fifth born female",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    269
+   ],
+   "issues": []
+  },
+  {
+   "id": "yawah",
+   "name": "Yawah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kissi"
+   ],
+   "meanings": [
+    {
+     "text": "Fifth Daughter",
+     "tribes": [
+      "Kissi"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    175
+   ],
+   "issues": []
+  },
+  {
+   "id": "yeane",
+   "name": "Yeane",
+   "variants": [
+    "Yeahnee"
+   ],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "I have my own",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    75,
+    76
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yeanoh",
+   "name": "Yeanoh",
+   "variants": [],
+   "pronunciation": [
+    "Yee-nor"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Woman",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    },
+    {
+     "text": "So long",
+     "tribes": [],
+     "count": 1
+    },
+    {
+     "text": "So long / Farewell",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 3,
+   "source_rows": [
+    358,
+    582,
+    583
+   ],
+   "issues": []
+  },
+  {
+   "id": "yeanue",
+   "name": "Yeanue",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Life has come",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    457
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yei",
+   "name": "Yei",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Mano"
+   ],
+   "meanings": [
+    {
+     "text": "Third girl child",
+     "tribes": [
+      "Mano"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [
+    "Gender inferred from the meaning."
+   ],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    458
+   ],
+   "issues": []
+  },
+  {
+   "id": "yeijua",
+   "name": "Yeijua",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Gola",
+    "Dei"
+   ],
+   "meanings": [
+    {
+     "text": "Mother",
+     "tribes": [
+      "Gola",
+      "Dei"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    111
+   ],
+   "issues": []
+  },
+  {
+   "id": "yenplu",
+   "name": "Yenplu",
+   "variants": [],
+   "pronunciation": [
+    "NYENE-PLU"
+   ],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "White woman / given to a considered-beautiful girl child",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    584
+   ],
+   "issues": [
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "yonglah",
+   "name": "Yonglah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    359
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "yonyue",
+   "name": "YonYue",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Human being",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    77
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "youjay",
+   "name": "Youjay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Child business",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    585
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "zaizay",
+   "name": "Zaizay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "The first child",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    407
+   ],
+   "issues": []
+  },
+  {
+   "id": "zleh",
+   "name": "Zleh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Krahn"
+   ],
+   "meanings": [
+    {
+     "text": "Fussy",
+     "tribes": [
+      "Krahn"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    276
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "zoe",
+   "name": "Zoe",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Twin to Sando",
+     "tribes": [],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    586
+   ],
+   "issues": [
+    "Tribe unknown",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "zogbadah",
+   "name": "Zogbadah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "The Zoe's gun",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    408
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "zogboh",
+   "name": "Zogboh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Hardworking woman",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 2
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 2,
+   "source_rows": [
+    409,
+    412
+   ],
+   "issues": [
+    "Tribe marked uncertain"
+   ]
+  },
+  {
+   "id": "zondea",
+   "name": "Zondea",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "New year",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    78
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "zonpodeh",
+   "name": "Zonpodeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Krahn"
+   ],
+   "meanings": [
+    {
+     "text": "Every year bring something new",
+     "tribes": [
+      "Krahn"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    277
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "zubah",
+   "name": "Zubah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Lorma"
+   ],
+   "meanings": [
+    {
+     "text": "Strong",
+     "tribes": [
+      "Lorma"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    410
+   ],
+   "issues": [
+    "No gender given"
+   ]
+  },
+  {
+   "id": "zwana",
+   "name": "Zwàná",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unknown",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    270
+   ],
+   "issues": [
+    "No meaning yet",
+    "No gender given"
+   ]
+  },
+  {
+   "id": "dahn",
+   "name": "Dahn",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    587
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "doe",
+   "name": "Doe",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    590
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "dolo",
+   "name": "Dolo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    592
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "flomo",
+   "name": "Flomo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    601
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "gaye",
+   "name": "Gaye",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    591
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "kamara",
+   "name": "Kamara",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    603
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "kanneh",
+   "name": "Kanneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    588
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "kollie",
+   "name": "Kollie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    602
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "konneh",
+   "name": "Konneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    595
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "kromah",
+   "name": "Kromah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    597
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "mulbah",
+   "name": "Mulbah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    599
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "paye-2",
+   "name": "Paye",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    594
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "sackie",
+   "name": "Sackie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    593
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "sumo",
+   "name": "Sumo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    598
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "toe",
+   "name": "Toe",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    600
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "tokpah",
+   "name": "Tokpah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    596
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "weah",
+   "name": "Weah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    589
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  }
+ ]
+}

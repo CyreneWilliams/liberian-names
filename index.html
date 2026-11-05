@@ -1,0 +1,1141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Liberian Names</title>
+<meta name="description" content="An open, community-built archive of Liberian traditional names: meanings, tribes, spellings and the people who shared them.">
+<meta property="og:title" content="Liberian Names">
+<meta property="og:description" content="An open, community-built archive of Liberian traditional names: meanings, tribes, spellings and the people who shared them.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#002868">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23002868'/%3E%3Cpath fill='%23fff' d='M16 5l2.6 7.9H27l-6.8 4.9 2.6 7.9L16 20.8l-6.8 4.9 2.6-7.9L5 12.9h8.4z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a community archive, not a baby-name catalogue. A flag-blue "name of the day" band opens
+   the page; the archive itself is an index with a filter rail on the left and dictionary-style
+   entries grouped by letter on the right. Themes, birth-order tables, well-known Liberians and the
+   open contribution desk follow. Flag red/white/blue; the striped ribbon with a star is the motif. */
+:root{
+  --bg:#F7F8FB; --surface:#FFFFFF; --ink:#0F1730; --muted:#566079; --line:#DDE2EE;
+  --blue:#002868; --blue-ink:#001A47; --blue-soft:#E4EAF5; --on-blue:#FFFFFF;
+  --red:#BF0A30; --red-ink:#A50A2A; --red-soft:#FBE6EA; --on-red:#FFFFFF;
+  --ok:#22704A; --ok-soft:#E1F2E8; --warn:#8C2F22; --warn-soft:#F8E4DF;
+  --flag-red:#BF0A30; --flag-white:#FFFFFF; --flag-blue:#002868;
+  --band:#002868; --band-ink:#FFFFFF; --band-muted:#C9D3EC;
+  --shadow:0 1px 2px rgba(15,23,48,.06),0 12px 32px rgba(15,23,48,.10);
+  --display:"Young Serif",Georgia,"Times New Roman",serif;
+  --body:"Instrument Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0A1022; --surface:#121A33; --ink:#EDF0F8; --muted:#A3ABC6; --line:#26304F;
+  --blue:#8EA9EE; --blue-ink:#BFD0F7; --blue-soft:#18264D; --on-blue:#0A1022;
+  --red:#F2475F; --red-ink:#FF8A9A; --red-soft:#3C1520; --on-red:#FFFFFF;
+  --ok:#7CCB9C; --ok-soft:#183626; --warn:#F2917F; --warn-soft:#3E1D18;
+  --band:#0F2457; --band-ink:#FFFFFF; --band-muted:#AFBEE6;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 32px rgba(0,0,0,.4); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0A1022; --surface:#121A33; --ink:#EDF0F8; --muted:#A3ABC6; --line:#26304F;
+  --blue:#8EA9EE; --blue-ink:#BFD0F7; --blue-soft:#18264D; --on-blue:#0A1022;
+  --red:#F2475F; --red-ink:#FF8A9A; --red-soft:#3C1520; --on-red:#FFFFFF;
+  --ok:#7CCB9C; --ok-soft:#183626; --warn:#F2917F; --warn-soft:#3E1D18;
+  --band:#0F2457; --band-ink:#FFFFFF; --band-muted:#AFBEE6;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 32px rgba(0,0,0,.4); color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.1;text-wrap:balance;margin:0}
+p{margin:0}
+a{color:var(--blue)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1180px;margin-inline:auto;padding-inline:clamp(16px,4vw,40px)}
+.eyebrow{font:600 12px/1.2 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* flag ribbon + star */
+.ribbon{height:22px;background:
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath fill='%23FFFFFF' d='M11 4.2l1.6 4.9h5.1l-4.1 3 1.6 4.9-4.2-3-4.2 3 1.6-4.9-4.1-3h5.1z'/%3E%3C/svg%3E") left/22px 22px no-repeat,
+  linear-gradient(var(--flag-blue),var(--flag-blue)) left/22px 100% no-repeat,
+  repeating-linear-gradient(180deg,var(--flag-red) 0 2px,var(--flag-white) 2px 4px)}
+.stripes{height:8px;background:repeating-linear-gradient(180deg,var(--flag-red) 0 2px,var(--flag-white) 2px 4px)}
+.star{display:inline-block;width:.8em;height:.8em;background:currentColor;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);flex:none}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;min-height:60px}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);white-space:nowrap}
+.mark .star{color:var(--red)}
+.mark b{font:400 22px/1 var(--display)}
+nav.main{display:flex;gap:2px;overflow-x:auto;margin-left:auto;scrollbar-width:none}
+nav.main a{padding:8px 12px;border-radius:6px;text-decoration:none;color:var(--ink);font-weight:500;font-size:15px;white-space:nowrap}
+nav.main a:hover{background:var(--blue-soft)}
+nav.main a.cta{background:var(--red);color:var(--on-red)}
+@media (max-width:700px){.top .wrap{flex-wrap:wrap;gap:4px;padding-block:8px}nav.main{margin-left:0;width:100%}}
+
+/* name of the day band */
+.band{background:var(--band);color:var(--band-ink);position:relative;overflow:hidden}
+.band::after{content:"";position:absolute;right:-60px;top:-40px;width:340px;height:340px;background:rgba(255,255,255,.06);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);pointer-events:none}
+.band .wrap{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);padding-block:clamp(36px,6vw,72px);align-items:center;position:relative;z-index:1}
+@media (max-width:880px){.band .wrap{grid-template-columns:1fr}}
+.band .eyebrow{color:var(--band-muted)}
+.daily h1{font-size:clamp(64px,12vw,140px);line-height:.9;margin-block:14px 8px;overflow-wrap:anywhere}
+.daily .say{font-family:var(--mono);color:var(--band-muted);font-size:15px}
+.daily .means{font:400 clamp(22px,2.6vw,30px)/1.3 var(--display);margin-top:16px;max-width:24ch}
+.daily .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.tag-w{font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.35);color:var(--band-ink)}
+.btn-w{display:inline-flex;align-items:center;gap:8px;border:0;background:var(--flag-white);color:#002868;border-radius:999px;padding:10px 18px;font-weight:600;cursor:pointer}
+.btn-w:hover{background:#E8EDF8}
+.finder{background:var(--surface);color:var(--ink);border-radius:14px;padding:clamp(18px,3vw,28px);box-shadow:var(--shadow);display:grid;gap:14px;min-width:0}
+.finder h2{font-size:clamp(24px,2.6vw,30px)}
+.finder p{color:var(--muted);font-size:15px}
+.finder form{display:flex;gap:8px;border:2px solid var(--blue);border-radius:10px;padding:4px 4px 4px 14px;background:var(--bg)}
+.finder input{flex:1;min-width:0;border:0;background:transparent;outline:none;font-size:17px}
+.finder .quick{display:flex;flex-wrap:wrap;gap:6px}
+.finder .quick button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13.5px;cursor:pointer}
+.finder .quick button:hover{border-color:var(--blue)}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;border-top:1px solid var(--line);padding-top:12px}
+.facts b{color:var(--ink);font-size:18px;font-family:var(--display);font-weight:400;margin-right:4px}
+
+/* buttons, pills */
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:9px 16px;font-weight:600;cursor:pointer;text-decoration:none;color:var(--ink)}
+.btn:hover{border-color:var(--blue)}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.btn.red{background:var(--red);border-color:var(--red);color:var(--on-red)}
+.btn.ok{background:var(--ok);border-color:var(--ok);color:var(--surface)}
+.btn.quiet{background:transparent}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.g{display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:600;white-space:nowrap}
+.g::before{content:"";width:9px;height:9px;border-radius:50%;background:currentColor}
+.g-F{color:var(--red)} .g-M{color:var(--blue)} .g-U{color:var(--ok)} .g-{color:var(--muted);font-weight:500}
+.g-::before{background:transparent;border:1.5px dashed currentColor}
+.people{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.people svg{flex:none}
+.people b{color:var(--ink);font-weight:700}
+.tchip{font-size:12px;font-weight:600;letter-spacing:.03em;padding:2px 8px;border-radius:4px;background:var(--blue-soft);color:var(--blue-ink);white-space:nowrap}
+.comm{font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;background:var(--ok-soft);color:var(--ok)}
+
+section.block{padding-block:clamp(44px,6vw,80px)}
+section.alt{background:var(--surface);border-block:1px solid var(--line)}
+.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 32px;margin-bottom:28px}
+.sec-head h2{font-size:clamp(32px,4.4vw,48px)}
+.sec-head p{color:var(--muted);max-width:56ch}
+
+/* archive index */
+.index{display:grid;grid-template-columns:250px minmax(0,1fr);gap:clamp(24px,4vw,48px);align-items:start}
+.rail{position:sticky;top:76px;display:grid;gap:22px;max-height:calc(100vh - 96px);overflow-y:auto;padding-right:4px;scrollbar-width:thin}
+.rail h4{margin:0 0 8px;font:600 12px/1.2 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.seg{display:grid;grid-template-columns:repeat(2,1fr);gap:4px}
+.seg button,.flist button{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:7px 10px;font-size:14px;text-align:left;cursor:pointer;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.seg button[aria-pressed="true"],.flist button[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.flist{display:grid;gap:4px}
+.flist button small{color:var(--muted);font-variant-numeric:tabular-nums}
+.flist button[aria-pressed="true"] small{color:inherit;opacity:.8}
+.flist .bar{display:block;height:3px;border-radius:2px;background:var(--red);opacity:.5;margin-top:3px}
+.rail-close{display:none}
+.mobile-filter{display:none}
+@media (max-width:900px){
+  .index{grid-template-columns:1fr}
+  .rail{position:fixed;inset:0 0 0 auto;width:min(340px,88vw);max-height:none;height:100%;z-index:60;background:var(--bg);padding:calc(env(safe-area-inset-top,0px) + 18px) 18px 24px;box-shadow:var(--shadow);transform:translateX(105%);transition:transform .2s ease}
+  .rail.open{transform:none}
+  .rail-close{display:inline-flex;justify-self:end}
+  .mobile-filter{display:inline-flex}
+}
+.searchbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+.field{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:0 12px;min-height:46px;flex:1 1 260px;min-width:0}
+.field input{border:0;background:transparent;outline:none;width:100%;min-width:0;padding-block:10px}
+select.sel{background:var(--surface);border:1px solid var(--line);border-radius:8px;min-height:46px;padding:0 10px}
+.active{display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-height:28px;margin-bottom:6px;font-size:14px;color:var(--muted)}
+.active button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:2px 10px;font-size:13px;cursor:pointer}
+.active button::after{content:" ✕";color:var(--muted)}
+.letters{display:flex;gap:2px;overflow-x:auto;scrollbar-width:thin;margin-bottom:8px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.letters button{flex:none;width:30px;height:30px;border:0;background:transparent;border-radius:6px;font:500 14px var(--mono);cursor:pointer;color:var(--ink)}
+.letters button:hover{background:var(--blue-soft)}
+.letters button[aria-pressed="true"]{background:var(--red);color:var(--on-red)}
+.letters button:disabled{color:var(--line);cursor:default;background:transparent}
+ul.entries{list-style:none;margin:0;padding:0}
+.entries li.letter{font:400 44px/1 var(--display);color:var(--red);padding:22px 0 6px;border-bottom:2px solid var(--ink)}
+.entry{width:100%;text-align:left;background:transparent;border:0;border-bottom:1px solid var(--line);padding:16px 6px;cursor:pointer;display:grid;grid-template-columns:minmax(150px,220px) minmax(0,1fr) auto;gap:6px 22px;align-items:baseline}
+.entry:hover{background:var(--surface)}
+.entry .n{font:400 26px/1.15 var(--display);overflow-wrap:anywhere;min-width:0}
+.entry .n small{display:block;font:400 13px var(--mono);color:var(--muted);margin-top:4px}
+.entry .m{min-width:0}
+.entry .m span.t{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.entry .m span.none{color:var(--muted);font-style:italic}
+.entry .m .more{color:var(--muted);font-size:14px}
+.entry .tribes{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.entry .meta{display:grid;justify-items:end;gap:6px}
+@media (max-width:640px){.entry{grid-template-columns:1fr;gap:4px}.entry .meta{justify-items:start;grid-auto-flow:column;justify-content:start;gap:14px}}
+.empty{padding:40px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r);margin-top:16px}
+.more-wrap{display:flex;justify-content:center;margin-top:22px}
+.count{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* themes */
+.themes{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.theme{position:relative;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:18px 18px 16px;cursor:pointer;display:grid;gap:8px;align-content:start;overflow:hidden;min-height:150px}
+.theme::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--c)}
+.theme:hover{border-color:var(--c)}
+.theme h3{font-size:23px}
+.theme .ct{font:500 13px var(--mono);color:var(--muted)}
+.theme .ex{font-size:14px;color:var(--muted)}
+.theme .ex b{color:var(--ink);font-weight:600}
+
+/* birth order */
+.bo-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.bo-tabs button{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:7px 14px;cursor:pointer;font-weight:600}
+.bo-tabs button[aria-pressed="true"]{background:var(--blue);color:var(--on-blue);border-color:var(--blue)}
+.bo-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table.bo{border-collapse:collapse;width:100%;min-width:520px;font-variant-numeric:tabular-nums}
+table.bo th,table.bo td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--line)}
+table.bo tr:last-child td{border-bottom:0}
+table.bo th{font:600 12px/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+table.bo td.ord{font-family:var(--mono);color:var(--red);width:90px;font-weight:500}
+table.bo td button{border:0;background:none;padding:0;cursor:pointer;font:400 20px/1.2 var(--display);color:var(--blue-ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+table.bo td .plain{font:400 20px/1.2 var(--display)}
+table.bo td.gap{color:var(--muted);font-size:14px}
+.note{font-size:14px;color:var(--muted);margin-top:12px;max-width:70ch}
+
+/* well-known Liberians */
+.famous{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.person{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:10px;align-content:start;min-width:0}
+.person .top-row{display:flex;gap:12px;align-items:center}
+.mono{flex:none;width:52px;height:52px;border-radius:50%;background:var(--flag-blue);color:var(--flag-white);display:grid;place-items:center;font:400 20px/1 var(--display);position:relative}
+.mono::after{content:"";position:absolute;right:-2px;bottom:-2px;width:18px;height:18px;background:var(--flag-red);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+.person h3{font-size:22px;min-width:0;overflow-wrap:anywhere}
+.person h3 mark{background:none;color:var(--red);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+.person .role{font-size:13px;color:var(--muted)}
+.person p{font-size:15px}
+.person .link-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px;border-top:1px solid var(--line);padding-top:10px}
+.person .link-row button{border:0;background:none;padding:0;color:var(--blue);font-weight:600;cursor:pointer;text-align:left;text-decoration:underline;text-underline-offset:3px}
+
+/* help wanted */
+.hw{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.hw-group{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;min-width:0}
+.hw-group h3{font-size:20px;margin-bottom:10px;display:flex;justify-content:space-between;gap:8px}
+.hw-group h3 small{font:500 13px var(--body);color:var(--muted)}
+.hw-list{display:flex;flex-wrap:wrap;gap:6px}
+.hw-list button{border:1px dashed var(--red);background:var(--red-soft);color:var(--ink);border-radius:999px;padding:4px 11px;font-size:14px;cursor:pointer}
+
+/* contribute */
+.open-band{background:var(--band);color:var(--band-ink)}
+.open-band .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:clamp(24px,4vw,56px);padding-block:clamp(44px,6vw,80px)}
+@media (max-width:880px){.open-band .wrap{grid-template-columns:1fr}}
+.open-band h2{font-size:clamp(32px,4.4vw,48px)}
+.open-band .lede{color:var(--band-muted);margin-top:12px;max-width:44ch}
+.open-band .big{font:400 clamp(48px,7vw,80px)/1 var(--display);margin-top:24px}
+.open-band .big small{display:block;font:500 14px var(--body);color:var(--band-muted);margin-top:6px}
+.open-band ol{margin:22px 0 0;padding-left:20px;display:grid;gap:8px;color:var(--band-muted)}
+.open-band ol b{color:var(--band-ink)}
+.mine{margin-top:22px;background:rgba(255,255,255,.08);border-radius:10px;padding:14px}
+.mine h3{font-size:18px;margin-bottom:6px}
+.mine ul{list-style:none;margin:0;padding:0}
+.mine li{display:flex;justify-content:space-between;gap:10px;font-size:14px;border-bottom:1px solid rgba(255,255,255,.15);padding-block:6px}
+.st{font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap;background:var(--flag-white);color:#002868}
+.st.approved{background:#D7F0E1;color:#14532D} .st.declined{background:#F8E4DF;color:#7A2418}
+form.sugg{background:var(--surface);color:var(--ink);border-radius:14px;padding:clamp(18px,3vw,28px);display:grid;gap:16px;box-shadow:var(--shadow);min-width:0}
+.kind{display:flex;flex-wrap:wrap;gap:6px;border:0;padding:0;margin:0}
+.kind label{cursor:pointer}
+.kind input{position:absolute;opacity:0;pointer-events:none}
+.kind span{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:7px 14px;font-weight:600;font-size:15px}
+.kind input:checked+span{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.kind input:focus-visible+span{outline:3px solid var(--red);outline-offset:2px}
+.f2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:560px){.f2{grid-template-columns:1fr}}
+.fl{display:grid;gap:6px;min-width:0}
+.fl label{font-weight:600;font-size:14px}
+.fl label small{font-weight:400;color:var(--muted)}
+.fl input,.fl select,.fl textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-height:44px}
+.fl textarea{min-height:84px;resize:vertical}
+.hint{font-size:13px;color:var(--muted)}
+.formfoot{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.msg{border-radius:8px;padding:12px 14px;font-size:14.5px}
+.msg.ok{background:var(--ok-soft);color:var(--ok)} .msg.warn{background:var(--warn-soft);color:var(--warn)} .msg.info{background:var(--blue-soft);color:var(--blue-ink)}
+
+/* review */
+.rv{display:grid;gap:12px}
+.rv-item{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 20px;align-items:start}
+@media (max-width:600px){.rv-item{grid-template-columns:1fr}}
+.rv-item h3{font-size:22px}
+.rv-item dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:10px 0 0;font-size:14.5px}
+.rv-item dt{color:var(--muted)} .rv-item dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.rv-actions{display:flex;gap:8px;flex-wrap:wrap}
+.play{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--blue);background:var(--blue-soft);color:var(--blue-ink);border-radius:999px;padding:7px 14px 7px 10px;font-weight:600;font-size:14px;cursor:pointer}
+.play:hover{background:var(--blue);color:var(--on-blue)}
+.play svg{flex:none}
+.play small{font-weight:500;opacity:.8}
+.clips{display:flex;flex-wrap:wrap;gap:8px}
+.has-audio{color:var(--blue);display:inline-flex}
+.audio-pick{display:grid;gap:8px;border:1px dashed var(--line);border-radius:8px;padding:12px;background:var(--bg)}
+.audio-pick input[type=file]{font-size:14px;max-width:100%}
+.audio-pick audio{width:100%;max-width:100%}
+
+/* about */
+.about{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:28px}
+.about h3{font-size:22px;margin-bottom:8px}
+.about p{color:var(--muted)}
+.surnames{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.surnames span{font-size:14px;border:1px solid var(--line);border-radius:6px;padding:2px 8px;background:var(--surface)}
+footer{padding-block:28px 40px;color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px}
+footer .credit{font-weight:600;color:var(--ink)}
+
+/* name card dialog */
+.scrim{position:fixed;inset:0;background:rgba(6,10,28,.55);z-index:70;display:grid;place-items:center;padding:16px}
+.card{background:var(--surface);width:min(620px,100%);max-height:calc(100% - 16px);overflow-y:auto;border-radius:14px;box-shadow:var(--shadow);animation:pop .18s ease-out}
+@keyframes pop{from{transform:translateY(8px);opacity:.6}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.card{animation:none}.rail{transition:none}}
+.card .ribbon{border-radius:14px 14px 0 0}
+.card .inner{padding:clamp(20px,4vw,34px);display:grid;gap:22px}
+.card .head{display:flex;justify-content:space-between;gap:12px;align-items:start}
+.card h2{font-size:clamp(46px,9vw,72px);line-height:.95;color:var(--blue-ink);overflow-wrap:anywhere;margin-top:8px}
+.card .meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:14px}
+.card h4{margin:0 0 8px;font:600 12px/1.2 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.meanings{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.meanings li{border-left:3px solid var(--red);padding:2px 0 2px 14px}
+.meanings .t{font:400 21px/1.35 var(--display)}
+.meanings .by{font-size:13px;color:var(--muted);margin-top:4px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.vars{display:flex;flex-wrap:wrap;gap:6px}
+.vars span{font:400 17px var(--display);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 10px}
+.story{background:var(--bg);border-radius:var(--r);padding:12px 14px;font-size:15px}
+.story+.story{margin-top:8px}
+.carry{background:var(--red-soft);border-radius:var(--r);padding:12px 14px;font-size:15px}
+.carry+.carry{margin-top:8px}
+.card .actions{display:flex;flex-wrap:wrap;gap:8px;padding-top:12px;border-top:1px solid var(--line)}
+#rv-auth{display:grid;gap:10px;margin-bottom:16px;max-width:560px}
+.rv-signin{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
+.rv-signin .fl{flex:1 1 240px}
+.rv-signin .fl input{background:var(--surface)}
+.rv-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.rv-bar span{margin-right:auto}
+.hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+footer .editor-link{color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+
+<div class="ribbon" aria-hidden="true"></div>
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top"><i class="star" aria-hidden="true"></i><b>Liberian Names</b></a>
+    <nav class="main" aria-label="Sections">
+      <a href="#archive">The archive</a>
+      <a href="#themes">Themes</a>
+      <a href="#birth-order">Birth order</a>
+      <a href="#people">Well-known Liberians</a>
+      <a href="#help">Needs a meaning</a>
+      <a href="#about">About</a>
+      <a href="#review" id="nav-review" hidden>Review <span id="nav-review-n"></span></a>
+      <a href="#contribute" class="cta">Share a name</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="band">
+    <div class="wrap">
+      <div class="daily" id="daily" aria-live="polite"><p class="eyebrow">Name of the day</p></div>
+      <div class="finder">
+        <h2>Every Liberian name carries a story.</h2>
+        <p>An open archive of traditional names, kept by the community. Search by name, spelling, meaning or keyword.</p>
+        <form id="hero-form" role="search">
+          <label for="hero-q" class="sr">Search names, meanings or keywords</label>
+          <input id="hero-q" type="search" placeholder="Try “Decontee”, “first girl” or “God”" autocomplete="off">
+          <button class="btn primary" type="submit">Search</button>
+        </form>
+        <div class="quick" id="quick" aria-label="Popular searches"></div>
+        <div class="facts" id="facts"></div>
+      </div>
+    </div>
+  </section>
+  <div class="stripes" aria-hidden="true"></div>
+
+  <section class="block" id="archive">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>The archive</h2>
+        <p>Every entry shows how many people shared it. When several people give the same meaning, you can trust it more.</p>
+      </div>
+      <div class="index">
+        <aside class="rail" id="rail" aria-label="Filters">
+          <button class="btn quiet rail-close" type="button" id="rail-close">Close ✕</button>
+          <div><h4>Given to</h4><div class="seg" id="f-gender" role="group" aria-label="Gender"></div></div>
+          <div><h4>Theme</h4><div class="flist" id="f-theme" role="group" aria-label="Theme"></div></div>
+          <div><h4>Tribe</h4><div class="flist" id="f-tribe" role="group" aria-label="Tribe"></div></div>
+        </aside>
+        <div style="min-width:0">
+          <div class="searchbar">
+            <div class="field">
+              <label for="q" class="sr">Search</label>
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+              <input id="q" type="search" placeholder="Name, spelling, meaning or keyword" autocomplete="off">
+            </div>
+            <label for="sort" class="sr">Sort</label>
+            <select id="sort" class="sel"><option value="az">A to Z</option><option value="conf">Most shared</option></select>
+            <button class="btn mobile-filter" type="button" id="open-rail">Filters <span id="filter-n"></span></button>
+          </div>
+          <div class="active" id="active"></div>
+          <div class="letters" id="letters" role="group" aria-label="First letter"></div>
+          <p class="count" id="count"></p>
+          <ul class="entries" id="results"></ul>
+          <div class="more-wrap"><button class="btn" id="more" type="button" hidden>Show more names</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt" id="themes">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Explore by meaning</h2>
+        <p>Liberian names often speak about faith, family, time and hard-won hope. Pick a theme to see every name that shares it.</p>
+      </div>
+      <div class="themes" id="theme-tiles"></div>
+    </div>
+  </section>
+
+  <section class="block" id="birth-order">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Birth-order names</h2>
+        <p>In several tribes a child's name tells you where they come in the family.</p>
+      </div>
+      <div class="bo-tabs" id="bo-tabs" role="group" aria-label="Tribe"></div>
+      <div class="bo-wrap"><table class="bo" id="bo-table"></table></div>
+      <p class="note" id="bo-note"></p>
+    </div>
+  </section>
+
+  <section class="block alt" id="people">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Liberians who carry these names</h2>
+        <p>Well-known Liberians from every walk of life whose first or family name is in the archive, described factually. Being listed is not an endorsement. Tap a name to read what it means.</p>
+      </div>
+      <div class="famous" id="famous"></div>
+    </div>
+  </section>
+
+  <section class="block" id="help">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Names that still need a meaning</h2>
+        <p>These were shared without a meaning or a tribe. If you know one, tap it and add what you know.</p>
+      </div>
+      <div class="hw" id="hw"></div>
+    </div>
+  </section>
+
+  <section class="open-band" id="contribute">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow" style="color:var(--band-muted)">The archive is open</p>
+        <h2 style="margin-top:10px">Add a name, a spelling or a meaning.</h2>
+        <p class="lede">Every entry came from someone who knew it. Your grandmother's version counts, and so does the spelling on your cousin's birth certificate.</p>
+        <p class="big" id="contrib-total">—<small>contributions from the community since 2020</small></p>
+        <ol>
+          <li><b>Share what you know.</b> A new name, another spelling, or a meaning from your tribe.</li>
+          <li><b>An editor reviews it</b> so the archive stays trustworthy.</li>
+          <li><b>It joins the archive</b> and the name's count goes up by one.</li>
+        </ol>
+        <div class="mine" id="mine" hidden><h3>Your contributions</h3><ul id="mine-list"></ul></div>
+      </div>
+      <form class="sugg" id="sugg" novalidate>
+        <fieldset class="kind">
+          <legend class="sr">What are you adding?</legend>
+          <label><input type="radio" name="kind" id="k-new" value="new" checked><span>A new name</span></label>
+          <label><input type="radio" name="kind" id="k-spell" value="spelling"><span>Another spelling</span></label>
+          <label><input type="radio" name="kind" id="k-mean" value="meaning"><span>A meaning or correction</span></label>
+          <label><input type="radio" name="kind" id="k-audio" value="audio"><span>A recording</span></label>
+        </fieldset>
+        <div class="f2">
+          <div class="fl">
+            <label for="c-name">Name</label>
+            <input id="c-name" list="all-names" required autocomplete="off" placeholder="e.g. Kebeh">
+            <datalist id="all-names"></datalist>
+            <span class="hint" id="c-name-hint"></span>
+          </div>
+          <div class="fl">
+            <label for="c-variants">Other spellings <small>(optional)</small></label>
+            <input id="c-variants" placeholder="Separate with commas">
+          </div>
+        </div>
+        <div class="f2">
+          <div class="fl"><label for="c-tribe">Tribe</label><select id="c-tribe"></select></div>
+          <div class="fl">
+            <label for="c-gender">Usually given to</label>
+            <select id="c-gender"><option value="">Not sure</option><option value="F">Girls</option><option value="M">Boys</option><option value="U">Girls and boys</option></select>
+          </div>
+        </div>
+        <div class="fl" id="c-tribe-other-wrap" hidden><label for="c-tribe-other">Which tribe?</label><input id="c-tribe-other" placeholder="e.g. Belle, Dei, Sapo"></div>
+        <div class="fl"><label for="c-meaning">Meaning</label><input id="c-meaning" placeholder="e.g. Do it for me"></div>
+        <div class="f2">
+          <div class="fl"><label for="c-pron">How to say it <small>(optional)</small></label><input id="c-pron" placeholder="e.g. Keh-beh"></div>
+          <div class="fl">
+            <label for="c-source">How do you know it?</label>
+            <select id="c-source"><option value="family">It's in my family</option><option value="speaker">I speak the language</option><option value="elder">An elder told me</option><option value="other">Somewhere else</option></select>
+          </div>
+        </div>
+        <div class="fl">
+          <span style="font-weight:600;font-size:14px">Hear it said <small style="font-weight:400;color:var(--muted)">(optional)</small></span>
+          <div class="f2">
+            <div class="audio-pick">
+              <label for="c-audio" style="font-weight:600;font-size:14px">At natural speed</label>
+              <input id="c-audio" type="file" accept="audio/*">
+              <span class="hint" id="c-audio-hint">Say the name the way family would say it.</span>
+              <audio id="c-audio-prev" controls hidden></audio>
+              <button class="btn quiet" type="button" id="c-audio-clear" hidden style="justify-self:start">Remove</button>
+            </div>
+            <div class="audio-pick">
+              <label for="c-slow" style="font-weight:600;font-size:14px">Slowly, sound by sound</label>
+              <input id="c-slow" type="file" accept="audio/*">
+              <span class="hint" id="c-slow-hint">Break it into its sounds, with a pause between each, like “Deh… con… tee”.</span>
+              <audio id="c-slow-prev" controls hidden></audio>
+              <button class="btn quiet" type="button" id="c-slow-clear" hidden style="justify-self:start">Remove</button>
+            </div>
+          </div>
+          <span class="hint">Record each as a voice memo on your phone and attach it. Keep each under about 30 seconds.</span>
+        </div>
+        <div class="fl"><label for="c-story">The story behind it <small>(optional)</small></label><textarea id="c-story" placeholder="When is it given? Who in your family carries it?"></textarea></div>
+        <div class="fl"><label for="c-credit">Credit me as <small>(optional, shown on the name)</small></label><input id="c-credit" placeholder="e.g. Musu K., Atlanta" autocomplete="off"></div>
+        <div class="hp" aria-hidden="true"><label for="c-website">Leave this empty</label><input id="c-website" tabindex="-1" autocomplete="off"></div>
+        <div id="c-msg" class="msg" hidden role="status"></div>
+        <div class="formfoot">
+          <span class="hint">You can send as many as you like. Each is reviewed before it appears.</span>
+          <button class="btn red" type="submit" id="c-submit">Send to the archive</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="block" id="review" hidden>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Review contributions</h2>
+        <p>Only editors see this. Approving adds the contribution to the archive right away and counts it on the name.</p>
+      </div>
+      <div id="rv-auth"></div>
+      <div class="rv" id="rv"></div>
+    </div>
+  </section>
+
+  <section class="block alt" id="about">
+    <div class="wrap">
+      <div class="sec-head"><h2>About the archive</h2></div>
+      <div class="about">
+        <div>
+          <h3>Where the names come from</h3>
+          <p>In 2020 Liberians at home and abroad were asked for the traditional names they knew, what they mean, and which tribe uses them. Repeat answers were merged, so each name appears once with every meaning people gave and a count of how many people shared it.</p>
+        </div>
+        <div>
+          <h3>About spelling</h3>
+          <p>Most of these names were spoken long before they were written, so families spell them differently. Decontee, Dekonti and Dehkontee are all here, and search finds every spelling we have.</p>
+        </div>
+        <div>
+          <h3>Who's behind it</h3>
+          <p>Liberian Names was founded by Cyrene Williams and Winifred Gray-Johnson. Both are co-founders and contributors: they started gathering names in 2020 and still add to the archive.</p>
+        </div>
+        <div>
+          <h3>Common family names</h3>
+          <p>Contributors also listed these surnames. Their meanings are still to come.</p>
+          <div class="surnames" id="surnames"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="ribbon" aria-hidden="true"></div>
+<footer class="wrap"><p>Liberian Names · an open community archive, started 2020. Every meaning is reviewed before it appears.</p><p class="credit">A project by Cyrene Williams and Winifred Gray-Johnson, co-founders and contributors</p><p><a class="editor-link" href="#editor" id="editor-link">Editor sign-in</a></p></footer>
+
+<div class="scrim" id="scrim" hidden>
+  <div class="card" id="card" role="dialog" aria-modal="true" aria-labelledby="card-title"></div>
+</div>
+
+<script id="names-data" type="application/json">{"n":[["Aakehtee",[],"F",["Kpelle"],[["Let it be so",["Kpelle"],1]],[],[],1,0],["Adama",[],"",["Mandingo"],[["Magnificent child",["Mandingo"],1]],[],[],1,0],["Addy",[],"F",["Grebo"],[["Our ma",["Grebo"],1]],[],[],1,0],["Alpato",[],"M",["Bassa"],[["Afraid of war",["Bassa"],1]],[],[],1,0],["Alpha",[],"M",["Vai"],[["The beginning",["Vai"],1]],[],[],1,0],["Amina",[],"F",["Mandingo"],[["Trustworthy",["Mandingo"],2]],[],[],2,0],["Ansa",[],"M",["Vai"],[],[],[],1,0],["Armah",[],"M",["Vai"],[],[],[],1,0],["Bahgen",[],"",["Mano"],[["You've seen it",["Mano"],1],["You have seen it",["Mano"],1]],[],[],2,0],["Bahwulu",[],"",["Bassa"],[["Words of prayer",["Bassa"],1]],[],[],1,0],["Ballah",[],"M",["Lorma"],[["Don't care",["Lorma"],1]],[],[],1,0],["Beaye",[],"",["Grebo"],[["Big elephant",["Grebo"],1]],[],[],1,0],["Belloh",[],"F",["Grebo","Kru"],[["Calling grandma but not sure?",["Grebo"],1],["Female warrior",["Kru"],1]],[],[],2,0],["Bendu",[],"U",["Vai"],[["Wise woman",["Vai"],1]],[],[],2,0],["Bi",[],"M",[],[["Father / small / Junior",[],1]],[],[],1,0],["Biawo",[],"",["Gio"],[["God's word / the lord's prayer",["Gio"],1]],[],[],1,0],["Blamoh",[],"U",["Kru","Grebo"],[],["Bla-moo/ Blamoh"],[],1,0],["Bleemonblee",[],"",["Bassa"],[["Home is home",["Bassa"],2]],[],[],2,0],["Blidi",[],"",["Kru"],[["Quarrel / fuss",["Kru"],1]],[],[],1,0],["Bloh",[],"F",["Kru"],[["Ground",["Kru"],1],["Land / ground",["Kru"],1]],[],[],2,0],["Blohwehtee",[],"",["Kru"],[["Land / ground finished",["Kru"],1]],[],[],1,0],["Bloteh",[],"",["Kru"],[["This land business",["Kru"],1]],[],[],1,0],["Boe",["Gboe"],"M",["Kru","Grebo"],[],["Boe"],[],1,0],["Boima",[],"M",["Vai"],[],[],[],1,0],["Boimah",[],"M",[],[],[],[],2,0],["Bonokai",[],"M",["Vai"],[],[],[],1,0],["Chenkplen",[],"",["Kru"],[["Good behavior or learn good habits",["Kru"],1]],[],[],1,0],["Choko",[],"",["Bassa"],[["Usually given to tiny babies",["Bassa"],1]],[],[],1,0],["Ciannah",[],"F",["Lorma"],[["The trip was fine",["Lorma"],1]],[],[],1,0],["Cianneh",[],"F",["Lorma"],[["Successful journey",["Lorma"],2]],[],[],2,0],["Ciata",["Ciatta"],"F",["Vai"],[],[],[],1,0],["D'jokia",["Jokia"],"U",["Kpelle"],[["Stay here",["Kpelle"],1]],[],[],1,0],["Dabah",[],"F",["Gola"],[["Old ma",["Gola"],2]],[],[],2,0],["Daleso",[],"",["Lorma"],[["My mouth is not inside",["Lorma"],1]],[],[],1,0],["Damnyonnoh",[],"F",["Kru"],[["Call me woman",["Kru"],1]],[],[],1,0],["Danu-wolu",[],"",["Kpelle"],[["Like someone",["Kpelle"],1]],[],[],1,0],["Dawehdey",[],"F",["Grebo"],[["Daweh's mom",["Grebo"],1]],[],[],1,0],["Deazee",[],"",["Mano"],[["My ownself own",["Mano"],1]],[],[],1,0],["Decontee",[],"F",["Grebo","Kru","Krahn"],[["Everything has time",["Grebo","Kru","Krahn"],5]],["Deh-con-tee"],["Dekonti is found in all the Kru language family languages (formerly / erroneously known as KWA) in Liberia. Kru, Bassa, Krahn, and Grebo all have variations of the name Decontee / Dekonti. Ti - time, kon - everything, De - possesses (in some languages De and Kon take different meanings)."],5,0],["Deddeh",[],"F",["Lorma"],[["Beautiful woman with good character",["Lorma"],1],["Good mother",["Lorma"],1]],[],[],2,0],["Deddeh Boi",[],"F",["Lorma"],[["Deddeh White",["Lorma"],1]],[],[],1,0],["Dee",[],"F",["Kru"],[["Mother",["Kru"],1]],[],[],1,0],["Dehkontee",[],"F",["Bassa"],[["Everything get time",["Bassa"],1]],[],[],1,0],["Dehlaykle",[],"M",["Kru"],[["From the same womb (for siblings)",["Kru"],1]],[],[],1,0],["Dehnenuwahmu",[],"",["Kru"],[["Nothing can happen to you",["Kru"],1]],[],[],1,0],["Dekonti",[],"F",["Kru"],[["Everything have time",["Kru"],1]],[],[],1,0],["Domah",[],"M",["Mano"],[["King",["Mano"],2]],[],[],2,0],["Doryen",[],"",["Kru"],[["Beautiful",["Kru"],1]],[],[],1,0],["Dounard",[],"M",["Kpelle"],[["Put something in my mouth",["Kpelle"],1]],["DoU-naR"],[],1,0],["Duo",[],"",["Gio"],[["Sufficient / too much (in a good way)",["Gio"],1]],[],[],1,0],["Dweh",[],"M",["Kru","Grebo"],[["Elephant / Strong",["Kru","Grebo"],1]],["Du-weh"],[],1,0],["Dyu",[],"U",["Bassa"],[["Children business",["Bassa"],1]],[],[],1,0],["Essah",[],"F",["Vai"],[["Thank you",["Vai"],1]],[],[],1,0],["Eujay",["Ujay"],"",["Bassa"],[["Children business",["Bassa"],1]],[],[],1,0],["Fàlà",[],"M",["Kpelle"],[["Fourth born male",["Kpelle"],1]],[],[],1,0],["Fallah",[],"F",["Kissi"],[["Fourth son",["Kissi"],1]],[],[],1,0],["Famatta",[],"F",["Vai"],[],[],[],1,0],["Famink",[],"",["Kpelle"],[["I just can't mind / unbothered",["Kpelle"],1]],[],[],1,0],["Fàyáa",[],"M",["Kpelle"],[["Third born male",["Kpelle"],1]],[],[],1,0],["Fayia",[],"M",["Kissi"],[["Third son",["Kissi"],1]],[],[],1,0],["Fela",["Félá"],"F",["Kissi","Kpelle"],[["Eighth daughter",["Kissi"],1],["Eighth born female",["Kpelle"],1]],[],[],2,0],["Finda",["Fìndà","Phenda"],"F",["Kissi","Kpelle"],[["Third daughter",["Kissi"],1],["Third born female",["Kpelle"],1]],[],[],4,0],["Fleh",["Fldh"],"",["Kru","Grebo"],[["Skin",["Kru","Grebo"],1]],["F-leh"],[],1,0],["Foday",["Folley"],"M",["Vai"],[],[],[],1,0],["Fòkpòò",[],"M",["Kpelle"],[["Name given to males during Poro initiation",["Kpelle"],1]],[],[],1,0],["Fonati",[],"U",["Kru"],[["Wait for your time",["Kru"],1]],[],[],1,0],["Forh",[],"M",["Kru"],[["Rest, take a break",["Kru"],1]],["For"],[],1,0],["Forhnati",[],"U",["Kru"],[["Wait for your time / Sit down",["Kru"],1]],["For-nah-tee"],[],1,0],["Fornati",[],"M",["Kru"],[["Wait for your time",["Kru"],1]],[],[],1,0],["Fuaineaitee",[],"",["Bassa"],[["Wait for your time",["Bassa"],1]],[],[],1,0],["Gad",[],"",["Bassa"],[["Lucky",["Bassa"],1]],[],[],1,0],["Gardawheh",[],"M",["Bassa"],[["Man is finished",["Bassa"],1]],[],[],1,0],["Gardiah",[],"M",["Bassa"],[["New man",["Bassa"],1]],[],[],1,0],["Garjay",[],"M",["Bassa"],[["Man business",["Bassa"],2]],[],[],2,0],["Garmai",[],"F",["Bassa","Kpelle","Lorma"],[["The truth",["Bassa","Lorma"],3],["God is over us",["Kpelle"],1],["God over us or He is watching over us",["Kpelle"],1]],[],[],7,0],["Garmen",[],"F",[],[["To be above",[],1]],[],[],1,0],["Garmongar",[],"M",["Bassa"],[["Man is man",["Bassa"],1]],[],[],1,0],["Garsua",["Garsuah"],"M",["Bassa"],[["Old man",["Bassa"],1]],[],[],1,0],["Gartay",[],"",[],[["Spoil child / last born",[],2]],[],[],2,0],["Gayduo",[],"",["Lorma"],[["Already paid for?",["Lorma"],1]],[],[],1,0],["Gbarwuo",[],"F",["Bassa"],[["Prayer woman",["Bassa"],1]],[],[],1,0],["Gblandy",[],"F",["Mano"],[["Fish ma",["Mano"],2]],[],[],2,0],["Gbolu",[],"",["Lorma"],[["A bright person",["Lorma"],1]],[],[],1,0],["Gboto",[],"M",["Vai"],[],[],[],1,0],["Gbour",[],"",["Grebo"],[["Dump site",["Grebo"],1]],[],[],1,0],["Gbyeh",[],"",[],[],["bw-eye-g (emphasis of \"G\" like in dog)"],[],1,0],["Gedepaw-Dyugah",[],"M",["Bassa"],[["God's son",["Bassa"],1]],[],[],1,0],["Glabo",[],"F",["Bassa"],[["Woman that harvests or produces",["Bassa"],1]],[],[],1,0],["Glekea",[],"",["Gio"],[["Tree bark",["Gio"],1]],[],[],1,0],["Grayor",[],"M",["Krahn"],[["To live long",["Krahn"],3]],[],[],3,0],["Gruyeh",[],"",["Gio"],[["War time (a child born during the 1990 war)",["Gio"],1],["War time",["Gio"],1]],[],[],2,0],["Guladei",[],"",["Kpelle"],[["I take it off you",[],1]],[],[],2,0],["Guluma",[],"",["Lorma"],[["On the stick",["Lorma"],2]],[],[],2,0],["Gunkarpea",[],"M",["Gio"],[["Man behind you all",["Gio"],1]],[],[],1,0],["Gygow",[],"F",["Kpelle"],[["“eyeball” — the one who see",["Kpelle"],1]],[],[],1,0],["Hàlí",[],"M",["Kpelle"],[["Sixth born male",["Kpelle"],1]],[],[],1,0],["Hallie",[],"M",["Kissi"],[["Sixth son",["Kissi"],1]],[],[],1,0],["Hawa",[],"F",["Vai"],[],[],[],5,0],["Hne",[],"",["Grebo"],[["Fish",["Grebo"],1]],[],[],1,0],["Jadah",[],"F",["Krahn"],[["The woman who stands in front",["Krahn"],1]],[],[],1,0],["Jahn",[],"M",["Vai"],[],[],[],1,0],["Jallah",[],"M",["Vai"],[],[],[],2,0],["Janjay",[],"F",["Bassa"],[["First girl",["Bassa"],3],["Grace",["Bassa"],1]],[],[],5,0],["Jaygbah",[],"M",["Lorma"],[["Chief",["Lorma"],1]],[],[],1,0],["Jaylee",[],"F",["Grebo"],[["Beautiful female goat (nanny) who is responsible to bring food for the family",["Grebo"],1]],[],[],1,0],["Jebbeh",[],"F",["Vai"],[],[],[],1,0],["Jenneh",[],"F",["Vai"],[],[],[],1,0],["Jla-Snohti",[],"U",["Kru"],[["Ask God",["Kru"],1]],[],[],1,0],["Jlati",[],"",["Kru"],[["Ask",["Kru"],1]],[],[],1,0],["Jludi",["Juludi"],"F",["Kru"],[["Children's mother / nurturing",["Kru"],1]],["Ju-lu-dee"],[],1,0],["Jordi",[],"F",["Kru"],[["Jorge's mother",["Kru"],1]],[],[],1,0],["Juah",[],"F",["Kru"],[["Big sister",["Kru"],1]],[],[],1,0],["Judueh",[],"",["Kru"],[["One child",["Kru"],1]],[],[],1,0],["Jumen",[],"",["Kpelle"],[["The results",["Kpelle"],1]],[],[],1,0],["Jumondeh",[],"",["Kru"],[["Child is something",["Kru"],1]],[],[],1,0],["Juta",[],"",["Kpelle"],[["One of my kind",["Kpelle"],1]],[],[],1,0],["Jutee",[],"F",["Grebo","Kru"],[["Child's time",["Grebo","Kru"],1]],[],[],1,0],["Juteh",[],"",["Kru"],[["Child business",["Kru"],1]],[],[],1,0],["Kah-beah",[],"",["Gio"],[["Go ahead and talk",["Gio"],1],["Say whatever you want to say",["Gio"],1]],[],[],2,0],["Kaijaah",[],"M",["Vai"],[],[],[],1,0],["Kaikor",[],"M",["Vai"],[["Old man",["Vai"],4]],[],[],4,0],["Kamusu",[],"F",["Vai"],[["War woman",["Vai"],1]],[],[],1,0],["Kardeker",[],"",["Gio"],[["Make something of yourself",["Gio"],1]],[],[],1,0],["Karmo",[],"M",["Vai"],[],[],[],1,0],["Keabeh",[],"F",["Lorma"],[["Favor",["Lorma"],2]],[],[],2,0],["Kebeh",[],"F",["Lorma"],[["Do it for me",["Lorma"],1]],[],[],1,0],["Kedor",[],"F",["Grebo"],[["Strong woman",["Grebo"],1]],[],[],1,0],["Kermiah",[],"",["Gio"],[["Somebody who will succeed",["Gio"],1]],[],[],1,0],["Khadija",[],"F",["Mandingo"],[["Early baby / Respected",["Mandingo"],2]],[],[],2,0],["Kia",[],"M",[],[["Seasons / beginning of summer",[],1],["Seasons beginning",[],1]],["key-yuh"],[],2,0],["Kladi",["Klahdi"],"F",["Kru"],[["Klah's mother",["Kru"],1]],["Klah - dee"],[],1,0],["Klondeh",[],"",["Kru"],[["Each thing",["Kru"],1]],[],[],1,0],["Kloteh",[],"",["Kru"],[["This world business",["Kru"],1]],[],[],1,0],["Klrobah",[],"",["Kru"],[["Town chief",["Kru"],1]],[],[],1,0],["Kohnmah",[],"",["Kru"],[["Lucky",["Kru"],1]],[],[],1,0],["Kolleh",[],"M",["Kru"],[["Bright man",["Kru"],1]],[],[],1,0],["Kolu",[],"F",["Lorma"],[["First girl child",["Lorma"],1]],[],[],1,0],["Kona",[],"F",["Vai"],[],[],[],2,0],["Konah",[],"M",["Vai"],[["Something great has arrived",["Vai"],1]],[],[],3,0],["Koplah",[],"",["Kru"],[],[],[],2,0],["Korkor",[],"F",["Kru"],[["Second daughter / Always on time",["Kru"],1]],[],[],1,0],["Korlu",[],"F",["Lorma"],[["First girl to make me woman / first girl child",["Lorma"],1]],[],[],1,0],["Kormassa",[],"F",["Lorma"],[],[],[],2,0],["Kornu",[],"F",["Kissi"],[["My heart",["Kissi"],2]],[],[],2,0],["Korpo",[],"F",["Lorma","Kpelle"],[["Leader / the woman that dances",["Lorma","Kpelle"],1]],[],[],1,0],["Kortee",[],"U",["Kru"],[["Wait for your time / Sit down",["Kru"],1]],["Koh-tee/ Koti"],[],1,0],["Kortimai",[],"",["Lorma"],[["On the rock",["Lorma"],1]],[],[],1,0],["Korto",[],"F",["Kpelle"],[["Declare war / a woman who starts war",["Kpelle"],1]],[],[],1,0],["Korvah",[],"",["Lorma"],[["War business",["Lorma"],1]],[],[],1,0],["Kotatee",[],"",["Kru"],[["Sit down one place",["Kru"],2]],[],[],2,0],["Kou",[],"F",["Mano"],[["First girl child",["Mano"],4],["First born girl",["Mano"],1]],[],[],5,0],["Koyonti",[],"",["Kru","Grebo"],[["Lord's time",["Kru","Grebo"],2]],[],[],2,0],["Kpànà",[],"",["Kpelle"],[],["Kpah-nah"],[],1,0],["Kro",[],"",["Kru"],[["Unity",["Kru"],1]],[],[],1,0],["Krubo",[],"F",["Lorma"],[["Woman warrior / takes charge",["Lorma"],1]],[],[],1,1],["Kulema",[],"",["Kpelle"],[["On our heart",["Kpelle"],1]],[],[],1,0],["Kumba",["Kùmbà"],"F",["Kissi","Kpelle"],[["Second girl",["Kissi"],1],["Second daughter",["Kissi"],1],["Second born female",["Kpelle"],1]],[],[],5,0],["Kundu",[],"M",["Kissi"],[["Seventh son",["Kissi"],1]],[],[],1,0],["Kuo",[],"F",["Mano"],[["First female",["Mano"],1]],[],[],1,0],["Kwazae",[],"",["Gio"],[["Victorious",["Gio"],1]],[],[],1,0],["Kweendor",[],"F",["Grebo"],[["Queen mother",["Grebo"],1]],[],[],1,0],["Kwen",["Kwien"],"M",["Kru"],[["Fishing Hook",["Kru"],1]],["Cwen"],[],1,0],["Lainu",[],"F",["Gio"],[["The woman is here (usually given when a girl is born after 1 or several boys)",["Gio"],1]],["Lay-ah-nu"],[],1,0],["Lalau",[],"",["Kpelle"],[["Laughter",["Kpelle"],1]],[],[],1,0],["Lami",[],"M",["Vai"],[],[],[],1,0],["Lango",[],"",["Kpelle"],[["Good people",["Kpelle"],1]],[],[],1,0],["Lawolow",[],"",["Grebo"],[["Patience",["Grebo"],4]],[],[],4,0],["Lawuo",[],"F",["Lorma"],[["A great woman / woman that promotes you",["Lorma"],1]],[],[],1,0],["Laytay",[],"F",["Kpelle"],[["Big woman",["Kpelle"],1]],[],[],1,0],["Laywell",[],"",["Kpelle"],[["Mother's love",["Kpelle"],1]],["Lay-wel-le (silent \"E\")"],[],1,0],["Leasea",[],"",["Gio"],[["To be a leader",["Gio"],1]],[],[],1,0],["Leegbele",[],"",["Kpelle"],[["Hold your heart / patience",["Kpelle"],1]],[],[],1,0],["Leekepley",[],"",["Kpelle"],[["Patience",["Kpelle"],1]],[],[],1,0],["Leekpeley",[],"",["Kpelle"],[["Patience",["Kpelle"],1]],[],[],1,0],["Leela",[],"",["Kpelle"],[["My heart",[],1]],[],[],2,0],["Leemu",[],"F",["Kpelle"],[["My heart",["Kpelle"],3],["My heart string",["Kpelle"],2]],[],[],5,0],["Leeneh",[],"",["Kpelle"],[["Happiness",["Kpelle"],1]],[],[],1,0],["Leenein",[],"",["Kpelle"],[["One who brings happiness",["Kpelle"],1],["Happiness",[],1]],[],[],3,0],["Leesai",[],"F",["Kpelle"],[["Peace of mind",["Kpelle"],2]],[],[],2,0],["Lelai",[],"",["Kpelle"],[["My heart is satisfied",["Kpelle"],5]],[],[],5,0],["Lemu",["Leemue"],"F",["Kpelle"],[["Close to my heart",["Kpelle"],3],["Closest to my heart",["Kpelle"],1],["Close to my heart / from the heart",["Kpelle"],1]],[],[],5,0],["Leyeama",[],"",["Gio"],[["You don't know tomorrow",["Gio"],1],["You do not know tomorrow",["Gio"],1]],["Lee-eh-ma"],[],2,0],["Lor",[],"F",["Kru"],[["To reap in abundance",["Kru"],1]],[],[],1,0],["Lorpu",[],"F",["Kpelle"],[["Child / gift of God",["Kpelle"],1]],[],[],2,0],["Loua",[],"",["Gio"],[["Blessing / Blessed one",["Gio"],1]],[],[],1,0],["Mabasi",[],"F",["Vai"],[],[],[],1,0],["Mahkonjay",[],"",[],[],[],[],1,0],["Maima",[],"F",["Vai"],[],[],[],1,0],["Malurba",[],"",[],[["Market day",[],1]],[],[],1,0],["Mamawa",[],"F",[],[["This is another female's name meaning small-mother. This name is for someone who is the name-sake of your mother or grandmother or just another older person you call Ma or Mama in the family",[],1]],["MAWAY"],[],1,0],["Mamey",[],"",["Gola"],[["Walk about",["Gola"],1]],[],[],1,0],["Manamar",["Mnamah","Mnamar"],"F",["Bassa"],[["Blessed woman",["Bassa"],2]],[],[],2,0],["Mankazon",[],"",["Gio"],[["Relationships between friends and family",["Gio"],1]],[],[],1,0],["Mardea",["Madia"],"F",["Bassa"],[["New mother",["Bassa"],1],["A new woman",["Bassa"],1],["New woman",["Bassa"],4]],[],[],6,0],["Mardehyee",[],"F",["Bassa"],[["Woman has come",["Bassa"],1]],[],[],1,0],["Mariam",[],"F",["Mandingo"],[["Mother of Hazrat / Jesus",["Mandingo"],1]],[],[],1,0],["Mariama",[],"F",["Mandingo"],[["Mary",["Mandingo"],1]],[],[],1,0],["Mariana",[],"",["Vai"],[["Gift from God",["Vai"],1]],[],[],1,0],["Marpu",[],"F",["Bassa"],[["Light skin girl",["Bassa"],1]],[],[],3,0],["Marpue",[],"F",["Bassa"],[["White woman",["Bassa"],1]],[],[],1,0],["Marvoyie",[],"F",["Bassa"],[["Women in abundance / plenty women",["Bassa"],1]],["Mar-vo-ee"],[],1,0],["Massa",[],"F",["Vai"],[["I don't believe it",["Vai"],1],["Chief",[],1]],[],[],3,0],["Matenyeh",[],"",["Mandingo"],[],["Matenge"],[],1,0],["Mawa",[],"F",["Mandingo"],[["Mother of the house",["Mandingo"],1]],[],[],1,0],["Mayeadeh",[],"F",["Bassa"],[["Woman see plenty thing",["Bassa"],1]],[],[],1,0],["Mayedeh",[],"F",["Bassa"],[["Woman sees things / woman can see things",["Bassa"],1]],[],[],1,0],["Mayo",[],"",["Kpelle"],[["Beautiful like the ocean",["Kpelle"],1]],[],[],1,0],["Mayonbè",[],"M",["Mandingo"],[["Warrior",["Mandingo"],1]],[],[],1,0],["Mazoe",[],"",["Vai"],[["Leader / Head",["Vai"],1]],[],[],1,0],["Mbaimba",["Baimba"],"M",["Vai"],[],[],[],1,0],["Meechien",[],"",["Bassa"],[["Tears",["Bassa"],1]],["mee-chien"],[],1,0],["Miyamu",[],"F",["Mandingo"],[["Mary",["Mandingo"],1]],[],[],1,0],["Mohammed",[],"M",["Mandingo"],[["High priest",["Mandingo"],1]],[],[],1,0],["Mohnkohnmahn",[],"",["Kru"],[["You get luck",["Kru"],1]],[],[],1,0],["Monconjay",[],"",["Bassa"],[["For your business",["Bassa"],1]],[],[],2,0],["Mondayma",[],"",["Bassa"],[["Born on monday",["Bassa"],1],["Someone born on monday",["Bassa"],1]],[],[],2,0],["Monee",[],"",["Bassa"],[["You're mine",["Bassa"],1]],[],[],1,0],["Monjou",[],"",["Bassa"],[["Child",["Bassa"],1]],[],[],1,0],["Mosio",[],"",["Grebo","Kru"],[["God you're great",["Grebo","Kru"],1]],[],[],1,0],["Mubah",[],"F",["Vai"],[["Our ma",["Vai"],1]],[],[],1,0],["Muenti",[],"",["Kru"],[["Look at life",["Kru"],1]],[],[],1,0],["Munah",[],"F",["Kru"],[["Beauty",["Kru"],1],["The Lord is with you",["Kru"],3]],["Moo-nah/ M'nah"],[],4,0],["Muso",[],"",[],[],[],[],2,0],["Musu",[],"F",["Vai","Mandingo"],[["Woman",["Vai","Mandingo"],1]],[],[],1,0],["Muta",[],"",["Kru"],[["Outgoing or go out or somewhere",["Kru"],1]],[],[],1,0],["Myeonway",[],"F",["Bassa"],[["Small woman",["Bassa"],1]],[],[],1,0],["Mynthia",[],"",["Mano","Gio"],[["Youngest / final child",["Mano","Gio"],1]],[],[],1,0],["Na'bea",[],"",["Lorma"],[["It's finish / last born",["Lorma"],1],["Its finish / last child",["Lorma"],1]],[],[],2,0],["Nacopay",[],"",[],[],[],[],2,0],["Nahdee",[],"F",["Kru"],[["Mother",["Kru"],1]],[],[],1,0],["Nahdi",[],"F",["Kru"],[["My mother",["Kru"],1]],[],[],1,0],["Naitoh",[],"F",["Bassa"],[["Mother's wish / Mother was",["Bassa"],1]],["Nay-toe"],[],1,0],["Naiy",[],"M",["Kpelle"],[["Father",["Kpelle"],1]],[],["Spelling may differ because of accent."],1,0],["Nân",[],"M",["Kpelle"],[["Father",["Kpelle"],1]],[],[],1,0],["Nana",[],"",[],[],[],[],1,0],["Nancynah",[],"F",["Kru"],[["Nancy's ma",["Kru"],1]],[],[],1,0],["Nati",[],"",["Kru"],[["This is my time",["Kru"],1]],[],[],1,0],["Natu",[],"",[],[],[],[],2,0],["Ndemeh",[],"",["Kpelle"],[["Surprise",["Kpelle"],1]],[],[],1,0],["Neejay",["Nejay","Nejae"],"",["Bassa"],[["For your business",["Bassa"],2],["For your sake / Because of you",["Bassa"],1]],[],[],3,0],["Neelai",["Neelah"],"",["Kpelle"],[["My heart is satisfied",["Kpelle"],1]],[],[],1,0],["Neemai",[],"",["Kpelle"],[["My heart is satisfied",["Kpelle"],1]],[],[],1,0],["Neenai",[],"F",["Kpelle"],[["My heart is satisfied",["Kpelle"],1]],[],[],1,0],["Nehwah",[],"",[],[["The child's way",[],1]],[],[],1,0],["Nenlay",[],"F",["Mano"],[["Children's mother",["Mano"],1]],[],[],1,0],["Nensah",[],"",["Gio"],[["Children are a blessing",["Gio"],2]],[],[],2,0],["Nenwon",[],"",["Gio","Mano"],[["For the sake of a child",["Gio"],1],["Child business",["Mano"],2]],[],[],3,0],["Nesian",[],"",[],[["Beautiful",[],1]],[],[],1,0],["Newon",[],"",["Mano"],[["Child business",["Mano"],1]],[],[],1,0],["Nhenequellie Gheyamah",[],"F",["Kpelle"],[["Bright woman",["Kpelle"],2]],[],[],2,0],["Nimely",[],"M",["Kru"],[],["Ni - me - Lay"],[],1,0],["Nkipmo",[],"",["Bassa"],[["Because of you",["Bassa"],1]],[],[],1,0],["Norwah",[],"",["Bassa"],[["Pave the way",["Bassa"],1]],[],[],1,0],["Nowah",[],"",["Kpelle"],[["One who is affectionate",[],1]],[],[],2,0],["Nukpala",[],"",["Kpelle"],[["Dry person (bag of bones)",["Kpelle"],1]],[],[],1,0],["Nula",[],"F",["Kpelle"],[["Family business / human being name",["Kpelle"],1]],[],[],1,0],["Nulee",[],"",["Kpelle"],[["New heart",["Kpelle"],2]],[],[],2,0],["Numene",[],"",["Kpelle"],[["Human being business",["Kpelle"],1]],[],[],1,0],["Nyan",[],"M",["Mano"],[["Second boy child",["Mano"],1]],[],[],1,0],["Nyanka-ba",[],"",["Gio"],[["My eyes are on you",["Gio"],1]],[],[],1,0],["Nyeayea",[],"",["Mano"],[["Good attitude",["Mano"],2]],[],[],2,0],["Nyema",[],"M",["Grebo"],[],["Ye- ma"],[],1,0],["Nyemade",[],"",[],[],[],[],1,0],["Nyemadi",["Nyemaday"],"F",["Kru","Grebo"],[["Nyema's mother",["Kru","Grebo"],1]],["Ye-ma-day"],[],1,0],["Nyen",[],"M",["Kru"],[["Where you there?",["Kru"],1]],["Yeh-neh"],[],1,0],["Nyendeh",[],"",["Bassa"],[["Gift",["Bassa"],1]],[],[],1,0],["Nyenekon",[],"F",["Kru","Grebo"],[["I have a name",["Kru","Grebo"],1]],["Yeh-neh-kon"],[],1,0],["Nyeneplu",[],"F",["Grebo"],[["White woman",["Grebo"],1]],[],[],1,0],["Nyeniai",[],"",["Kpelle"],[["Life / Water ?",["Kpelle"],1]],[],[],1,0],["Nyenoh",["Nynoh"],"F",["Kru"],[["Woman",["Kru"],1]],["Ye-noh"],[],1,0],["Nyenohsitehkon",["Tehkon"],"F",["Kru"],[["A woman does not have a say",["Kru"],1]],["Yeh-no-c-teh-kon"],[],1,0],["Nyenohti",[],"F",["Kru"],[["Where you there?",["Kru"],1]],["Ye-noh-ti"],[],1,0],["Nynowehleh",["Nyenoweleh"],"F",["Kru"],[["Woman Wehleh",["Kru"],1]],["Ye-noh-weh-leh"],[],1,0],["Nyonnonenudeh",[],"F",["Kru"],[["Woman cannot do anything",["Kru"],1]],[],[],1,0],["Nyonodoe",[],"F",["Kru"],[["One woman",["Kru"],1]],[],[],1,0],["Nyonomuan",[],"F",["Grebo"],[["What a [great] woman",["Grebo"],1]],[],[],1,0],["NYU Jay",[],"",["Bassa"],[["Child business",["Bassa"],1]],[],[],1,0],["Nyuma",["Nyùmá"],"M",["Kissi","Kpelle"],[["Fifth son",["Kissi"],1],["Fifth born male",["Kpelle"],1]],[],[],2,0],["Okuman",[],"M",["Bassa"],[["Great man",["Bassa"],1]],[],[],1,0],["Pààwàá",[],"",["Kpelle"],[["“Tax” — a child born during tax time",["Kpelle"],1]],[],[],1,0],["Paye",[],"M",["Mano"],[["Third boy child",["Mano"],1]],[],[],1,0],["Pese",[],"M",["Vai"],[],[],[],1,0],["Plenseh",[],"",["Gio"],[["All is well",["Gio"],2]],[],[],2,0],["Pontay",[],"",["Grebo"],[["Looking for",["Grebo"],1],["Looking for (a child)",["Grebo"],1]],[],[],2,0],["Putugar",[],"M",["Bassa"],[["Hard head",["Bassa"],1]],[],[],1,0],["Quatama",[],"",["Kpelle"],[["We are many",["Kpelle"],1]],[],[],1,0],["Reesama",[],"F",["Bassa"],[["Money will not pass you",["Bassa"],1]],[],[],1,0],["Sàà",[],"M",["Kpelle"],[["First born male",["Kpelle"],1]],[],[],1,0],["Sàà-kòòlì",[],"M",["Kpelle"],[["Seventh born male",["Kpelle"],1]],[],[],1,0],["Saah",[],"M",["Kissi"],[["First boy child",["Kissi"],1],["First son",["Kissi"],1]],[],[],2,0],["Saah Kollie",[],"M",["Kissi"],[["Eighth son",["Kissi"],1]],[],[],1,0],["Sahntay",[],"",["Gio"],[["Little Sahn",["Gio"],1]],[],[],1,0],["Saki",[],"",[],[],[],[],1,0],["Sakla",[],"",["Kru"],[["Left back",["Kru"],1]],[],[],1,0],["Saladee",[],"F",["Kru"],[["Sarah ma",["Kru"],1]],[],[],1,0],["Salamatu",[],"F",["Mandingo"],[["Peaceful",["Mandingo"],3]],[],[],3,0],["Sando",[],"U",["Vai"],[["Twin to Zoe",[],1]],[],[],3,0],["Sankan",[],"",["Kru"],[["Joy",["Kru"],1]],[],[],1,0],["Sankon",["Sankun","Sankor"],"",["Grebo"],[["Mover of mountains",["Grebo"],1]],[],[],1,0],["Sao",[],"M",["Vai"],[],[],[],1,0],["Sarwee",[],"",["Kru"],[["Open the road",["Kru"],1]],[],[],1,0],["Satu",[],"",[],[],[],[],2,0],["Sawee",[],"",[],[["Open road / make way",[],1],["Make way / open the road",[],1]],[],[],2,1],["Saydah",[],"",["Bassa"],[["Stay here",["Bassa"],1]],[],[],1,0],["Saye",[],"M",["Mano"],[["First born boy",["Mano"],1],["First male son",["Mano"],1],["First boy child",["Mano"],1]],[],[],3,0],["Sayea",[],"",["Bassa"],[["Surprise, Unexpected / God has finally blessed me",["Bassa"],1],["Surprise, unexpected blessing",["Bassa"],1]],[],[],2,0],["Saykon",[],"F",["Bassa"],[["Mother",["Bassa"],1]],[],[],1,0],["Saypien",[],"F",["Bassa"],[["Small woman",["Bassa"],1]],[],[],1,0],["Saytoh",[],"",["Grebo"],[["You're not war",["Grebo"],1]],[],[],1,0],["Saywah",[],"",["Gio"],[["Struggling for your homeland",["Gio"],1]],[],[],1,0],["Sèèñgìáñdó",[],"",["Kpelle"],[["“Arguing Parents” — a child born to arguing parents",["Kpelle"],1]],[],[],1,0],["Semoikan",[],"",["Kru"],[["I'm not in your way",["Kru"],1]],[],[],1,0],["Sennie",[],"",["Mano"],[],[],[],1,0],["Seny",[],"",["Kpelle"],[["Gold",["Kpelle"],1]],[],[],1,0],["Sia",["Sìà"],"F",["Kissi","Kpelle"],[["First girl child",["Kissi"],3],["First girl",["Kissi"],1],["First daughter",["Kissi"],1],["First born female",["Kpelle"],1]],[],[],6,0],["Siahbonu",[],"U",[],[["You didn't do it to me",[],1]],[],[],1,0],["Siaka",[],"M",["Vai"],[["First born \"child who opened his mother\"",["Vai"],1],["First born",["Vai"],1],["First child (The child who opened his mother)",["Vai"],1]],[],[],3,0],["Siakor",[],"M",["Kpelle"],[["Walking stick - a person someone can lean on.",["Kpelle"],1]],[],[],1,0],["Sianea",[],"",["Kpelle"],[["Walk sweet / leave your good name wherever you go",["Kpelle"],1],["Walk sweet. Leave your good name wherever you good.",[],1]],[],[],3,0],["Sianeh",[],"F",["Kpelle"],[["Sweet journey",["Kpelle"],2],["Sweet strong / sweet journey",[],1]],[],[],3,0],["Siedoh",[],"F",["Grebo"],[["Sie mother-in-law",["Grebo"],1]],[],[],1,0],["Silah",[],"",[],[["Whatever you have to say, say it now.",[],1]],[],[],2,1],["Simah",[],"",["Kru"],[["I did not lost",["Kru"],1]],[],[],1,0],["Sinorti",[],"",["Grebo"],[["In God's time",["Grebo"],1]],[],[],1,0],["Snazwon",[],"",["Kru"],[],[],["Tribe added by the editor: names ending in -won are usually Kru."],1,0],["Snohti",["Snoti"],"U",["Kru"],[["God's time",["Kru"],2]],["Snoh - tee"],[],2,0],["Snosio",["Snohsio"],"U",["Kru"],[["God is greater",["Kru"],1]],["So-noh-cio"],[],1,0],["Sondah",[],"",["Vai"],[["Stranger",["Vai"],4]],[],[],4,0],["Sonii",["Sony"],"F",["Lorma"],[["Strong Woman",["Lorma"],1]],[],[],1,0],["Sóóná",[],"F",["Kpelle"],[["Seventh born female",["Kpelle"],1]],[],[],1,0],["Sunday-ga",[],"M",["Bassa"],[["Sunday man / Born on sunday",["Bassa"],1]],[],[],1,0],["Sundaymah",[],"F",["Bassa"],[["Girl born on Sunday",["Bassa"],1]],[],[],1,0],["Sundayway",[],"M",["Bassa"],[["Sunday",["Bassa"],1]],[],[],1,0],["Sùñmgbóó",[],"M",["Kpelle"],[["“Fence post” — name given to a stocky man / buff",["Kpelle"],1]],[],[],1,0],["Surnah",[],"F",["Kissi"],[["Seventh Daughter",["Kissi"],1]],[],[],1,0],["Taiwa",[],"F",["Kissi"],[],[],[],1,0],["Tamba",["Tàmbà"],"M",["Kissi","Kpelle"],[["Second Male child (2nd in command)",["Kissi"],1],["Second son",["Kissi"],1],["Second born male",["Kpelle"],1]],[],[],3,0],["Tamba Kollie",[],"M",["Kissi"],[["Ninth son",["Kissi"],1]],[],[],1,0],["Tàmbà-kòòli",[],"M",["Kpelle"],[["Eighth born male",["Kpelle"],1]],[],[],1,0],["Tanneh",[],"F",[],[["Be careful / Be careful in life",[],1],["Be careful / Be mindful in life",[],1]],[],[],2,1],["Tannyonah",[],"",["Krahn"],[],[],[],1,0],["Targbe-gmah",[],"M",[],[],[],[],1,0],["Tarnyenoh",["Tannyonnoh"],"F",["Kru"],[["Anointed woman / blood",["Kru"],1]],[],["Tar/Tan: anointed blood or woman"],1,0],["Taryonnoh",[],"F",["Grebo","Kru"],[["Lady Warrior",["Grebo","Kru"],1]],[],[],1,0],["Tawa",[],"",[],[],[],[],1,0],["Tawae Dadua",[],"",["Gola","Dei"],[["Great warrior",["Gola","Dei"],1]],[],[],1,0],["Technikay",[],"F",["Kru"],[["Conqueror",["Kru"],1]],["teh-ni-kay"],[],2,0],["Tecomblah",[],"M",["Kru"],[["Wait for your time",["Kru"],1]],[],[],1,0],["Tènè",[],"F",["Kpelle"],[["Sixth born female",["Kpelle"],1]],[],[],1,0],["Teneh",[],"F",["Kissi"],[["Sixth daughter",["Kissi"],1]],[],[],1,0],["Tenneh",[],"F",["Vai"],[],[],[],1,0],["Tennesse",[],"",["Kissi"],[["Time can't pass",["Kissi"],1]],["Tinisi"],[],1,0],["Teplah",[],"U",["Kru","Grebo"],[],[],[],1,0],["Téúwa",[],"F",["Kpelle"],[["Fourth born female",["Kpelle"],1]],[],[],1,0],["Tewa",[],"F",["Kissi"],[["Fourth daughter",["Kissi"],1]],[],[],1,0],["Tiawan",[],"",["Mano"],[["God protects the child who suffers",["Mano"],1]],[],[],1,0],["Tipoteh",[],"M",["Kru","Grebo"],[["This matter must be left to rest",["Kru","Grebo"],1]],["Tee-po-teh"],[],1,0],["Titii",["Tetee","Sisi"],"F",["Kru"],[["Sister",["Kru"],1]],["tee-tee"],[],1,0],["Toga",[],"M",["Bassa"],[["War man",["Bassa"],1]],["To-gah"],[],1,0],["Tomah",[],"F",[],[["War woman",[],2]],[],[],2,0],["Tonia",["Tonean"],"U",["Gola","Vai"],[["You're here to stay",["Gola"],1],["Stay here",["Gola","Vai"],3],["Stay here. Usually given to a child after the mom have had a miscarriage before the pregnancy or names after someone",["Gola","Vai"],1]],[],[],5,0],["Tonieh",[],"",["Vai"],[["Stay here",["Vai"],1]],[],[],1,0],["Tonwah",[],"F",["Kpelle"],[["Short black woman",["Kpelle"],1]],[],[],1,0],["Tuanue",[],"",["Lorma"],[["Town's Chief",["Lorma"],1]],[],[],1,0],["Tugba",[],"",["Kru"],[["Fortitude / Formidable",["Kru"],2]],[],[],2,0],["Tuzee",[],"",["Mandingo"],[["God's child",["Mandingo"],1]],[],[],1,0],["Twebeg",[],"U",["Kru","Grebo"],[["Small Axe",["Kru","Grebo"],1]],[],[],1,0],["Varbah",[],"F",["Lorma"],[["Precious",["Lorma"],1]],[],[],1,0],["Varney",[],"M",["Vai"],[],[],[],1,0],["Wade",[],"F",[],[],[],[],1,0],["Wahju",[],"",["Kru"],[["Wah's child",["Kru"],1]],[],[],1,0],["Wahnyennh",[],"F",["Grebo"],[["Wah's wife",["Grebo"],1]],[],[],1,0],["Walakehwon",["Walakewon"],"",["Kru"],[["God's doing / God has done it",["Kru"],1]],[],["Tribe added by the editor: names ending in -won are usually Kru."],2,0],["Wanga",[],"",["Gbandi"],[["To bear fruit / Be fruitful / Blossom",["Gbandi"],1]],[],[],1,0],["Wàñgò",[],"F",["Kpelle"],[["Name given to a light skinned female",["Kpelle"],1]],[],[],1,0],["Wani",[],"",["Grebo"],[],[],[],1,0],["Warti",[],"F",["Grebo"],[["Finish",["Grebo"],1]],["Worh - tee"],[],1,0],["Wayfa",[],"F",["Kpelle"],[["Beautiful woman",["Kpelle"],1]],[],[],1,0],["Weedor",[],"",["Lorma"],[["Civilized",["Lorma"],1]],[],[],1,0],["Weegie",[],"M",["Lorma"],[["Civilized man",["Lorma"],1]],[],[],1,0],["Wehti",["Wheyti"],"F",["Kru"],[["The last, be finished",["Kru"],1]],["Where-tee"],[],1,0],["Weleemongar",[],"M",["Bassa"],[["Money is man",["Bassa"],1]],[],[],1,0],["Welikerma",[],"",[],[["My love",[],1]],[],[],1,0],["Welleh",[],"U",["Kru","Grebo"],[["It is finished / it is done",["Kru"],1],["Man weleh",["Kru","Grebo"],1]],["Weh-leh"],[],2,0],["Wennyenoh",["Whenyenoh"],"",["Krahn","Kru"],[],[],[],1,1],["Weyatta",[],"F",["Vai"],[],[],[],1,0],["Wheremongar",[],"M",["Bassa"],[["Money is man",["Bassa"],1]],[],[],1,0],["Wleh",[],"U",["Kru","Grebo"],[["Long lasting",["Kru","Grebo"],1]],["Wee - leh"],[],1,0],["Wlehdi",[],"F",["Kru","Grebo"],[["Wleh's mother",["Kru"],1],["Weleh's mother",["Kru","Grebo"],1]],["Weh-leh-di"],[],2,0],["Wlehyonnoh",[],"F",["Grebo","Kru"],[["Dancing woman",["Grebo","Kru"],1]],[],[],1,0],["Wlynhenoh",[],"",[],[],[],[],1,1],["Wokie",[],"F",["Vai"],[],[],[],1,0],["Wonlay",[],"F",[],[["We are tired. This name is given to a girl whose parents have lost a lot of children in either childbirth or childhood. They are simply saying \"We are tired of all troubles / problems.\"",[],1]],["War-nie"],[],1,0],["Worto",[],"F",["Grebo"],[["Woman who resolves conflict",["Grebo"],1]],[],[],1,0],["Wotoh",["Woto","Wortor"],"M",["Kru","Grebo"],[["Ended the war",["Kru","Grebo"],1]],[],[],1,0],["Yah",[],"F",["Mano"],[["Walking stick - a person someone can lean on",["Mano"],1],["Second girl child",["Mano"],1]],[],[],3,0],["Yamah",[],"F",["Kpelle"],[["King's wife / Big ma",["Kpelle"],1]],[],[],1,0],["Yammah",[],"",[],[],[],[],1,0],["Yammah Kaifaumah",[],"",["Kpelle"],[["The one blessed by God",["Kpelle"],1]],[],[],1,0],["Yangah",[],"",["Kpelle"],[["I'm here",["Kpelle"],1]],[],[],1,0],["Yanquoi",[],"",[],[],[],[],2,0],["Yar",["Nehpollor"],"F",["Kpelle"],[["Grandma",["Kpelle"],1]],[],[],1,0],["Yarvo",[],"",["Bassa"],[["Bring more",["Bassa"],1]],["Yah-voe"],[],1,0],["Yaryeahah",[],"",[],[["People thought",[],1],["The people thought",[],1]],[],[],2,0],["Yàwà",["Yàùwá"],"F",["Kpelle"],[["Fifth born female",["Kpelle"],1]],[],[],1,0],["Yawah",[],"F",["Kissi"],[["Fifth Daughter",["Kissi"],1]],[],[],1,0],["Yeane",["Yeahnee"],"",["Bassa"],[["I have my own",["Bassa"],2]],[],[],2,0],["Yeanoh",[],"M",["Kru"],[["Woman",["Kru"],1],["So long",[],1],["So long / Farewell",[],1]],["Yee-nor"],[],3,0],["Yeanue",[],"",["Mano"],[["Life has come",["Mano"],1]],[],[],1,0],["Yei",[],"F",["Mano"],[["Third girl child",["Mano"],1]],[],[],1,0],["Yeijua",[],"F",["Gola","Dei"],[["Mother",["Gola","Dei"],1]],[],[],1,0],["Yenplu",[],"F",[],[["White woman / given to a considered-beautiful girl child",[],1]],["NYENE-PLU"],[],1,0],["Yonglah",[],"",["Kru"],[],[],[],1,0],["YonYue",[],"",["Bassa"],[["Human being",["Bassa"],1]],[],[],1,0],["Youjay",[],"",[],[["Child business",[],1]],[],[],1,0],["Zaizay",[],"M",["Lorma"],[["The first child",["Lorma"],1]],[],[],1,0],["Zleh",[],"",["Krahn"],[["Fussy",["Krahn"],1]],[],[],1,0],["Zoe",[],"",[],[["Twin to Sando",[],1]],[],[],1,0],["Zogbadah",[],"",["Lorma"],[["The Zoe's gun",["Lorma"],1]],[],[],1,0],["Zogboh",[],"F",["Lorma"],[["Hardworking woman",["Lorma"],2]],[],[],2,1],["Zondea",[],"",["Bassa"],[["New year",["Bassa"],1]],[],[],1,0],["Zonpodeh",[],"",["Krahn"],[["Every year bring something new",["Krahn"],1]],[],[],1,0],["Zubah",[],"",["Lorma"],[["Strong",["Lorma"],1]],[],[],1,0],["Zwàná",[],"",["Kpelle"],[],[],[],1,0]],"s":["Dahn","Doe","Dolo","Flomo","Gaye","Kamara","Kanneh","Kollie","Konneh","Kromah","Mulbah","Paye","Sackie","Sumo","Toe","Tokpah","Weah"]}</script>
+<script src="assets/vendor/supabase-2.117.3.js"></script>
+<script>
+(function(){
+"use strict";
+const RAW = JSON.parse(document.getElementById("names-data").textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fold = s => String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const key = s => fold(s).replace(/[^a-z]/g,"");
+const G = {F:"Girl",M:"Boy",U:"Girl or boy","":"Not recorded"};
+const SRC = {family:"in their family",speaker:"speaks the language",elder:"from an elder",other:"other source"};
+const PAGE = 60;
+const PEOPLE_ICON = '<svg width="16" height="14" viewBox="0 0 16 14" aria-hidden="true"><circle cx="5" cy="4" r="2.6" fill="currentColor"/><path d="M0.5 13c0-2.6 2-4.4 4.5-4.4s4.5 1.8 4.5 4.4z" fill="currentColor"/><circle cx="11.5" cy="4.6" r="2.2" fill="currentColor" opacity=".6"/><path d="M8.6 13c.2-2.1 1.4-3.6 3-3.9 2 .1 3.6 1.7 3.9 3.9z" fill="currentColor" opacity=".6"/></svg>';
+
+const THEMES = [
+  {id:"faith", label:"Faith & God", c:"var(--flag-blue)", re:/\b(god|god's|lord|lord's|prayer|blessed|blessing|jesus|mary|priest|grace)\b/},
+  {id:"order", label:"Birth order & arrival", c:"var(--flag-red)", re:/\b(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|last born|last child|youngest|twin|born)\b/},
+  {id:"women", label:"Mothers & women", c:"var(--flag-red)", re:/\b(woman|women|mother|mother's|ma|girl|sister|wife|queen|lady|grandma|mom)\b/},
+  {id:"children", label:"Children & family", c:"var(--flag-blue)", re:/\b(child|children|child's|baby|babies|son)\b/},
+  {id:"strength", label:"Strength & leadership", c:"var(--flag-blue)", re:/\b(strong|warrior|war|victorious|conqueror|elephant|chief|king|leader|fortitude|formidable|axe|great|head)\b/},
+  {id:"time", label:"Time & patience", c:"var(--flag-red)", re:/\b(time|wait|patience|tomorrow|year|monday|sunday|season|seasons|long)\b/},
+  {id:"heart", label:"Heart, love & peace", c:"var(--flag-red)", re:/\b(heart|love|happiness|joy|laughter|peace|affectionate|sweet|satisfied)\b/},
+  {id:"home", label:"Home, land & journeys", c:"var(--flag-blue)", re:/\b(home|land|ground|road|way|stay|here|journey|trip|town|world|walk|homeland)\b/},
+  {id:"beauty", label:"Beauty & light", c:"var(--flag-red)", re:/\b(beautiful|beauty|bright|gold|precious|ocean)\b/},
+  {id:"fortune", label:"Luck, gifts & plenty", c:"var(--flag-blue)", re:/\b(lucky|luck|money|favor|gift|surprise|fruit|fruitful|abundance|plenty|more|succeed|results)\b/}
+];
+
+/* Well-known Liberians whose first or family name is in the archive (checked against public sources). */
+const PEOPLE = [
+  {name:"George Weah", hl:"Weah", entry:"Weah", surname:true, role:"Footballer and former President", text:"Won the Ballon d'Or in 1995 and served as President of Liberia from 2018 to 2024.", src:"https://en.wikipedia.org/wiki/George_Weah"},
+  {name:"Timothy Weah", hl:"Weah", entry:"Weah", surname:true, role:"Footballer", text:"Plays for Marseille and the United States national team. He is George Weah's son.", src:"https://en.wikipedia.org/wiki/Timothy_Weah"},
+  {name:"Tamba Hali", hl:"Tamba", entry:"Tamba", also:"Hàlí", role:"American football player", text:"Born in Gbarnga, he played twelve seasons for the Kansas City Chiefs and was picked for six Pro Bowls. Both his names are birth-order names.", src:"https://en.wikipedia.org/wiki/Tamba_Hali"},
+  {name:"Korto Momolu", hl:"Korto", entry:"Korto", role:"Fashion designer", text:"Liberian-born designer who finished runner-up and fan favourite on season five of Project Runway.", src:"https://kortomomolu.com/pages/biography"},
+  {name:"Silas Siakor", hl:"Siakor", entry:"Siakor", role:"Environmental campaigner", text:"Won the 2006 Goldman Environmental Prize for exposing how logging profits helped fund Liberia's civil war.", src:"https://earthrights.org/?p=4218"},
+  {name:"Varbah Gayflor", hl:"Varbah", entry:"Varbah", role:"Former Minister of Gender and Development", text:"Led Liberia's Ministry of Gender and Development from 2006.", src:"https://iknowpolitics.org/en/node/42918"},
+  {name:"Massa Washington", hl:"Massa", entry:"Massa", role:"Journalist", text:"Media professional who served as a commissioner on Liberia's Truth and Reconciliation Commission.", src:"https://trcliberia.cc.gatech.edu/about/commissioners/washington.html"},
+  {name:"Togba-Nah Tipoteh", hl:"Tipoteh", entry:"Tipoteh", role:"Economist", text:"Founded the Movement for Justice in Africa in 1973 and was Liberia's first minister of planning and economic affairs.", src:"https://en.wikipedia.org/wiki/Togba-Nah_Tipoteh"},
+  {name:"Amara Konneh", hl:"Konneh", entry:"Konneh", surname:true, role:"Former Finance Minister, Senator", text:"Minister of Finance and Development Planning from 2012 to 2016, elected Senator for Gbarpolu County in 2023.", src:"https://en.wikipedia.org/wiki/Amara_Mohamed_Konneh"},
+  {name:"Nyan Dokpa", hl:"Nyan", entry:"Nyan", role:"Musician (1967–2026)", text:"Singer and guitarist known as the “Legend of Mano Music”, a founder of the Nimba County band Music Makers.", src:"https://en.wikipedia.org/wiki/Nyan_Dokpa"},
+  {name:"Tokay Tomah", hl:"Tomah", entry:"Tomah", role:"Vocalist and composer (1968–2017)", text:"Her 2002 composition became the theme song of the Liberian Women's Peace Movement. She later co-founded the Liberian Women's Chorus for Change in Philadelphia.", src:"https://www.pewcenterarts.org/fellow/tokay-tomah"},
+  {name:"Sundaygar Dearboy", hl:"Sundaygar", entry:"Sunday-ga", role:"Singer and producer", text:"Grand Bassa singer who sings mainly in Bassa. Won Song of the Year in 2009 for “Bayjay” and produced the Unity Party's 2005 campaign song. He has said he was once a member of the NPFL.", src:"https://en.wikipedia.org/wiki/Sundaygar_Dearboy"},
+  {name:"Jonathan Paye-Layleh", hl:"Paye", entry:"Paye", role:"Journalist", text:"The BBC's correspondent in Liberia. In 2018 he left the country for a time over safety concerns after a public dispute with President Weah.", src:"https://frontpageafricaonline.com/bbc-reporter-flies-out-of-liberia-amid-fears-of-reprisals-from-president-weah-s-supporters/"},
+  {name:"Samuel Doe", hl:"Doe", entry:"Doe", surname:true, role:"Former head of state", text:"Led Liberia from 1980 to 1990, first as chairman of the People's Redemption Council and from 1986 as president. He was killed in 1990 during the First Liberian Civil War.", src:"https://en.wikipedia.org/wiki/Samuel_Doe"},
+  {name:"Henry Boimah Fahnbulleh", hl:"Boimah", entry:"Boimah", role:"Former Foreign Minister", text:"Foreign Minister from 1981 to 1983 and later National Security Adviser in the Sirleaf administration.", src:"https://en.wikipedia.org/wiki/Henry_Boimah_Fahnbulleh"},
+  {name:"Varney Sherman", hl:"Varney", entry:"Varney", role:"Lawyer and Senator", text:"Former national chairman of the Unity Party, elected Senator for Grand Cape Mount County in 2014. He is under United States sanctions.", src:"https://en.wikipedia.org/wiki/Varney_Sherman"},
+  {name:"Alhaji G.V. Kromah", hl:"Kromah", entry:"Kromah", surname:true, role:"Journalist and faction leader (1953–2022)", text:"Co-founded the ULIMO armed group and led its Kromah faction during the civil war. Ran for president in 1997 and 2005.", src:"https://en.wikipedia.org/wiki/Alhaji_Kromah"},
+  {name:"Thomas Yaya Nimely", hl:"Nimely", entry:"Nimely", role:"Politician", text:"Founded and led the MODEL armed group, was Foreign Minister from 2005 to 2006, and has been Senator for Grand Gedeh County since 2024.", src:"https://en.wikipedia.org/wiki/Thomas_Nimely"},
+  {name:"George Dweh", hl:"Dweh", entry:"Dweh", role:"Politician", text:"Former member of the LURD and MODEL armed groups who served as Speaker of the National Transitional Legislative Assembly from 2003 to 2005.", src:"https://en.wikipedia.org/wiki/George_Dweh"},
+  {name:"Saye-Taayor Adolphus Dolo", hl:"Saye", entry:"Saye", also:"Dolo", role:"Former Senator", text:"Former NPFL commander known as “General Peanut Butter”, later Senator for Nimba County from 2006 to 2012. His family name, Dolo, is also in the archive.", src:"https://en.wikipedia.org/wiki/Saye-Taayor_Adolphus_Dolo"},
+  {name:"Mulbah Morlu", hl:"Mulbah", entry:"Mulbah", surname:true, role:"Politician", text:"Chairman of the Congress for Democratic Change until he resigned in February 2024.", src:"https://www.liberianobserver.com/liberia-morlu-resigns-cdc-chairmanship"}
+];
+
+let entries = [], index = new Map(), approved = [];
+const state = {q:"", tribe:"", gender:"", theme:"", letter:"", sort:"az", shown:PAGE};
+
+function build(){
+  entries = RAW.n.map((a,i) => ({
+    i, name:a[0], variants:a[1].slice(), g:a[2], tribes:a[3].slice(),
+    meanings:a[4].map(m => ({t:m[0], tr:m[1].slice(), c:m[2]})),
+    pron:a[5].slice(), notes:a[6].map(n => ({text:n})), sub:a[7], unsure:!!a[8], community:false, audio:[]
+  }));
+  reindex(); approved.forEach(merge); reindex();
+}
+function reindex(){
+  index = new Map();
+  entries.forEach(e => [e.name, ...e.variants].forEach(n => { const k = key(n); if (k && !index.has(k)) index.set(k, e); }));
+  entries.forEach(e => {
+    e.hay = fold([e.name, ...e.variants].join(" ")); e.hayKey = [e.name, ...e.variants].map(key);
+    e.mHay = fold(e.meanings.map(m => m.t).join(" ") + " " + e.notes.map(n => n.text).join(" "));
+    const mt = fold(e.meanings.map(m => m.t).join(" "));
+    e.themes = THEMES.filter(t => t.re.test(mt)).map(t => t.id);
+  });
+}
+function merge(s){
+  const name = (s.name||"").trim(); if (!name) return;
+  let e = index.get(key(s.target||"")) || index.get(key(name));
+  const tribe = s.tribe || "";
+  if (!e){ e = {i:entries.length, name, variants:[], g:s.gender||"", tribes:[], meanings:[], pron:[], notes:[], sub:0, unsure:false, community:true, audio:[]}; entries.push(e); }
+  else if (key(name) !== key(e.name) && !e.variants.some(v => key(v) === key(name))) e.variants.push(name);
+  e.sub += 1;
+  (s.variants||[]).forEach(v => { v = v.trim(); if (v && key(v) !== key(e.name) && !e.variants.some(x => key(x) === key(v))) e.variants.push(v); });
+  if (tribe && !e.tribes.includes(tribe)) e.tribes.push(tribe);
+  if (s.gender && !e.g) e.g = s.gender; else if (s.gender && e.g && s.gender !== e.g) e.g = "U";
+  if (s.meaning){
+    const norm = x => fold(x).replace(/[^a-z ]/g,"");
+    const ex = e.meanings.find(m => norm(m.t) === norm(s.meaning));
+    if (ex){ ex.c += 1; if (tribe && !ex.tr.includes(tribe)) ex.tr.push(tribe); ex.community = true; }
+    else e.meanings.push({t:s.meaning, tr:tribe?[tribe]:[], c:1, community:true, credit:s.credit||""});
+  }
+  if (s.pron && !e.pron.includes(s.pron)) e.pron.push(s.pron);
+  if (s.story) e.notes.push({text:s.story, credit:s.credit||""});
+  if (s.audio && (s.clip || s.clipSlow)) { e.audio = e.audio || []; e.audio.push({id:s.clip||"", slow:s.clipSlow||"", credit:s.credit||""}); }
+  e.community = true;
+}
+const people = n => `<span class="people" title="Shared by ${n} ${n===1?"person":"people"}">${PEOPLE_ICON}<span><b>${n}</b> ${n===1?"person":"people"}</span></span>`;
+const gtag = g => `<span class="g g-${g}">${G[g]}</span>`;
+const themeOf = id => THEMES.find(t => t.id === id);
+
+/* ---------- filtering ---------- */
+function matches(e, skip){
+  if (skip!=="tribe" && state.tribe && !(state.tribe === "Unknown" ? !e.tribes.length : e.tribes.includes(state.tribe))) return false;
+  if (skip!=="gender" && state.gender && (state.gender === "none" ? e.g !== "" : e.g !== state.gender)) return false;
+  if (skip!=="theme" && state.theme && !e.themes.includes(state.theme)) return false;
+  if (skip!=="letter" && state.letter && key(e.name)[0] !== state.letter) return false;
+  if (skip!=="q" && state.q.trim()){
+    const q = fold(state.q.trim()), qk = key(state.q);
+    const nameHit = e.hay.includes(q) || (qk && e.hayKey.some(k => k.includes(qk)));
+    if (!nameHit && !e.mHay.includes(q)) return false;
+  }
+  return true;
+}
+function filtered(){
+  const qk = key(state.q);
+  const list = entries.filter(e => matches(e));
+  const rank = e => !qk ? 0 : e.hayKey.some(k => k === qk) ? 0 : e.hayKey.some(k => k.startsWith(qk)) ? 1 : e.hayKey.some(k => k.includes(qk)) ? 2 : 3;
+  const az = (a,b) => key(a.name).localeCompare(key(b.name));
+  list.sort(state.sort === "conf" ? (a,b) => rank(a)-rank(b) || b.sub-a.sub || az(a,b) : (a,b) => rank(a)-rank(b) || az(a,b));
+  return list;
+}
+function renderRail(){
+  const cnt = (skip, fn) => entries.filter(e => matches(e, skip) && fn(e)).length;
+  const G2 = [["","All"],["F","Girls"],["M","Boys"],["U","Either"]];
+  $("#f-gender").innerHTML = G2.map(([v,l]) => `<button type="button" data-gender="${v}" aria-pressed="${state.gender===v}">${l}</button>`).join("");
+  $("#f-theme").innerHTML = THEMES.map(t => { const n = cnt("theme", e => e.themes.includes(t.id)); return `<button type="button" data-theme="${t.id}" aria-pressed="${state.theme===t.id}"><span>${esc(t.label)}</span><small>${n}</small></button>`; }).join("");
+  const tribes = [...new Set(entries.flatMap(e => e.tribes))];
+  const tc = tribes.map(t => [t, cnt("tribe", e => e.tribes.includes(t))]).sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
+  const max = Math.max(1, ...tc.map(x => x[1]));
+  const unk = cnt("tribe", e => !e.tribes.length);
+  $("#f-tribe").innerHTML = [...tc, ["Unknown", unk]].map(([t,n]) => `<button type="button" data-tribe="${esc(t)}" aria-pressed="${state.tribe===t}" style="display:block"><span style="display:flex;justify-content:space-between;gap:8px"><span>${t==="Unknown"?"Not known yet":esc(t)}</span><small>${n}</small></span><span class="bar" style="width:${Math.round(n/max*100)}%"></span></button>`).join("");
+  const present = new Set(entries.filter(e => matches(e, "letter")).map(e => key(e.name)[0]));
+  let L = `<button type="button" data-letter="" aria-pressed="${state.letter===""}" style="width:auto;padding:0 10px">All</button>`;
+  for (const ch of "abcdefghijklmnopqrstuvwxyz") L += `<button type="button" data-letter="${ch}" aria-pressed="${state.letter===ch}" ${present.has(ch)?"":"disabled"}>${ch.toUpperCase()}</button>`;
+  $("#letters").innerHTML = L;
+  const chips = [];
+  if (state.q.trim()) chips.push(["q", `“${state.q.trim()}”`]);
+  if (state.gender) chips.push(["gender", G2.find(x => x[0]===state.gender)[1]]);
+  if (state.theme) chips.push(["theme", themeOf(state.theme).label]);
+  if (state.tribe) chips.push(["tribe", state.tribe==="Unknown"?"Tribe not known":state.tribe]);
+  if (state.letter) chips.push(["letter", "Starts with " + state.letter.toUpperCase()]);
+  $("#active").innerHTML = chips.length ? `<span>Showing:</span>` + chips.map(([k,l]) => `<button type="button" data-clear="${k}" aria-label="Remove ${esc(l)}">${esc(l)}</button>`).join("") + (chips.length>1?`<button type="button" data-clear="all" style="border:0;background:none;color:var(--blue);font-weight:600">Clear all</button>`:"") : "";
+  const n = [state.gender,state.theme,state.tribe].filter(Boolean).length;
+  $("#filter-n").textContent = n ? `(${n})` : "";
+}
+function render(){
+  const list = filtered(), shown = list.slice(0, state.shown);
+  const grouped = state.sort === "az" && !state.q.trim();
+  let html = "", last = "";
+  shown.forEach(e => {
+    const L = key(e.name)[0] || "#";
+    if (grouped && L !== last) { html += `<li class="letter" aria-hidden="true">${L.toUpperCase()}</li>`; last = L; }
+    const m = e.meanings.slice().sort((a,b) => b.c-a.c)[0];
+    html += `<li><button type="button" class="entry" data-i="${e.i}">
+      <span class="n">${esc(e.name)}${e.pron.length?`<small>${esc(e.pron[0])}</small>`:e.variants.length?`<small>also ${esc(e.variants.slice(0,2).join(", "))}</small>`:""}</span>
+      <span class="m"><span class="t ${m?"":"none"}">${m?esc(m.t):"Meaning not yet shared"}</span>${e.meanings.length>1?`<span class="more">+${e.meanings.length-1} more meaning${e.meanings.length>2?"s":""}</span>`:""}
+        <span class="tribes">${e.tribes.length?e.tribes.map(t => `<span class="tchip">${esc(t)}</span>`).join(""):`<span class="tchip" style="background:transparent;border:1px dashed var(--line);color:var(--muted)">Tribe not known</span>`}${e.community?`<span class="comm">Community added</span>`:""}</span></span>
+      <span class="meta">${gtag(e.g)}${people(e.sub)}${e.audio.length?`<span class="has-audio" title="Has a recording"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg><span class="sr">Has a recording</span></span>`:""}</span>
+    </button></li>`;
+  });
+  $("#results").innerHTML = html;
+  if (!list.length) $("#results").innerHTML = `<li class="empty">Nothing matches yet. <a href="#contribute" data-prefill="${esc(state.q)}">Add “${esc(state.q||"a name")}” to the archive</a> if you know it.</li>`;
+  $("#count").textContent = list.length === entries.length ? `${entries.length} names` : `${list.length} of ${entries.length} names`;
+  $("#more").hidden = list.length <= state.shown;
+  $("#more").textContent = `Show more names (${list.length - state.shown} left)`;
+}
+function update(scroll){ state.shown = PAGE; renderRail(); render(); if (scroll) document.getElementById("archive").scrollIntoView({behavior: reduce() ? "auto" : "smooth"}); }
+const reduce = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------- name of the day + facts ---------- */
+function renderDaily(){
+  const pool = entries.filter(e => e.meanings.length && e.sub >= 2 && e.tribes.length && !e.unsure).sort((a,b) => key(a.name).localeCompare(key(b.name)));
+  const day = Math.floor((Date.now() - new Date().getTimezoneOffset()*60000) / 86400000);
+  const e = pool[(day * 37) % pool.length];
+  const m = e.meanings.slice().sort((a,b) => b.c-a.c)[0];
+  $("#daily").innerHTML = `<p class="eyebrow">Name of the day · ${new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"})}</p>
+    <h1>${esc(e.name)}</h1>
+    ${e.pron.length?`<p class="say">say it: ${esc(e.pron[0])}</p>`:""}
+    <p class="means">“${esc(m.t)}”</p>
+    <div class="row">${e.tribes.map(t => `<span class="tag-w">${esc(t)}</span>`).join("")}${e.g?`<span class="tag-w">${G[e.g]}</span>`:""}<span class="tag-w">Shared by ${e.sub} people</span></div>
+    <div class="row"><button class="btn-w" type="button" data-i="${e.i}">Read the full entry →</button></div>`;
+  const total = entries.reduce((s,e) => s+e.sub, 0) + RAW.s.length;
+  const tribes = new Set(entries.flatMap(e => e.tribes));
+  $("#facts").innerHTML = `<span><b>${entries.length}</b>names</span><span><b>${tribes.size}</b>tribes</span><span><b>${total}</b>contributions</span>`;
+  $("#contrib-total").innerHTML = `${total}<small>contributions from the community since 2020</small>`;
+  $("#quick").innerHTML = ["first girl","God","heart","war","patience","Kpelle","Kru"].map(q => `<button type="button" data-quick="${q}">${q}</button>`).join("");
+}
+
+/* ---------- name card ---------- */
+let lastFocus = null;
+function openName(i){
+  const e = entries[i]; if (!e) return;
+  lastFocus = document.activeElement;
+  const carriers = PEOPLE.filter(p => key(p.entry) === key(e.name) || (p.also && key(p.also) === key(e.name)) || e.variants.some(v => key(v) === key(p.entry)));
+  const meanings = e.meanings.length ? `<ul class="meanings">${e.meanings.map(m => `<li><div class="t">${esc(m.t)}</div>
+      <div class="by">${people(m.c)}${e.tribes.length>1&&m.tr.length?`<span>· ${esc(m.tr.join(", "))}</span>`:""}${m.community?`<span class="comm">Community added${m.credit?` · ${esc(m.credit)}`:""}</span>`:""}</div></li>`).join("")}</ul>`
+    : `<p class="msg info">No one has shared a meaning for ${esc(e.name)} yet. Do you know it?</p>`;
+  $("#card").innerHTML = `<div class="ribbon" aria-hidden="true"></div><div class="inner">
+    <div class="head"><div>
+      <p class="eyebrow">${e.tribes.length ? esc(e.tribes.join(" · ")) : "Tribe not known yet"}${e.unsure?" (unconfirmed)":""}</p>
+      <h2 id="card-title">${esc(e.name)}</h2>
+      ${e.pron.length?`<p style="font-family:var(--mono);color:var(--muted);margin-top:10px">say it: ${e.pron.map(esc).join(" · ")}</p>`:""}
+      <div class="meta">${gtag(e.g)}${people(e.sub)}${e.themes.map(t => `<button type="button" class="tchip" data-theme-go="${t}" style="border:0;cursor:pointer">${esc(themeOf(t).label)}</button>`).join("")}</div>
+    </div><button class="btn quiet" type="button" id="card-close">Close ✕</button></div>
+    ${e.audio.length?`<div><h4>Hear it</h4><div style="display:grid;gap:10px">${e.audio.map(a => `<div class="clips">${a.id?`<button type="button" class="play" data-play="${esc(a.id)}"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Play</button>`:""}${a.slow?`<button type="button" class="play" data-play="${esc(a.slow)}"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Play slowly</button>`:`<button type="button" class="play" data-play="${esc(a.id)}" data-rate="0.65"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Play slower</button>`}${a.credit?`<span class="hint" style="align-self:center">${esc(a.credit)}</span>`:""}</div>`).join("")}</div></div>`:""}
+    <div><h4>Meaning</h4>${meanings}</div>
+    ${e.variants.length?`<div><h4>Also spelled</h4><div class="vars">${e.variants.map(v => `<span>${esc(v)}</span>`).join("")}</div></div>`:""}
+    ${carriers.length?`<div><h4>Well-known Liberians with this name</h4>${carriers.map(p => `<p class="carry"><b>${esc(p.name)}</b> · ${esc(p.role)}</p>`).join("")}</div>`:""}
+    ${e.notes.length?`<div><h4>Notes from contributors</h4>${e.notes.map(n => `<p class="story">${esc(n.text)}${n.credit?` <span style="color:var(--muted)">— ${esc(n.credit)}</span>`:""}</p>`).join("")}</div>`:""}
+    <div class="actions">
+      <button class="btn red" type="button" data-suggest="meaning" data-name="${esc(e.name)}">${e.meanings.length?"Add a meaning or correction":"Share the meaning"}</button>
+      <button class="btn" type="button" data-suggest="spelling" data-name="${esc(e.name)}">Add a spelling</button>
+      <button class="btn" type="button" data-suggest="audio" data-name="${esc(e.name)}">${e.audio.length?"Add another recording":"Record how it sounds"}</button>
+    </div></div>`;
+  $("#scrim").hidden = false; document.body.style.overflow = "hidden"; $("#card-close").focus();
+}
+function closeName(){ $("#scrim").hidden = true; document.body.style.overflow = ""; if (lastFocus && lastFocus.focus) lastFocus.focus(); }
+
+/* ---------- themes ---------- */
+function renderThemes(){
+  $("#theme-tiles").innerHTML = THEMES.map(t => {
+    const list = entries.filter(e => e.themes.includes(t.id)).sort((a,b) => b.sub-a.sub || key(a.name).localeCompare(key(b.name)));
+    return `<button type="button" class="theme" data-theme-go="${t.id}" style="--c:${t.c}"><span class="ct">${list.length} names</span><h3>${esc(t.label)}</h3><span class="ex">${list.slice(0,3).map(e => `<b>${esc(e.name)}</b>`).join(", ")}…</span></button>`;
+  }).join("");
+}
+
+/* ---------- birth order ---------- */
+const BO = {
+  Kpelle:{sons:["Sàà","Tàmbà","Fàyáa","Fàlà","Nyùmá","Hàlí","Sàà-kòòlì","Tàmbà-kòòli"],daughters:["Sìà","Kùmbà","Fìndà","Téúwa","Yàwà","Tènè","Sóóná","Félá"]},
+  Kissi:{sons:["Saah","Tamba","Fayia","Fallah","Nyuma","Hallie","Kundu","Saah Kollie","Tamba Kollie"],daughters:["Sia","Kumba","Finda","Tewa","Yawah","Teneh","Surnah","Fela"]},
+  Mano:{sons:["Saye","Nyan","Paye"],daughters:["Kou","Yah","Yei"]}
+};
+const ORD = ["1st","2nd","3rd","4th","5th","6th","7th","8th","9th"];
+let boTribe = "Kpelle";
+function renderBO(){
+  $("#bo-tabs").innerHTML = Object.keys(BO).map(t => `<button type="button" data-bo="${t}" aria-pressed="${t===boTribe}">${t}</button>`).join("");
+  const b = BO[boTribe], n = Math.max(b.sons.length, b.daughters.length);
+  const cell = nm => { if (!nm) return `<td class="gap">not recorded yet</td>`; const e = index.get(key(nm)); return `<td>${e?`<button type="button" data-i="${e.i}">${esc(nm)}</button>`:`<span class="plain">${esc(nm)}</span>`}</td>`; };
+  let h = `<thead><tr><th>Born</th><th>Son</th><th>Daughter</th></tr></thead><tbody>`;
+  for (let i=0;i<n;i++) h += `<tr><td class="ord">${ORD[i]}</td>${cell(b.sons[i])}${cell(b.daughters[i])}</tr>`;
+  $("#bo-table").innerHTML = h + "</tbody>";
+  $("#bo-note").textContent = boTribe === "Kpelle" ? "Kpelle spellings keep the tone marks contributors used. Kòòlì, added to a name, marks a later child who repeats the cycle."
+    : boTribe === "Kissi" ? "Kissi and Kpelle share many of these names. Kollie, added to Saah or Tamba, marks the eighth and ninth sons."
+    : "Only the first three children were recorded for Mano. Know the rest? Add them to the archive.";
+}
+
+/* ---------- well-known Liberians ---------- */
+function renderPeople(){
+  $("#famous").innerHTML = PEOPLE.map(p => {
+    const e = index.get(key(p.entry));
+    const initials = p.name.split(/[\s-]+/).filter(Boolean).map(w => w[0]).slice(0,2).join("");
+    const nm = esc(p.name).replace(esc(p.hl), `<mark>${esc(p.hl)}</mark>`);
+    const m = e && e.meanings.length ? e.meanings.slice().sort((a,b) => b.c-a.c)[0].t : "";
+    return `<article class="person"><div class="top-row"><span class="mono" aria-hidden="true">${esc(initials)}</span><div style="min-width:0"><h3>${nm}</h3><p class="role">${esc(p.role)}</p></div></div>
+      <p>${esc(p.text)}</p>
+      <div class="link-row">${e?`<button type="button" data-i="${e.i}">${esc(p.hl)}${m?`: “${esc(m)}”`:""}</button>`:p.surname?`<a href="#about">${esc(p.hl)} is in our family names</a>`:""}<a href="${esc(p.src)}" target="_blank" rel="noopener" style="margin-left:auto;color:var(--muted);font-size:13px">Source ↗</a></div></article>`;
+  }).join("");
+}
+
+/* ---------- help wanted ---------- */
+function renderHelp(){
+  const need = entries.filter(e => !e.meanings.length || !e.tribes.length);
+  const groups = new Map();
+  need.forEach(e => { const t = e.tribes[0] || "Tribe not known"; if (!groups.has(t)) groups.set(t, []); groups.get(t).push(e); });
+  const order = [...groups.entries()].sort((a,b) => (a[0]==="Tribe not known") - (b[0]==="Tribe not known") || b[1].length-a[1].length);
+  $("#hw").innerHTML = order.map(([t,list]) => `<div class="hw-group"><h3>${esc(t)}<small>${list.length} name${list.length>1?"s":""}</small></h3>
+    <div class="hw-list">${list.sort((a,b)=>key(a.name).localeCompare(key(b.name))).map(e => `<button type="button" data-i="${e.i}">${esc(e.name)}</button>`).join("")}</div></div>`).join("");
+}
+
+/* ---------- contribute ---------- */
+const TRIBE_LIST = ["Bassa","Belle","Dei","Gbandi","Gio","Gola","Grebo","Kissi","Kpelle","Krahn","Kru","Lorma","Mandingo","Mano","Mende","Sapo","Vai"];
+function fillForm(){
+  $("#c-tribe").innerHTML = `<option value="">Not sure</option>` + TRIBE_LIST.map(t => `<option>${t}</option>`).join("") + `<option value="__other">Another tribe</option>`;
+  $("#all-names").innerHTML = entries.map(e => `<option value="${esc(e.name)}">`).join("");
+  $("#surnames").innerHTML = RAW.s.map(s => `<span>${esc(s)}</span>`).join("");
+}
+function nameHint(){
+  const v = $("#c-name").value.trim(), e = v && index.get(key(v));
+  const kind = document.querySelector('input[name="kind"]:checked').value, h = $("#c-name-hint");
+  if (!v) { h.textContent = ""; return; }
+  if (e && kind === "new") h.textContent = `${e.name} is already in the archive (${e.sub} ${e.sub===1?"person":"people"}). Your answer will count as one more.`;
+  else if (e) h.textContent = `Adding to ${e.name}${e.tribes.length?` (${e.tribes.join(", ")})`:""}.`;
+  else h.textContent = kind !== "new" ? "This name isn't in the archive yet, so it will be added as a new name." : "";
+}
+function prefill(kind, name){
+  document.getElementById(kind==="spelling"?"k-spell":kind==="meaning"?"k-mean":kind==="audio"?"k-audio":"k-new").checked = true;
+  $("#c-name").value = name || "";
+  const e = name && index.get(key(name));
+  if (e && e.tribes.length === 1 && TRIBE_LIST.includes(e.tribes[0])) $("#c-tribe").value = e.tribes[0];
+  if (e && e.g) $("#c-gender").value = e.g;
+  nameHint(); closeName();
+  document.getElementById("contribute").scrollIntoView({behavior: reduce() ? "auto" : "smooth"});
+  setTimeout(() => (kind==="spelling"?$("#c-variants"):kind==="audio"?$("#c-audio"):name?$("#c-meaning"):$("#c-name")).focus({preventScroll:true}), 350);
+}
+function showMsg(kind, html){ const m = $("#c-msg"); m.className = "msg " + kind; m.innerHTML = html; m.hidden = false; }
+
+
+/* ---------- shared data (Supabase) ---------- */
+/* The publishable key is meant to be public: what it can do is limited by the rules in supabase/schema.sql. */
+const SUPABASE_URL = "https://rgqagbxxygrouhdklhva.supabase.co";
+const SUPABASE_KEY = "sb_publishable_DXngDiJyhRfVGJQ2q9iXpg_N-nwbr7e";
+const AUDIO_PUBLIC = SUPABASE_URL + "/storage/v1/object/public/audio/";
+const MINE_KEY = "liberian-names:mine";
+let sb = null, session = null, isEditor = false, myItems = [];
+const mineStore = {
+  get(){ try { const v = JSON.parse(localStorage.getItem(MINE_KEY) || "[]"); return Array.isArray(v) ? v : []; } catch (_) { return []; } },
+  set(v){ try { localStorage.setItem(MINE_KEY, JSON.stringify(v.slice(-200))); } catch (_) {} }
+};
+const uuid = () => crypto.randomUUID ? crypto.randomUUID()
+  : "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16));
+
+async function connect(){
+  myItems = mineStore.get(); renderMine();
+  if (!window.supabase || !window.supabase.createClient) return;
+  try { sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {auth:{persistSession:true, autoRefreshToken:true, detectSessionInUrl:true}}); }
+  catch (_) { sb = null; return; }
+  if (/^#(editor|review)$/.test(location.hash)) showReview();
+  sb.auth.onAuthStateChange((ev, s) => {
+    session = s;
+    setTimeout(() => checkEditor(ev === "SIGNED_IN"), 0);
+  });
+  loadApproved();
+  refreshMine();
+}
+async function loadApproved(){
+  if (!sb) return;
+  try {
+    const { data, error } = await sb.from("approved").select("*").order("approved_at", {ascending:true}).limit(10000);
+    if (error || !data) return;
+    approved = data.map(r => ({name:r.name, target:r.target, variants:r.variants || [], tribe:r.tribe, gender:r.gender, meaning:r.meaning,
+      pron:r.pron, story:r.story, credit:r.credit, audio: !!(r.clip || r.clip_slow), clip:r.clip || "", clipSlow:r.clip_slow || ""}));
+    build(); refreshAll();
+  } catch (_) {}
+}
+async function refreshMine(){
+  const pend = myItems.filter(i => i.status === "pending");
+  if (!sb || !pend.length) return;
+  try {
+    const { data, error } = await sb.rpc("contribution_status", {ids: pend.map(i => i.id)});
+    if (error || !data) return;
+    const st = new Map(data.map(r => [r.id, r.status]));
+    myItems.forEach(i => { if (st.has(i.id)) i.status = st.get(i.id); });
+    mineStore.set(myItems); renderMine();
+  } catch (_) {}
+}
+function renderMine(){
+  $("#mine").hidden = !myItems.length;
+  const L = {pending:"Waiting for review", approved:"In the archive", declined:"Not added"};
+  $("#mine-list").innerHTML = myItems.slice().reverse().map(it => `<li><span><b>${esc(it.name)}</b> · ${it.kind==="new"?"name":it.kind==="spelling"?"spelling":it.kind==="audio"?"recording":"meaning"}</span><span class="st ${esc(it.status)}">${L[it.status]||esc(it.status)}</span></li>`).join("");
+}
+const AUDIO_EXT = {"audio/mp4":"m4a","audio/x-m4a":"m4a","audio/m4a":"m4a","audio/aac":"aac","audio/x-aac":"aac","audio/mpeg":"mp3","audio/mp3":"mp3",
+  "audio/wav":"wav","audio/x-wav":"wav","audio/wave":"wav","audio/ogg":"ogg","audio/webm":"webm","audio/amr":"amr","audio/3gpp":"3gp","video/3gpp":"3gp","video/mp4":"m4a"};
+const EXT_TYPE = {m4a:"audio/mp4",aac:"audio/aac",mp3:"audio/mpeg",wav:"audio/wav",ogg:"audio/ogg",webm:"audio/webm",amr:"audio/amr","3gp":"audio/3gpp"};
+function resetForm(){
+  ["#c-name","#c-variants","#c-meaning","#c-pron","#c-story","#c-tribe-other","#c-website"].forEach(s => $(s).value = "");
+  clearAudio(); $("#c-name-hint").textContent = "";
+}
+async function submit(ev){
+  ev.preventDefault();
+  const kind = document.querySelector('input[name="kind"]:checked').value;
+  const name = $("#c-name").value.trim();
+  let tribe = $("#c-tribe").value; if (tribe === "__other") tribe = $("#c-tribe-other").value.trim();
+  const variants = $("#c-variants").value.split(",").map(s => s.trim()).filter(Boolean).slice(0, 20);
+  const meaning = $("#c-meaning").value.trim();
+  if (!name) { showMsg("warn", "Add the name first."); $("#c-name").focus(); return; }
+  if (kind === "spelling" && !variants.length) { showMsg("warn", "Add at least one other spelling, separated by commas."); $("#c-variants").focus(); return; }
+  if (kind === "meaning" && !meaning) { showMsg("warn", "Add the meaning you know, or the correction."); $("#c-meaning").focus(); return; }
+  if (kind === "audio" && !PICK.c.data && !PICK.s.data) { showMsg("warn", "Attach at least one recording of the name being said."); $("#c-audio").focus(); return; }
+  if ($("#c-website").value) { showMsg("ok", `Thank you. <b>${esc(name)}</b> is waiting for review.`); resetForm(); return; }
+  if (!sb) { showMsg("warn", "The archive can't be reached right now. Check your connection, reload the page and press Send again."); return; }
+  const target = index.get(key(name));
+  const id = uuid(), at = new Date().toISOString();
+  const btn = $("#c-submit"); btn.disabled = true; btn.textContent = "Sending…";
+  try {
+    const upload = async (p, suffix) => {
+      if (!p.data) return "";
+      const path = `${id}${suffix}.${p.data.ext}`;
+      const { error } = await sb.storage.from("pending-audio").upload(path, p.data.file, {contentType: p.data.type, upsert: false});
+      if (error) throw error;
+      return path;
+    };
+    const clip = await upload(PICK.c, ""), clipSlow = await upload(PICK.s, "-slow");
+    const row = {id, kind, name: name.slice(0, 80), target: target ? target.name : "", variants, tribe: tribe.slice(0, 40), gender: $("#c-gender").value,
+      meaning: meaning.slice(0, 300), pron: $("#c-pron").value.trim().slice(0, 80), story: $("#c-story").value.trim().slice(0, 2000),
+      credit: $("#c-credit").value.trim().slice(0, 80), source: $("#c-source").value, clip, clip_slow: clipSlow};
+    const { error } = await sb.from("contributions").insert(row);
+    if (error) throw error;
+    myItems.push({id, kind, name, at, status: "pending"}); mineStore.set(myItems); renderMine();
+    showMsg("ok", `Thank you. <b>${esc(name)}</b> is waiting for review. Send another whenever you like.`);
+    resetForm();
+  } catch (e) {
+    const code = e && (e.statusCode || e.status);
+    if (String(code) === "413") showMsg("warn", "That recording is too large. Keep it under about 30 seconds and attach it again.");
+    else if (String(code) === "415") showMsg("warn", "That recording's file type isn't supported. Try a voice memo saved as M4A or MP3.");
+    else showMsg("warn", "That didn't send because the connection dropped. Check your connection and press Send again.");
+  } finally { btn.disabled = false; btn.textContent = "Send to the archive"; }
+}
+
+/* ---------- review (editors only) ---------- */
+let queue = [];
+function showReview(){ $("#review").hidden = false; renderAuth(); }
+async function checkEditor(justSignedIn){
+  isEditor = false;
+  if (sb && session) { try { const { data } = await sb.rpc("is_editor"); isEditor = data === true; } catch (_) {} }
+  $("#nav-review").hidden = !isEditor;
+  if (session || isEditor) showReview(); else renderAuth();
+  if (isEditor) loadQueue(); else { queue = []; renderReview(); }
+  if (justSignedIn && !$("#review").hidden) document.getElementById("review").scrollIntoView({behavior: reduce() ? "auto" : "smooth"});
+}
+function renderAuth(){
+  const box = $("#rv-auth");
+  if (!sb) { box.innerHTML = `<p class="msg warn">The archive can't be reached right now. Reload the page to try again.</p>`; return; }
+  if (!session) {
+    box.innerHTML = `<form class="rv-signin" id="rv-signin"><div class="fl"><label for="rv-email">Editor email</label><input id="rv-email" type="email" autocomplete="email" required placeholder="you@example.com"></div><button class="btn primary" type="submit" id="rv-send">Email me a sign-in link</button></form><p class="hint" id="rv-hint">We'll email you a one-time link. Open it on this device.</p>`;
+    return;
+  }
+  const email = (session.user && session.user.email) || "";
+  box.innerHTML = `<div class="rv-bar"><span>Signed in as <b>${esc(email)}</b></span>${isEditor?`<button class="btn" type="button" id="rv-refresh">Refresh</button>`:""}<button class="btn quiet" type="button" id="rv-signout">Sign out</button></div>${isEditor?"":`<p class="msg info">This email isn't on the editor list, so there's nothing to review here.</p>`}`;
+}
+async function sendLink(ev){
+  ev.preventDefault();
+  const email = $("#rv-email").value.trim(), btn = $("#rv-send");
+  if (!email) return;
+  btn.disabled = true; btn.textContent = "Sending…";
+  try {
+    const { error } = await sb.auth.signInWithOtp({email, options:{emailRedirectTo: location.origin + location.pathname}});
+    if (error) throw error;
+    $("#rv-hint").textContent = `Check ${email} for a sign-in link. It can take a minute to arrive.`;
+    btn.textContent = "Link sent";
+  } catch (e) {
+    $("#rv-hint").textContent = e && e.status === 429 ? "Too many links were requested. Wait a few minutes and try again." : "That didn't send. Check the address and your connection, then try again.";
+    btn.disabled = false; btn.textContent = "Email me a sign-in link";
+  }
+}
+const toItem = r => ({id:r.id, kind:r.kind, name:r.name, target:r.target, variants:r.variants || [], tribe:r.tribe, gender:r.gender, meaning:r.meaning,
+  pron:r.pron, story:r.story, credit:r.credit, source:r.source, at:r.created_at, clip:r.clip || "", clipSlow:r.clip_slow || ""});
+async function loadQueue(){
+  if (!sb || !isEditor) return;
+  try {
+    const { data, error } = await sb.from("contributions").select("*").eq("status", "pending").order("created_at", {ascending:true}).limit(500);
+    if (error) throw error;
+    queue = (data || []).map(r => ({it: toItem(r)}));
+    renderReview();
+  } catch (_) { $("#rv").innerHTML = `<p class="msg warn">The review list didn't load. Check your connection and press Refresh.</p>`; }
+}
+function renderReview(){
+  $("#nav-review-n").textContent = queue.length ? `(${queue.length})` : "";
+  if (!isEditor) { $("#rv").innerHTML = ""; return; }
+  if (!queue.length) { $("#rv").innerHTML = `<p class="empty">Nothing waiting. New contributions show up here after someone sends one; press Refresh to check.</p>`; return; }
+  const K = {new:"New name", spelling:"Another spelling", meaning:"Meaning or correction", audio:"Recording"};
+  const SPK = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>';
+  $("#rv").innerHTML = queue.map(({it},n) => {
+    const ex = it.target ? index.get(key(it.target)) : null;
+    const rows = [
+      ["Adding to", ex ? esc(ex.name) + (ex.meanings.length ? ` <span style="color:var(--muted)">(now: ${esc(ex.meanings.map(m=>m.t).join("; "))})</span>` : "") : "New entry"],
+      it.variants && it.variants.length ? ["Spellings", esc(it.variants.join(", "))] : null,
+      it.meaning ? ["Meaning", esc(it.meaning)] : null, it.tribe ? ["Tribe", esc(it.tribe)] : null,
+      it.gender ? ["Gender", G[it.gender]] : null, it.pron ? ["Say it", esc(it.pron)] : null, it.story ? ["Story", esc(it.story)] : null,
+      (it.clip || it.clipSlow) ? ["Recording", `<span class="clips">${it.clip?`<button type="button" class="play" data-rplay="${esc(it.clip)}">${SPK}Natural</button>`:""}${it.clipSlow?`<button type="button" class="play" data-rplay="${esc(it.clipSlow)}">${SPK}Slow</button>`:""}</span>`] : null,
+      ["From", (it.credit ? esc(it.credit) + ", " : "Anonymous, ") + (SRC[it.source]||"")],
+      ["Sent", new Date(it.at).toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})]
+    ].filter(Boolean);
+    return `<article class="rv-item"><div><p class="eyebrow">${K[it.kind]||""}</p><h3 style="margin-top:6px">${esc(it.name)}</h3>
+      <dl>${rows.map(([a,b]) => `<dt>${a}</dt><dd>${b}</dd>`).join("")}</dl></div>
+      <div class="rv-actions"><button class="btn ok" type="button" data-approve="${n}">Approve</button><button class="btn" type="button" data-decline="${n}">Decline</button></div></article>`;
+  }).join("");
+}
+async function decide(n, ok){
+  const q = queue[n]; if (!q || !sb) return;
+  const it = q.it;
+  const btns = document.querySelectorAll(`[data-approve="${n}"],[data-decline="${n}"]`); btns.forEach(b => b.disabled = true);
+  try {
+    if (ok) {
+      const publish = async path => {
+        if (!path) return "";
+        const dl = await sb.storage.from("pending-audio").download(path);
+        if (dl.error) throw dl.error;
+        const ext = path.split(".").pop();
+        const up = await sb.storage.from("audio").upload(path, dl.data, {contentType: dl.data.type || EXT_TYPE[ext] || "audio/mp4", upsert: true});
+        if (up.error) throw up.error;
+        return path;
+      };
+      const clip = await publish(it.clip), clipSlow = await publish(it.clipSlow);
+      const { error } = await sb.from("approved").upsert({id: it.id, kind: it.kind, name: it.name, target: it.target || "", variants: it.variants || [],
+        tribe: it.tribe || "", gender: it.gender || "", meaning: it.meaning || "", pron: it.pron || "", story: it.story || "", credit: it.credit || "",
+        clip, clip_slow: clipSlow});
+      if (error) throw error;
+    }
+    const { error } = await sb.from("contributions").update({status: ok ? "approved" : "declined", reviewed_at: new Date().toISOString()}).eq("id", it.id);
+    if (error) throw error;
+    queue = queue.filter(x => x.it.id !== it.id);
+    renderReview();
+    if (ok) loadApproved();
+  } catch (e) {
+    btns.forEach(b => b.disabled = false);
+    const el = document.createElement("p"); el.className = "msg warn"; el.textContent = "That didn't save. Check your connection and try again.";
+    btns[0] && btns[0].closest(".rv-item").appendChild(el);
+  }
+}
+
+/* ---------- audio ---------- */
+const MAX_AUDIO = 2 * 1024 * 1024;
+const PICK = {
+  c: {input:"#c-audio", hint:"#c-audio-hint", prev:"#c-audio-prev", clear:"#c-audio-clear", def:"Say the name the way family would say it.", data:null, url:null},
+  s: {input:"#c-slow", hint:"#c-slow-hint", prev:"#c-slow-prev", clear:"#c-slow-clear", def:"Break it into its sounds, with a pause between each, like “Deh… con… tee”.", data:null, url:null}
+};
+let playing = null;
+function clearPick(k){ const p = PICK[k]; p.data = null; $(p.input).value = ""; $(p.prev).hidden = true; $(p.clear).hidden = true; if (p.url) { URL.revokeObjectURL(p.url); p.url = null; } $(p.hint).textContent = p.def; }
+function clearAudio(){ clearPick("c"); clearPick("s"); }
+Object.keys(PICK).forEach(k => $(PICK[k].input).addEventListener("change", ev => {
+  const p = PICK[k], f = ev.target.files && ev.target.files[0]; if (!f) { clearPick(k); return; }
+  const hint = $(p.hint);
+  const fext = ((f.name.match(/\.([a-z0-9]+)$/i) || [])[1] || "").toLowerCase();
+  const type = (f.type || "").toLowerCase();
+  const ext = AUDIO_EXT[type] || (EXT_TYPE[fext] ? fext : "");
+  if (!ext || (type && !/^(audio|video)\//.test(type))) { clearPick(k); hint.textContent = "That file isn't a sound recording. Attach a voice memo or audio file."; return; }
+  if (f.size > MAX_AUDIO) { clearPick(k); hint.textContent = `That recording is ${(f.size/1048576).toFixed(1)} MB. Keep it under about 30 seconds (2 MB) and attach it again.`; return; }
+  p.data = {file: f, type: AUDIO_EXT[type] ? type : EXT_TYPE[ext], ext};
+  if (p.url) URL.revokeObjectURL(p.url);
+  p.url = URL.createObjectURL(f); const a = $(p.prev); a.src = p.url; a.hidden = false;
+  $(p.clear).hidden = false; hint.textContent = `Attached: ${f.name}. Play it back to check it's clear.`;
+}));
+async function playClip(getUrl, btn, rate){
+  const label = btn.innerHTML; btn.disabled = true;
+  try {
+    const url = await getUrl();
+    if (!url) { btn.innerHTML = "Recording not available"; return; }
+    if (playing) playing.pause();
+    playing = new Audio(url);
+    if (rate) { playing.playbackRate = rate; try { playing.preservesPitch = true; } catch (_) {} }
+    await playing.play();
+  } catch (e) { btn.innerHTML = "Couldn't play this recording"; setTimeout(() => { btn.innerHTML = label; }, 2500); }
+  finally { btn.disabled = false; }
+}
+const publicClip = path => async () => AUDIO_PUBLIC + path.split("/").map(encodeURIComponent).join("/");
+const pendingClip = path => async () => { if (!sb) return ""; const { data, error } = await sb.storage.from("pending-audio").createSignedUrl(path, 600); return error ? "" : data.signedUrl; };
+
+
+/* ---------- wiring ---------- */
+function refreshAll(){ renderRail(); render(); renderDaily(); renderThemes(); renderBO(); renderPeople(); renderHelp(); fillForm(); if (isEditor) renderReview(); }
+const rail = $("#rail");
+document.addEventListener("click", ev => {
+  const t = ev.target.closest("button, a"); if (!t) return;
+  const d = t.dataset;
+  if (d.i !== undefined) { openName(+d.i); return; }
+  if (d.gender !== undefined) { state.gender = d.gender; update(); return; }
+  if (d.theme !== undefined) { state.theme = state.theme === d.theme ? "" : d.theme; update(); return; }
+  if (d.tribe !== undefined) { state.tribe = state.tribe === d.tribe ? "" : d.tribe; update(); return; }
+  if (d.letter !== undefined) { state.letter = d.letter; update(); return; }
+  if (d.themeGo) { state.theme = d.themeGo; state.q = ""; $("#q").value = ""; state.letter = ""; closeName(); update(true); return; }
+  if (d.quick) { state.q = d.quick; $("#q").value = d.quick; state.letter = ""; state.theme = ""; state.tribe = ""; if (/^(Kpelle|Kru)$/.test(d.quick)) { state.tribe = d.quick; state.q = ""; $("#q").value = ""; } update(true); return; }
+  if (d.clear) { if (d.clear === "all" ) { state.q = ""; state.gender = state.theme = state.tribe = state.letter = ""; $("#q").value = ""; } else { state[d.clear] = ""; if (d.clear === "q") $("#q").value = ""; } update(); return; }
+  if (d.bo) { boTribe = d.bo; renderBO(); return; }
+  if (d.suggest) { prefill(d.suggest, d.name); return; }
+  if (d.prefill !== undefined) { ev.preventDefault(); prefill("new", d.prefill); return; }
+  if (d.play) { playClip(publicClip(d.play), t, d.rate ? +d.rate : 0); return; }
+  if (d.rplay) { playClip(pendingClip(d.rplay), t); return; }
+  if (t.id === "editor-link") { ev.preventDefault(); showReview(); document.getElementById("review").scrollIntoView({behavior: reduce() ? "auto" : "smooth"}); const em = $("#rv-email"); if (em) em.focus({preventScroll:true}); return; }
+  if (t.id === "rv-signout") { if (sb) sb.auth.signOut(); return; }
+  if (t.id === "rv-refresh") { loadQueue(); return; }
+  if (t.id === "c-audio-clear") { clearPick("c"); return; }
+  if (t.id === "c-slow-clear") { clearPick("s"); return; }
+  if (d.approve !== undefined) { decide(+d.approve, true); return; }
+  if (d.decline !== undefined) { decide(+d.decline, false); return; }
+  if (t.id === "card-close") { closeName(); return; }
+  if (t.id === "more") { state.shown += PAGE; render(); return; }
+  if (t.id === "open-rail") { rail.classList.add("open"); $("#rail-close").focus(); return; }
+  if (t.id === "rail-close") { rail.classList.remove("open"); $("#open-rail").focus(); return; }
+});
+$("#scrim").addEventListener("click", ev => { if (ev.target.id === "scrim") closeName(); });
+document.addEventListener("keydown", ev => { if (ev.key === "Escape") { if (!$("#scrim").hidden) closeName(); else rail.classList.remove("open"); } });
+let qTimer; $("#q").addEventListener("input", ev => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = ev.target.value; update(); }, 120); });
+$("#sort").addEventListener("change", ev => { state.sort = ev.target.value; render(); });
+$("#hero-form").addEventListener("submit", ev => { ev.preventDefault(); const v = $("#hero-q").value; $("#q").value = v; state.q = v; state.letter = ""; update(true); });
+$("#c-tribe").addEventListener("change", ev => { $("#c-tribe-other-wrap").hidden = ev.target.value !== "__other"; });
+$("#c-name").addEventListener("input", nameHint);
+document.querySelectorAll('input[name="kind"]').forEach(r => r.addEventListener("change", nameHint));
+$("#sugg").addEventListener("submit", submit);
+document.addEventListener("submit", ev => { if (ev.target.id === "rv-signin") sendLink(ev); });
+addEventListener("hashchange", () => { if (/^#(editor|review)$/.test(location.hash)) showReview(); });
+
+build(); refreshAll(); connect();
+})();
+</script>
+</body>
+</html>
