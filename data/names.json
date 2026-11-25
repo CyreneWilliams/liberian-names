@@ -8,7 +8,7 @@
    "name": "Aakehtee",
    "variants": [],
    "pronunciation": [],
-   "gender": "Female",
+   "gender": "Unisex",
    "tribes": [
     "Kpelle"
    ],
@@ -27,7 +27,14 @@
    "source_rows": [
     176
    ],
-   "issues": []
+   "issues": [],
+   "corrections": [
+    {
+     "date": "2026-11-25",
+     "change": "Gender changed to unisex",
+     "by": "community correction"
+    }
+   ]
   },
   {
    "id": "adama",
@@ -9568,9 +9575,7 @@
   {
    "id": "saah",
    "name": "Saah",
-   "variants": [
-    "Sarh"
-   ],
+   "variants": [],
    "pronunciation": [],
    "gender": "Male",
    "tribes": [
@@ -9601,14 +9606,7 @@
     159,
     160
    ],
-   "issues": [],
-   "sources": [
-    {
-     "title": "TLC Africa, African Names",
-     "url": "https://www.tlcafrica1.com/africa-name/",
-     "accessed": "2026-11-25"
-    }
-   ]
+   "issues": []
   },
   {
    "id": "saah-kollie",
@@ -10908,7 +10906,8 @@
    "id": "snohti",
    "name": "Snohti",
    "variants": [
-    "Snoti"
+    "Snoti",
+    "Snortie"
    ],
    "pronunciation": [
     "Snoh - tee"
@@ -10934,31 +10933,6 @@
     346
    ],
    "issues": []
-  },
-  {
-   "id": "snortie",
-   "name": "Snortie",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Female",
-   "tribes": [
-    "Kru"
-   ],
-   "meanings": [],
-   "notes": [],
-   "surname": false,
-   "submissions": 0,
-   "source_rows": [],
-   "issues": [
-    "No meaning yet"
-   ],
-   "sources": [
-    {
-     "title": "TLC Africa, African Names",
-     "url": "https://www.tlcafrica1.com/africa-name/",
-     "accessed": "2026-11-25"
-    }
-   ]
   },
   {
    "id": "snosio",
@@ -12793,35 +12767,11 @@
    "issues": []
   },
   {
-   "id": "wehte",
-   "name": "Wehte",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Female",
-   "tribes": [
-    "Kru"
-   ],
-   "meanings": [],
-   "notes": [],
-   "surname": false,
-   "submissions": 0,
-   "source_rows": [],
-   "issues": [
-    "No meaning yet"
-   ],
-   "sources": [
-    {
-     "title": "TLC Africa, African Names",
-     "url": "https://www.tlcafrica1.com/africa-name/",
-     "accessed": "2026-11-25"
-    }
-   ]
-  },
-  {
    "id": "wehti",
    "name": "Wehti",
    "variants": [
-    "Wheyti"
+    "Wheyti",
+    "Wehte"
    ],
    "pronunciation": [
     "Where-tee"
@@ -13823,10 +13773,10 @@
    "issues": []
   },
   {
-   "id": "yenplu",
-   "name": "Yenplu",
+   "id": "yenpu",
+   "name": "Yenpu",
    "variants": [
-    "Yenpu"
+    "Yenplu"
    ],
    "pronunciation": [
     "NYENE-PLU",

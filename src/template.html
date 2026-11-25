@@ -321,6 +321,9 @@ footer .credit{font-weight:600;color:var(--ink)}
 .rv-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .rv-bar span{margin-right:auto}
 .hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.fl .consent{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;line-height:1.5;margin-top:4px}
+.fl .consent input{flex:none;width:18px;height:18px;margin:2px 0 0;accent-color:var(--blue)}
+.ok-tag{color:var(--ok);font-weight:600}.warn-tag{color:var(--warn);font-weight:600}
 .btn.rec{justify-self:start}
 .btn.rec .dot{width:10px;height:10px;border-radius:50%;background:var(--red)}
 .btn.rec[aria-pressed="true"] .dot{border-radius:2px;animation:pulse 1s ease-in-out infinite}
@@ -516,13 +519,14 @@ footer .editor-link{color:var(--muted);font-size:13px}
             </div>
           </div>
           <span class="hint">Tap Record and say the name, or attach a voice memo. Each can be up to 30 seconds.</span>
+          <label class="consent" id="c-consent-wrap" hidden><input type="checkbox" id="c-consent"><span>I agree that this recording can be published on Liberian Names and kept as part of the archive. I am the person speaking, or the speaker has agreed to this. I can ask for it to be removed at any time. <a href="/how-we-use-contributions/">How we use contributions</a></span></label>
         </div>
         <div class="fl"><label for="c-story">The story behind it <small>(optional)</small></label><textarea id="c-story" placeholder="When is it given? Who in your family carries it?"></textarea></div>
         <div class="fl"><label for="c-credit">Credit me as <small>(optional, shown on the name)</small></label><input id="c-credit" placeholder="e.g. Musu K., Atlanta" autocomplete="off"></div>
         <div class="hp" aria-hidden="true"><label for="c-website">Leave this empty</label><input id="c-website" tabindex="-1" autocomplete="off"></div>
         <div id="c-msg" class="msg" hidden role="status"></div>
         <div class="formfoot">
-          <span class="hint">You can send as many as you like. Each is reviewed before it appears.</span>
+          <span class="hint">You can send as many as you like. Each is reviewed before it appears. <a href="/how-we-use-contributions/">How we use contributions</a></span>
           <button class="btn red" type="submit" id="c-submit">Send to the archive</button>
         </div>
       </form>
@@ -546,7 +550,7 @@ footer .editor-link{color:var(--muted);font-size:13px}
       <div class="about">
         <div>
           <h3>Where the names come from</h3>
-          <p>In 2020 Liberians at home and abroad were asked for the traditional names they knew, what they mean, and which tribe uses them. Repeat answers were merged, so each name appears once with every meaning people gave and a count of how many people shared it.</p>
+          <p>In 2020 Liberians at home and abroad were asked for the traditional names they knew, what they mean, and which tribe uses them. Repeat answers were merged, so each name appears once with every meaning people gave and a count of how many people shared it. A few entries come from published sources such as TLC Africa; they're labelled until the community confirms them.</p>
         </div>
         <div>
           <h3>About spelling</h3>
@@ -566,7 +570,7 @@ footer .editor-link{color:var(--muted);font-size:13px}
   </section>
 </main>
 <div class="ribbon" aria-hidden="true"></div>
-<footer class="wrap"><p>Liberian Names · an open community archive, started 2020. Every meaning is reviewed before it appears.</p><p class="credit">A project by Cyrene Williams and Winifred Gray-Johnson, co-founders and contributors</p><p><a class="editor-link" href="/names/">Browse every name</a> · <a class="editor-link" href="#editor" id="editor-link">Editor sign-in</a></p></footer>
+<footer class="wrap"><p>Liberian Names · an open community archive, started 2020. Every meaning is reviewed before it appears.</p><p class="credit">A project by Cyrene Williams and Winifred Gray-Johnson, co-founders and contributors</p><p><a class="editor-link" href="/names/">Browse every name</a> · <a class="editor-link" href="/how-we-use-contributions/">How we use contributions</a> · <a class="editor-link" href="#editor" id="editor-link">Editor sign-in</a></p></footer>
 
 <div class="scrim" id="scrim" hidden>
   <div class="card" id="card" role="dialog" aria-modal="true" aria-labelledby="card-title"></div>
@@ -782,7 +786,7 @@ function openName(i){
     ${e.variants.length?`<div><h4>Also spelled</h4><div class="vars">${e.variants.map(v => `<span>${esc(v)}</span>`).join("")}</div></div>`:""}
     ${carriers.length?`<div><h4>Well-known Liberians with this name</h4>${carriers.map(p => `<p class="carry"><b>${esc(p.name)}</b> · ${esc(p.role)}</p>`).join("")}</div>`:""}
     ${e.notes.length?`<div><h4>Notes from contributors</h4>${e.notes.map(n => `<p class="story">${esc(n.text)}${n.credit?` <span style="color:var(--muted)">— ${esc(n.credit)}</span>`:""}</p>`).join("")}</div>`:""}
-    ${e.sources && e.sources.length?`<div><h4>Source</h4><p class="story">${e.sources.map(([l,u]) => `<a href="${esc(u)}" target="_blank" rel="nofollow noopener">${esc(l)}</a>`).join(", ")}. Listed from a published source until the community confirms it.</p></div>`:""}
+    ${e.sources && e.sources.length?`<div><h4>Source</h4><p class="story">${e.sources.map(([l,u]) => `<a href="${esc(u)}" target="_blank" rel="nofollow noopener">${esc(l)}</a>`).join(", ")}.${e.sub ? "" : " Listed from a published source until the community confirms it."}</p></div>`:""}
     <div class="actions">
       <button class="btn red" type="button" data-suggest="meaning" data-name="${esc(e.name)}">${e.meanings.length?"Add a meaning or correction":"Share the meaning"}</button>
       <button class="btn" type="button" data-suggest="spelling" data-name="${esc(e.name)}">Add a spelling</button>
@@ -929,7 +933,13 @@ const AUDIO_EXT = {"audio/mp4":"m4a","audio/x-m4a":"m4a","audio/m4a":"m4a","audi
 const EXT_TYPE = {m4a:"audio/mp4",aac:"audio/aac",mp3:"audio/mpeg",wav:"audio/wav",ogg:"audio/ogg",webm:"audio/webm",amr:"audio/amr","3gp":"audio/3gpp"};
 function resetForm(){
   ["#c-name","#c-variants","#c-meaning","#c-pron","#c-story","#c-tribe-other","#c-website"].forEach(s => $(s).value = "");
-  clearAudio(); $("#c-name-hint").textContent = "";
+  clearAudio(); $("#c-name-hint").textContent = ""; $("#c-consent").checked = false; consentUI();
+}
+/* The consent box appears whenever a recording is involved, and must be ticked before a recording can be sent. */
+const hasClip = () => !!(PICK.c.data || PICK.s.data);
+function consentUI(){
+  const kind = document.querySelector('input[name="kind"]:checked').value;
+  $("#c-consent-wrap").hidden = !(kind === "audio" || hasClip());
 }
 async function submit(ev){
   ev.preventDefault();
@@ -943,6 +953,7 @@ async function submit(ev){
   if (kind === "meaning" && !meaning) { showMsg("warn", "Add the meaning you know, or the correction."); $("#c-meaning").focus(); return; }
   if (rec) { showMsg("warn", "Tap Stop to finish your recording first."); return; }
   if (kind === "audio" && !PICK.c.data && !PICK.s.data) { showMsg("warn", "Attach at least one recording of the name being said."); $("#c-audio").focus(); return; }
+  if (hasClip() && !$("#c-consent").checked) { showMsg("warn", "Tick the box to agree to how recordings are used, then press Send."); $("#c-consent").focus(); return; }
   if ($("#c-website").value) { showMsg("ok", `Thank you. <b>${esc(name)}</b> is waiting for review.`); resetForm(); return; }
   if (!sb) { showMsg("warn", "The archive can't be reached right now. Check your connection, reload the page and press Send again."); return; }
   const target = index.get(key(name));
@@ -959,8 +970,11 @@ async function submit(ev){
     const clip = await upload(PICK.c, ""), clipSlow = await upload(PICK.s, "-slow");
     const row = {id, kind, name: name.slice(0, 80), target: target ? target.name : "", variants, tribe: tribe.slice(0, 40), gender: $("#c-gender").value,
       meaning: meaning.slice(0, 300), pron: $("#c-pron").value.trim().slice(0, 80), story: $("#c-story").value.trim().slice(0, 2000),
-      credit: $("#c-credit").value.trim().slice(0, 80), source: $("#c-source").value, clip, clip_slow: clipSlow};
-    const { error } = await sb.from("contributions").insert(row);
+      credit: $("#c-credit").value.trim().slice(0, 80), source: $("#c-source").value, clip, clip_slow: clipSlow,
+      consent: !!(clip || clipSlow) && $("#c-consent").checked};
+    let { error } = await sb.from("contributions").insert(row);
+    // Until the database has the consent column, send without it rather than lose the contribution.
+    if (error && /consent/i.test(error.message || "")) { delete row.consent; ({ error } = await sb.from("contributions").insert(row)); }
     if (error) throw error;
     myItems.push({id, kind, name, at, status: "pending"}); mineStore.set(myItems); renderMine();
     showMsg("ok", `Thank you. <b>${esc(name)}</b> is waiting for review. Send another whenever you like.`);
@@ -1010,7 +1024,7 @@ async function sendLink(ev){
   }
 }
 const toItem = r => ({id:r.id, kind:r.kind, name:r.name, target:r.target, variants:r.variants || [], tribe:r.tribe, gender:r.gender, meaning:r.meaning,
-  pron:r.pron, story:r.story, credit:r.credit, source:r.source, at:r.created_at, clip:r.clip || "", clipSlow:r.clip_slow || ""});
+  pron:r.pron, story:r.story, credit:r.credit, source:r.source, at:r.created_at, clip:r.clip || "", clipSlow:r.clip_slow || "", consent:r.consent === true});
 async function loadQueue(){
   if (!sb || !isEditor) return;
   try {
@@ -1034,17 +1048,19 @@ function renderReview(){
       it.meaning ? ["Meaning", esc(it.meaning)] : null, it.tribe ? ["Tribe", esc(it.tribe)] : null,
       it.gender ? ["Gender", G[it.gender]] : null, it.pron ? ["Say it", esc(it.pron)] : null, it.story ? ["Story", esc(it.story)] : null,
       (it.clip || it.clipSlow) ? ["Recording", `<span class="clips">${it.clip?`<button type="button" class="play" data-rplay="${esc(it.clip)}">${SPK}Natural</button>`:""}${it.clipSlow?`<button type="button" class="play" data-rplay="${esc(it.clipSlow)}">${SPK}Slow</button>`:""}</span>`] : null,
+      (it.clip || it.clipSlow) ? ["Consent", it.consent ? `<span class="ok-tag">✓ Consent given</span>` : `<span class="warn-tag">Not given</span> <span style="color:var(--muted)">(sent before consent was asked, so it can't be approved)</span>`] : null,
       ["From", (it.credit ? esc(it.credit) + ", " : "Anonymous, ") + (SRC[it.source]||"")],
       ["Sent", new Date(it.at).toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})]
     ].filter(Boolean);
     return `<article class="rv-item"><div><p class="eyebrow">${K[it.kind]||""}</p><h3 style="margin-top:6px">${esc(it.name)}</h3>
       <dl>${rows.map(([a,b]) => `<dt>${a}</dt><dd>${b}</dd>`).join("")}</dl></div>
-      <div class="rv-actions"><button class="btn ok" type="button" data-approve="${n}">Approve</button><button class="btn" type="button" data-decline="${n}">Decline</button></div></article>`;
+      <div class="rv-actions"><button class="btn ok" type="button" data-approve="${n}"${(it.clip || it.clipSlow) && !it.consent ? " disabled title=\"A recording needs consent before it can be published\"" : ""}>Approve</button><button class="btn" type="button" data-decline="${n}">Decline</button></div></article>`;
   }).join("");
 }
 async function decide(n, ok){
   const q = queue[n]; if (!q || !sb) return;
   const it = q.it;
+  if (ok && (it.clip || it.clipSlow) && !it.consent) return;
   const btns = document.querySelectorAll(`[data-approve="${n}"],[data-decline="${n}"]`); btns.forEach(b => b.disabled = true);
   try {
     if (ok) {
@@ -1082,14 +1098,14 @@ const PICK = {
   s: {input:"#c-slow", rec:"#c-slow-rec", hint:"#c-slow-hint", prev:"#c-slow-prev", clear:"#c-slow-clear", def:"Break it into its sounds, with a pause between each, like “Deh… con… tee”.", data:null, url:null}
 };
 let playing = null;
-function clearPick(k){ if (rec && rec.k === k) stopRec(true); const p = PICK[k]; p.data = null; $(p.input).value = ""; $(p.prev).hidden = true; $(p.clear).hidden = true; if (p.url) { URL.revokeObjectURL(p.url); p.url = null; } $(p.hint).textContent = p.def; }
+function clearPick(k){ if (rec && rec.k === k) stopRec(true); const p = PICK[k]; p.data = null; $(p.input).value = ""; $(p.prev).hidden = true; $(p.clear).hidden = true; if (p.url) { URL.revokeObjectURL(p.url); p.url = null; } $(p.hint).textContent = p.def; consentUI(); }
 function clearAudio(){ clearPick("c"); clearPick("s"); recBtn("c", false); recBtn("s", false); }
 function setPick(k, file, type, ext, label){
   const p = PICK[k];
   p.data = {file, type, ext};
   if (p.url) URL.revokeObjectURL(p.url);
   p.url = URL.createObjectURL(file); const a = $(p.prev); a.src = p.url; a.hidden = false;
-  $(p.clear).hidden = false; $(p.hint).textContent = `${label}. Play it back to check it's clear.`;
+  $(p.clear).hidden = false; $(p.hint).textContent = `${label}. Play it back to check it's clear.`; consentUI();
 }
 Object.keys(PICK).forEach(k => $(PICK[k].input).addEventListener("change", ev => {
   const p = PICK[k], f = ev.target.files && ev.target.files[0]; if (!f) { clearPick(k); return; }
@@ -1206,7 +1222,7 @@ $("#sort").addEventListener("change", ev => { state.sort = ev.target.value; rend
 $("#hero-form").addEventListener("submit", ev => { ev.preventDefault(); const v = $("#hero-q").value; $("#q").value = v; state.q = v; state.letter = ""; update(true); });
 $("#c-tribe").addEventListener("change", ev => { $("#c-tribe-other-wrap").hidden = ev.target.value !== "__other"; });
 $("#c-name").addEventListener("input", nameHint);
-document.querySelectorAll('input[name="kind"]').forEach(r => r.addEventListener("change", nameHint));
+document.querySelectorAll('input[name="kind"]').forEach(r => r.addEventListener("change", () => { nameHint(); consentUI(); }));
 $("#sugg").addEventListener("submit", submit);
 document.addEventListener("submit", ev => { if (ev.target.id === "rv-signin") sendLink(ev); });
 addEventListener("hashchange", () => { if (/^#(editor|review)$/.test(location.hash)) showReview(); openFromHash(); });

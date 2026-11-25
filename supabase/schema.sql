@@ -30,10 +30,14 @@ create table if not exists public.contributions (
   source      text not null default 'other' check (source in ('family', 'speaker', 'elder', 'other')),
   clip        text not null default '' check (char_length(clip) <= 120),
   clip_slow   text not null default '' check (char_length(clip_slow) <= 120),
+  consent     boolean not null default false,
   status      text not null default 'pending' check (status in ('pending', 'approved', 'declined')),
   created_at  timestamptz not null default now(),
   reviewed_at timestamptz
 );
+alter table public.contributions drop constraint if exists recordings_need_consent;
+alter table public.contributions add constraint recordings_need_consent
+  check (consent or (clip = '' and clip_slow = '')) not valid;
 create index if not exists contributions_status_created on public.contributions (status, created_at);
 
 create table if not exists public.approved (

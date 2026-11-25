@@ -12,6 +12,8 @@ Writes:
                         allows the archive's own inline script by its hash
 """
 import base64
+import csv
+import io
 import datetime
 import hashlib
 import html
@@ -97,7 +99,9 @@ site_ld = {
          "spatialCoverage": {"@type": "Place", "name": "Liberia"},
          "temporalCoverage": "2020/..", "inLanguage": "en", "isAccessibleForFree": True,
          "creator": [{"@type": "Person", "name": n} for n in FOUNDERS],
-         "dateModified": today},
+         "dateModified": today, "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+         "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": SITE + "/data/liberian-names.csv"},
+                          {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": SITE + "/data/liberian-names.json"}]},
     ],
 }
 
@@ -169,7 +173,8 @@ def page(title, desc, url, body, jsonld=None, robots=None):
 {body}
 </main>
 <footer><div class="wrap">Liberian Names · an open community archive, started 2020. Every meaning is reviewed before it appears.<br>
-A project by Cyrene Williams and Winifred Gray-Johnson, co-founders and contributors</div></footer>
+A project by Cyrene Williams and Winifred Gray-Johnson, co-founders and contributors<br>
+<a href="/names/">Browse every name</a> · <a href="/how-we-use-contributions/">How we use contributions</a> · <a href="/names/#download">Download the archive</a></div></footer>
 </body>
 </html>
 """
@@ -248,7 +253,7 @@ for e in names:
     if e.get("sources"):
         parts.append("<h2>Sources</h2><p>" + "; ".join(
             f'<a href="{esc(x["url"])}" rel="nofollow noopener">{esc(x["title"])}</a> (accessed {esc(x["accessed"])})'
-            for x in e["sources"]) + ". Published sources are listed until the community confirms the entry.</p>")
+            for x in e["sources"]) + "." + ("" if e["submissions"] else " Listed from a published source until the community confirms it.") + "</p>")
     parts.append(f'<div class="actions"><a class="btn" href="/#name={esc(e["id"])}">Open in the archive</a>'
                  '<a class="btn alt" href="/#contribute">Add a meaning, spelling or recording</a></div>')
 
@@ -273,6 +278,11 @@ for e in names:
             {"@type": "ListItem", "position": 3, "name": e["name"], "item": url}]}]}
     write(f"names/{e['id']}/index.html", page(title, desc, url, "\n".join(parts), term))
 
+LICENSE = ("Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+           "https://creativecommons.org/licenses/by-nc/4.0/")
+CITE = (f"Williams, C., &amp; Gray-Johnson, W. (Eds.). ({year}). <i>Liberian Names: An open archive of Liberian "
+        f"traditional names</i> [Data set]. {SITE}")
+
 # ---------- names/index.html (A-Z) ----------
 groups = defaultdict(list)
 for e in sorted(names, key=lambda x: x["id"]):
@@ -287,9 +297,63 @@ for L, lst in groups.items():
         f'<li><a href="/names/{esc(e["id"])}/">{esc(e["name"])}</a>'
         + (f' <small>{esc(e["meanings"][0]["text"])}</small>' if e["meanings"] else "") + "</li>" for e in lst) + "</ul>")
 az.append("</div>")
+az.append(f'''<h2 id="download">Download the archive</h2>
+<p>The full archive is free to download for research and teaching, as a spreadsheet (<a href="/data/liberian-names.csv" download>CSV</a>) and as data (<a href="/data/liberian-names.json" download>JSON</a>). Version {today}, {len(names)} names. Shared under <a href="{LICENSE[1]}" rel="license">{LICENSE[0]}</a>: you may use and share it with credit, but not for commercial purposes. Recordings are not included.</p>
+<p>Please cite it as:</p>
+<p class="cite">{CITE}</p>''')
 write("names/index.html", page(f"All {len(names)} Liberian names, A to Z · Liberian Names",
                                f"Browse {len(names)} Liberian traditional names from {tribe_count} tribes, with meanings, A to Z.",
                                SITE + "/names/", "\n".join(az)))
+
+# ---------- download for researchers ----------
+LICENSE = ("Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+           "https://creativecommons.org/licenses/by-nc/4.0/")
+CITE = (f"Williams, C., &amp; Gray-Johnson, W. (Eds.). ({year}). <i>Liberian Names: An open archive of Liberian "
+        f"traditional names</i> [Data set]. {SITE}")
+export = []
+for e in names:
+    export.append({
+        "id": e["id"], "name": e["name"], "other_spellings": e["variants"], "gender": e["gender"],
+        "tribes": e["tribes"],
+        "meanings": [{"meaning": m["text"], "tribes": m["tribes"], "people_who_shared_it": m["count"],
+                      **({"published_source": m["source"]} if m.get("source") else {})} for m in e["meanings"]],
+        "pronunciation": e["pronunciation"], "notes": [n for n in e["notes"] if n != INFERRED],
+        "people_who_shared_it": e["submissions"], "tribe_uncertain": "Tribe marked uncertain" in e["issues"],
+        "published_sources": [x["url"] for x in e.get("sources", [])], "url": slug_url(e)})
+meta = {"title": "Liberian Names: An open archive of Liberian traditional names", "editors": FOUNDERS,
+        "url": SITE, "version": today, "license": LICENSE[0], "license_url": LICENSE[1],
+        "cite_as": re.sub("<[^>]+>", "", CITE).replace("&amp;", "&"),
+        "note": ("Community contributions approved on the website after this date are included in the next release. "
+                 "Recordings are not included."), "names": export}
+write("data/liberian-names.json", json.dumps(meta, ensure_ascii=False, indent=1) + "\n")
+buf = io.StringIO()
+w = csv.writer(buf)
+w.writerow(["name", "other_spellings", "gender", "tribes", "meanings", "pronunciation", "notes",
+            "people_who_shared_it", "published_sources", "url"])
+for x in export:
+    w.writerow([x["name"], "; ".join(x["other_spellings"]), x["gender"], "; ".join(x["tribes"]),
+                " | ".join(m["meaning"] for m in x["meanings"]), "; ".join(x["pronunciation"]),
+                " | ".join(x["notes"]), x["people_who_shared_it"], "; ".join(x["published_sources"]), x["url"]])
+write("data/liberian-names.csv", "\ufeff" + buf.getvalue())
+
+# ---------- how we use contributions ----------
+HOW = """<p class="crumbs"><a href="/">Home</a> › How we use contributions</p>
+<h1>How we use contributions</h1>
+<p>Liberian Names is an open, community-built record of Liberian traditional names, cared for by Cyrene Williams and Winifred Gray-Johnson. Everything here was shared by people who know these names, and we want you to know what happens to what you share.</p>
+<h2>What happens when you contribute</h2>
+<p>An editor reads every meaning, spelling, story and recording before it appears. We may correct spelling or shorten text, but we won't change what you said a name means.</p>
+<h2>How it's shown</h2>
+<p>Approved contributions appear on the name's page, with the name you gave for credit, or none if you left it blank. Recordings are published for anyone to listen to. We never show your email address.</p>
+<h2>How it's kept and shared</h2>
+<p>The archive is a cultural record, so contributions are kept for the long term. Researchers may download and cite a yearly copy of the archive. We may also share it with universities, libraries and heritage archives that help preserve it. We do not sell contributions or use them for advertising.</p>
+<h2>Names that carry special meaning</h2>
+<p>Some names belong to societies, ceremonies or families. If you believe a name or story should not be public, tell us and we'll take advice from elders.</p>
+<h2>Removing something</h2>
+<p>You can ask us to remove your contribution or recording at any time. Email <a href="mailto:info@liberiannames.com">info@liberiannames.com</a> with the name it's attached to, and we'll remove it within 14 days. Copies already downloaded by researchers can't be recalled, but they will not appear in later releases.</p>
+<div class="actions"><a class="btn" href="/#contribute">Contribute a name</a></div>"""
+write("how-we-use-contributions/index.html", page("How we use contributions · Liberian Names",
+      "How Liberian Names reviews, publishes, keeps and removes the names, meanings and recordings people contribute.",
+      SITE + "/how-we-use-contributions/", HOW))
 
 # ---------- 404 ----------
 write("404.html", page("Page not found · Liberian Names", "This page isn't in the archive.", None,
@@ -297,7 +361,7 @@ write("404.html", page("Page not found · Liberian Names", "This page isn't in t
                        'or <a href="/names/">browse every name</a>.</p>', robots="noindex"))
 
 # ---------- sitemap + robots ----------
-urls = [SITE + "/", SITE + "/names/"] + [slug_url(e) for e in names]
+urls = [SITE + "/", SITE + "/names/", SITE + "/how-we-use-contributions/"] + [slug_url(e) for e in names]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
       + "".join(f"  <url><loc>{esc(u)}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /src/\nDisallow: /scripts/\nDisallow: /supabase/\n\nSitemap: {SITE}/sitemap.xml\n")
