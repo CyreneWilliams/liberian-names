@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /supabase/
+
+Sitemap: https://liberiannames.com/sitemap.xml

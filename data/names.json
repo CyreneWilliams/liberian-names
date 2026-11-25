@@ -330,22 +330,7 @@
     "Grebo",
     "Kru"
    ],
-   "meanings": [
-    {
-     "text": "Calling grandma but not sure",
-     "tribes": [
-      "Grebo"
-     ],
-     "count": 1
-    },
-    {
-     "text": "Female warrior",
-     "tribes": [
-      "Kru"
-     ],
-     "count": 1
-    }
-   ],
+   "meanings": [],
    "notes": [],
    "surname": false,
    "submissions": 2,
@@ -353,7 +338,9 @@
     116,
     279
    ],
-   "issues": []
+   "issues": [
+    "No meaning yet"
+   ]
   },
   {
    "id": "bendu",
@@ -7318,7 +7305,7 @@
    ],
    "meanings": [
     {
-     "text": "Where you there",
+     "text": "Were you there",
      "tribes": [
       "Kru"
      ],
@@ -7518,7 +7505,7 @@
    ],
    "meanings": [
     {
-     "text": "Where you there",
+     "text": "Were you there",
      "tribes": [
       "Kru"
      ],
