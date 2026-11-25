@@ -330,7 +330,15 @@
     "Grebo",
     "Kru"
    ],
-   "meanings": [],
+   "meanings": [
+    {
+     "text": "Female warrior",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 1
+    }
+   ],
    "notes": [],
    "surname": false,
    "submissions": 2,
@@ -338,9 +346,7 @@
     116,
     279
    ],
-   "issues": [
-    "No meaning yet"
-   ]
+   "issues": []
   },
   {
    "id": "bendu",
