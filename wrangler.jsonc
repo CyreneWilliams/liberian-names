@@ -1,0 +1,10 @@
+// Cloudflare Worker settings. The site is plain files served from this folder.
+{
+  "name": "shy-block-07f0",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

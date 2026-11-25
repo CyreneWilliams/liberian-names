@@ -1,0 +1,10 @@
+# Files in the repository that should not be published on the website
+.git
+.github
+.assetsignore
+wrangler.jsonc
+node_modules
+src
+scripts
+supabase
+README.md
