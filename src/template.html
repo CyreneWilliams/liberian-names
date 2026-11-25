@@ -466,7 +466,7 @@ footer .editor-link{color:var(--muted);font-size:13px}
           <label><input type="radio" name="kind" id="k-new" value="new" checked><span>A new name</span></label>
           <label><input type="radio" name="kind" id="k-spell" value="spelling"><span>Another spelling</span></label>
           <label><input type="radio" name="kind" id="k-mean" value="meaning"><span>A meaning or correction</span></label>
-          <label><input type="radio" name="kind" id="k-audio" value="audio"><span>A recording</span></label>
+          <label><input type="radio" name="kind" id="k-audio" value="audio"><span>A pronunciation</span></label>
         </fieldset>
         <div class="f2">
           <div class="fl">
@@ -798,7 +798,7 @@ function openName(i){
     <div class="actions">
       <button class="btn red" type="button" data-suggest="meaning" data-name="${esc(e.name)}">${e.meanings.length?"Add a meaning or correction":"Share the meaning"}</button>
       <button class="btn" type="button" data-suggest="spelling" data-name="${esc(e.name)}">Add a spelling</button>
-      <button class="btn" type="button" data-suggest="audio" data-name="${esc(e.name)}">${e.audio.length?"Add another recording":"Record how it sounds"}</button>
+      <button class="btn" type="button" data-suggest="audio" data-name="${esc(e.name)}">${e.audio.length?"Add another pronunciation":"Add pronunciation"}</button>
     </div></div>`;
   $("#scrim").hidden = false; document.body.style.overflow = "hidden"; $("#card-close").focus();
 }
