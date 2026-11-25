@@ -84,6 +84,32 @@
    "issues": []
   },
   {
+   "id": "ahmed",
+   "name": "Ahmed",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "alpato",
    "name": "Alpato",
    "variants": [],
@@ -136,6 +162,32 @@
    "issues": []
   },
   {
+   "id": "amadu",
+   "name": "Amadu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "amina",
    "name": "Amina",
    "variants": [],
@@ -163,6 +215,30 @@
    "issues": []
   },
   {
+   "id": "amu",
+   "name": "Amu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "ansa",
    "name": "Ansa",
    "variants": [],
@@ -180,6 +256,30 @@
    ],
    "issues": [
     "No meaning yet"
+   ]
+  },
+  {
+   "id": "ansu",
+   "name": "Ansu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -291,6 +391,30 @@
     377
    ],
    "issues": []
+  },
+  {
+   "id": "banwai",
+   "name": "Banwai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "beaye",
@@ -425,6 +549,64 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "bintu",
+   "name": "Bintu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "The daughter of",
+     "tribes": [],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "blama",
+   "name": "Blama",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -623,6 +805,30 @@
    ]
   },
   {
+   "id": "boikai",
+   "name": "Boikai",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "boima",
    "name": "Boima",
    "variants": [],
@@ -814,32 +1020,28 @@
    ]
   },
   {
-   "id": "d-jokia",
-   "name": "D'jokia",
-   "variants": [
-    "Jokia"
-   ],
+   "id": "coto",
+   "name": "Coto",
+   "variants": [],
    "pronunciation": [],
-   "gender": "Unisex",
-   "tribes": [
-    "Kpelle"
-   ],
-   "meanings": [
-    {
-     "text": "Stay here",
-     "tribes": [
-      "Kpelle"
-     ],
-     "count": 1
-    }
-   ],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
    "notes": [],
    "surname": false,
-   "submissions": 1,
-   "source_rows": [
-    177
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
    ],
-   "issues": []
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "dabah",
@@ -867,6 +1069,25 @@
     107
    ],
    "issues": []
+  },
+  {
+   "id": "dahn",
+   "name": "Dahn",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    587
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "daleso",
@@ -1237,6 +1458,72 @@
    "issues": []
   },
   {
+   "id": "d-jokia",
+   "name": "D'jokia",
+   "variants": [
+    "Jokia"
+   ],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Stay here",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    177
+   ],
+   "issues": []
+  },
+  {
+   "id": "doe",
+   "name": "Doe",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    590
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "dolo",
+   "name": "Dolo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    592
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
    "id": "domah",
    "name": "Domah",
    "variants": [],
@@ -1345,6 +1632,76 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "dwe",
+   "name": "Dwe",
+   "variants": [
+    "Nyene-Dwe"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Grebo"
+   ],
+   "meanings": [
+    {
+     "text": "Elephant: given to someone great, strong and powerful",
+     "tribes": [
+      "Grebo"
+     ],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [
+    "Dwe is the boy’s form; for a girl it is Nyene-Dwe (nyene means woman or wife)."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "dwede",
+   "name": "Dwede",
+   "variants": [],
+   "pronunciation": [
+    "Dwe-day"
+   ],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Dwe’s mother",
+     "tribes": [],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [
+    "Said the way you would say “Junior’s Ma”."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -1512,6 +1869,30 @@
    "issues": []
   },
   {
+   "id": "famata",
+   "name": "Famata",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "famatta",
    "name": "Famatta",
    "variants": [],
@@ -1557,6 +1938,64 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "fanta",
+   "name": "Fanta",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "fatima",
+   "name": "Fatima",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "The prophet’s daughter",
+     "tribes": [],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -1614,6 +2053,30 @@
    "issues": []
   },
   {
+   "id": "fazzie",
+   "name": "Fazzie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "fela",
    "name": "Fela",
    "variants": [
@@ -1649,6 +2112,30 @@
     183
    ],
    "issues": []
+  },
+  {
+   "id": "feta",
+   "name": "Feta",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "finda",
@@ -1725,6 +2212,25 @@
    ]
   },
   {
+   "id": "flomo",
+   "name": "Flomo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    601
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
    "id": "foday",
    "name": "Foday",
    "variants": [
@@ -1771,6 +2277,30 @@
     185
    ],
    "issues": []
+  },
+  {
+   "id": "fokra",
+   "name": "Fokra",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "fonati",
@@ -2065,6 +2595,30 @@
    "issues": []
   },
   {
+   "id": "garmaih",
+   "name": "Garmaih",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "garmen",
    "name": "Garmen",
    "variants": [],
@@ -2196,6 +2750,25 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "gaye",
+   "name": "Gaye",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    591
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
    ]
   },
   {
@@ -2429,6 +3002,30 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "goma",
+   "name": "Goma",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -2872,6 +3469,40 @@
    "issues": []
   },
   {
+   "id": "jayplo",
+   "name": "Jayplo",
+   "variants": [
+    "Japlo"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "Beautiful girl",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "jebbeh",
    "name": "Jebbeh",
    "variants": [],
@@ -2963,6 +3594,30 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "jlay",
+   "name": "Jlay",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -3073,6 +3728,30 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "jugbeh",
+   "name": "Jugbeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -3301,6 +3980,49 @@
    "issues": []
   },
   {
+   "id": "kamah",
+   "name": "Kamah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "kamara",
+   "name": "Kamara",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    603
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
    "id": "kamusu",
    "name": "Kamusu",
    "variants": [],
@@ -3325,6 +4047,49 @@
     483
    ],
    "issues": []
+  },
+  {
+   "id": "kandaki",
+   "name": "Kandaki",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "kanneh",
+   "name": "Kanneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    588
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "kardeker",
@@ -3375,6 +4140,32 @@
    ]
   },
   {
+   "id": "kasnatu",
+   "name": "Kasnatu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "keabeh",
    "name": "Keabeh",
    "variants": [],
@@ -3400,6 +4191,30 @@
     393
    ],
    "issues": []
+  },
+  {
+   "id": "kebbeh",
+   "name": "Kebbeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "kebeh",
@@ -3454,6 +4269,34 @@
     121
    ],
    "issues": []
+  },
+  {
+   "id": "keima",
+   "name": "Keima",
+   "variants": [
+    "Kayma"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "kermiah",
@@ -3657,6 +4500,30 @@
    ]
   },
   {
+   "id": "kofa",
+   "name": "Kofa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "kohnmah",
    "name": "Kohnmah",
    "variants": [],
@@ -3685,6 +4552,32 @@
    ]
   },
   {
+   "id": "koja",
+   "name": "Koja",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "kolleh",
    "name": "Kolleh",
    "variants": [],
@@ -3709,6 +4602,25 @@
     311
    ],
    "issues": []
+  },
+  {
+   "id": "kollie",
+   "name": "Kollie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    602
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "kolu",
@@ -3784,6 +4696,59 @@
     529
    ],
    "issues": []
+  },
+  {
+   "id": "konmlan",
+   "name": "Konmlan",
+   "variants": [
+    "Monon-Konmlan"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "I’m the one with the luck / blessing",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "konneh",
+   "name": "Konneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    595
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "koplah",
@@ -4194,6 +5159,25 @@
    ]
   },
   {
+   "id": "kromah",
+   "name": "Kromah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    597
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
    "id": "krubo",
    "name": "Krubo",
    "variants": [],
@@ -4219,6 +5203,30 @@
    ],
    "issues": [
     "Tribe marked uncertain"
+   ]
+  },
+  {
+   "id": "kula",
+   "name": "Kula",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -4435,6 +5443,32 @@
    "issues": []
   },
   {
+   "id": "lagbeh",
+   "name": "Lagbeh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "lainu",
    "name": "Lainu",
    "variants": [],
@@ -4508,6 +5542,30 @@
    ],
    "issues": [
     "No meaning yet"
+   ]
+  },
+  {
+   "id": "lamie",
+   "name": "Lamie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -5202,11 +6260,38 @@
    ]
   },
   {
+   "id": "mamadee",
+   "name": "Mamadee",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "mamawa",
    "name": "Mamawa",
    "variants": [],
    "pronunciation": [
-    "MAWAY"
+    "MAWAY",
+    "Maway"
    ],
    "gender": "Female",
    "tribes": [],
@@ -5225,6 +6310,13 @@
    ],
    "issues": [
     "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -5311,6 +6403,30 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "marbue",
+   "name": "Marbue",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -5586,6 +6702,30 @@
    "issues": []
   },
   {
+   "id": "massala",
+   "name": "Massala",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "matenyeh",
    "name": "Matenyeh",
    "variants": [],
@@ -5606,6 +6746,56 @@
    "issues": [
     "No meaning yet",
     "No gender given"
+   ]
+  },
+  {
+   "id": "mathenneh",
+   "name": "Mathenneh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "matu",
+   "name": "Matu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -5635,6 +6825,30 @@
     422
    ],
    "issues": []
+  },
+  {
+   "id": "mayatu",
+   "name": "Mayatu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "mayeadeh",
@@ -5775,6 +6989,30 @@
    ]
   },
   {
+   "id": "mazu",
+   "name": "Mazu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "mbaimba",
    "name": "Mbaimba",
    "variants": [
@@ -5794,6 +7032,38 @@
    ],
    "issues": [
     "No meaning yet"
+   ]
+  },
+  {
+   "id": "mechen",
+   "name": "Mechen",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [
+    "Bassa"
+   ],
+   "meanings": [
+    {
+     "text": "Tears",
+     "tribes": [
+      "Bassa"
+     ],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -5824,6 +7094,56 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "miatta",
+   "name": "Miatta",
+   "variants": [
+    "Miata"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "miehdi",
+   "name": "Miehdi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -5904,6 +7224,80 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "moima",
+   "name": "Moima",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "momo",
+   "name": "Momo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "momolu",
+   "name": "Momolu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -6109,6 +7503,25 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "mulbah",
+   "name": "Mulbah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    599
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
    ]
   },
   {
@@ -6392,6 +7805,30 @@
     328
    ],
    "issues": []
+  },
+  {
+   "id": "nahweh",
+   "name": "Nahweh",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "naitoh",
@@ -6726,6 +8163,30 @@
    "issues": []
   },
   {
+   "id": "neeway",
+   "name": "Neeway",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "nehwah",
    "name": "Nehwah",
    "variants": [],
@@ -7029,6 +8490,30 @@
    ]
   },
   {
+   "id": "nowu",
+   "name": "Nowu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "nukpala",
    "name": "Nukpala",
    "variants": [],
@@ -7222,6 +8707,32 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "nyeimaah",
+   "name": "Nyeimaah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -7730,6 +9241,30 @@
    "issues": []
   },
   {
+   "id": "oso",
+   "name": "Oso",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "paawaa",
    "name": "Pààwàá",
    "variants": [],
@@ -7784,6 +9319,25 @@
     449
    ],
    "issues": []
+  },
+  {
+   "id": "paye-2",
+   "name": "Paye",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    594
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "pese",
@@ -7925,6 +9479,41 @@
    ]
   },
   {
+   "id": "rahmatulah",
+   "name": "Rahmatulah",
+   "variants": [
+    "Ramatula",
+    "Ramatu"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "The mercy of God",
+     "tribes": [],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "reesama",
    "name": "Reesama",
    "variants": [],
@@ -7977,35 +9566,11 @@
    "issues": []
   },
   {
-   "id": "saa-kooli",
-   "name": "Sàà-kòòlì",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [
-    "Kpelle"
-   ],
-   "meanings": [
-    {
-     "text": "Seventh born male",
-     "tribes": [
-      "Kpelle"
-     ],
-     "count": 1
-    }
-   ],
-   "notes": [],
-   "surname": false,
-   "submissions": 1,
-   "source_rows": [
-    247
-   ],
-   "issues": []
-  },
-  {
    "id": "saah",
    "name": "Saah",
-   "variants": [],
+   "variants": [
+    "Sarh"
+   ],
    "pronunciation": [],
    "gender": "Male",
    "tribes": [
@@ -8036,7 +9601,14 @@
     159,
     160
    ],
-   "issues": []
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "saah-kollie",
@@ -8065,6 +9637,99 @@
    "issues": []
   },
   {
+   "id": "saa-kooli",
+   "name": "Sàà-kòòlì",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kpelle"
+   ],
+   "meanings": [
+    {
+     "text": "Seventh born male",
+     "tribes": [
+      "Kpelle"
+     ],
+     "count": 1
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 1,
+   "source_rows": [
+    247
+   ],
+   "issues": []
+  },
+  {
+   "id": "sackie",
+   "name": "Sackie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    593
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
+   "id": "sadatu",
+   "name": "Sadatu",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "sadia",
+   "name": "Sadia",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "sahntay",
    "name": "Sahntay",
    "variants": [],
@@ -8090,6 +9755,30 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "saida",
+   "name": "Saida",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -8383,6 +10072,30 @@
    ]
   },
   {
+   "id": "saybah",
+   "name": "Saybah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "saydah",
    "name": "Saydah",
    "variants": [],
@@ -8515,6 +10228,32 @@
    "issues": []
   },
   {
+   "id": "sayo",
+   "name": "Sayo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "saypien",
    "name": "Saypien",
    "variants": [],
@@ -8594,6 +10333,36 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "secret",
+   "name": "Secret",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "The nine-month “secret” is revealed",
+     "tribes": [],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -8757,6 +10526,30 @@
    "issues": []
   },
   {
+   "id": "siafa",
+   "name": "Siafa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "siahbonu",
    "name": "Siahbonu",
    "variants": [],
@@ -8904,6 +10697,12 @@
      "text": "Sweet strong / sweet journey",
      "tribes": [],
      "count": 1
+    },
+    {
+     "text": "Sie’s wife (from Sie-Anyene): a girl named after you may be called this to honour your husband, Sie",
+     "tribes": [],
+     "count": 0,
+     "source": "TLC Africa"
     }
    ],
    "notes": [],
@@ -8914,7 +10713,64 @@
     255,
     560
    ],
-   "issues": []
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "siatta",
+   "name": "Siatta",
+   "variants": [
+    "Siata"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "sidiki",
+   "name": "Sidiki",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "siedoh",
@@ -9080,6 +10936,31 @@
    "issues": []
   },
   {
+   "id": "snortie",
+   "name": "Snortie",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "snosio",
    "name": "Snosio",
    "variants": [
@@ -9108,6 +10989,32 @@
     345
    ],
    "issues": []
+  },
+  {
+   "id": "solo",
+   "name": "Solo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "sondah",
@@ -9195,6 +11102,59 @@
     256
    ],
    "issues": []
+  },
+  {
+   "id": "suah",
+   "name": "Suah",
+   "variants": [],
+   "pronunciation": [
+    "Sue-ah"
+   ],
+   "gender": "Male",
+   "tribes": [
+    "Gio"
+   ],
+   "meanings": [
+    {
+     "text": "A new era, a new beginning",
+     "tribes": [
+      "Gio"
+     ],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "sumo",
+   "name": "Sumo",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    598
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "sunday-ga",
@@ -9327,6 +11287,32 @@
     167
    ],
    "issues": []
+  },
+  {
+   "id": "swana",
+   "name": "Swana",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "taiwa",
@@ -9681,6 +11667,40 @@
    "issues": []
   },
   {
+   "id": "tehpoe",
+   "name": "Tehpoe",
+   "variants": [
+    "Soe-Tehpoe"
+   ],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [
+    {
+     "text": "I’m not to be blamed / I’m not responsible for what happened",
+     "tribes": [
+      "Kru"
+     ],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "tene",
    "name": "Tènè",
    "variants": [],
@@ -9884,6 +11904,31 @@
    ]
   },
   {
+   "id": "tiedi",
+   "name": "Tiedi",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "tipoteh",
    "name": "Tipoteh",
    "variants": [],
@@ -9945,6 +11990,25 @@
    "issues": []
   },
   {
+   "id": "toe",
+   "name": "Toe",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Unisex",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    600
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
+  },
+  {
    "id": "toga",
    "name": "Toga",
    "variants": [],
@@ -9973,6 +12037,25 @@
     71
    ],
    "issues": []
+  },
+  {
+   "id": "tokpah",
+   "name": "Tokpah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    596
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "tomah",
@@ -10107,6 +12190,54 @@
    "issues": []
   },
   {
+   "id": "toyuwa",
+   "name": "Toyuwa",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "trokon",
+   "name": "Trokon",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "tuanue",
    "name": "Tuanue",
    "variants": [],
@@ -10161,6 +12292,30 @@
    ],
    "issues": [
     "No gender given"
+   ]
+  },
+  {
+   "id": "tuma",
+   "name": "Tuma",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -10282,6 +12437,40 @@
    "issues": [
     "No meaning yet",
     "Tribe unknown"
+   ]
+  },
+  {
+   "id": "wahde",
+   "name": "Wahde",
+   "variants": [],
+   "pronunciation": [
+    "Wah-day"
+   ],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [
+    {
+     "text": "Wah’s mother",
+     "tribes": [],
+     "count": 0,
+     "source": "TLC Africa"
+    }
+   ],
+   "notes": [
+    "A girl named after you may be called this to honour your son, Wah."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -10477,6 +12666,32 @@
    "issues": []
   },
   {
+   "id": "watta",
+   "name": "Watta",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [
+    "A Muslim name used across West Africa, including by Mandingo and Fulani families."
+   ],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "wayfa",
    "name": "Wayfa",
    "variants": [],
@@ -10503,6 +12718,25 @@
     264
    ],
    "issues": []
+  },
+  {
+   "id": "weah",
+   "name": "Weah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": true,
+   "submissions": 1,
+   "source_rows": [
+    589
+   ],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ]
   },
   {
    "id": "weedor",
@@ -10557,6 +12791,31 @@
     406
    ],
    "issues": []
+  },
+  {
+   "id": "wehte",
+   "name": "Wehte",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [
+    "Kru"
+   ],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "wehti",
@@ -10890,6 +13149,7 @@
    "name": "Wonlay",
    "variants": [],
    "pronunciation": [
+    "War-nie",
     "War-nie"
    ],
    "gender": "Female",
@@ -10911,6 +13171,13 @@
    ],
    "issues": [
     "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -10973,6 +13240,30 @@
    "issues": []
   },
   {
+   "id": "wyiata",
+   "name": "Wyiata",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "yah",
    "name": "Yah",
    "variants": [],
@@ -11006,6 +13297,30 @@
     576
    ],
    "issues": []
+  },
+  {
+   "id": "yama",
+   "name": "Yama",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "yamah",
@@ -11161,6 +13476,30 @@
    "issues": []
   },
   {
+   "id": "yarmah",
+   "name": "Yarmah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
    "id": "yarvo",
    "name": "Yarvo",
    "variants": [],
@@ -11219,6 +13558,59 @@
    "issues": [
     "Tribe unknown",
     "No gender given"
+   ]
+  },
+  {
+   "id": "yassa",
+   "name": "Yassa",
+   "variants": [
+    "Yassah"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
+  },
+  {
+   "id": "yatta",
+   "name": "Yatta",
+   "variants": [
+    "Yarta",
+    "Yata"
+   ],
+   "pronunciation": [],
+   "gender": "Female",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -11433,9 +13825,12 @@
   {
    "id": "yenplu",
    "name": "Yenplu",
-   "variants": [],
+   "variants": [
+    "Yenpu"
+   ],
    "pronunciation": [
-    "NYENE-PLU"
+    "NYENE-PLU",
+    "Nyene-plu"
    ],
    "gender": "Female",
    "tribes": [],
@@ -11454,6 +13849,13 @@
    ],
    "issues": [
     "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
    ]
   },
   {
@@ -11555,6 +13957,30 @@
     407
    ],
    "issues": []
+  },
+  {
+   "id": "zinnah",
+   "name": "Zinnah",
+   "variants": [],
+   "pronunciation": [],
+   "gender": "Male",
+   "tribes": [],
+   "meanings": [],
+   "notes": [],
+   "surname": false,
+   "submissions": 0,
+   "source_rows": [],
+   "issues": [
+    "No meaning yet",
+    "Tribe unknown"
+   ],
+   "sources": [
+    {
+     "title": "TLC Africa, African Names",
+     "url": "https://www.tlcafrica1.com/africa-name/",
+     "accessed": "2026-11-25"
+    }
+   ]
   },
   {
    "id": "zleh",
@@ -11769,329 +14195,6 @@
    "issues": [
     "No meaning yet",
     "No gender given"
-   ]
-  },
-  {
-   "id": "dahn",
-   "name": "Dahn",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    587
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "doe",
-   "name": "Doe",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Unisex",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    590
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "dolo",
-   "name": "Dolo",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    592
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "flomo",
-   "name": "Flomo",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    601
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "gaye",
-   "name": "Gaye",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    591
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "kamara",
-   "name": "Kamara",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    603
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "kanneh",
-   "name": "Kanneh",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    588
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "kollie",
-   "name": "Kollie",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    602
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "konneh",
-   "name": "Konneh",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    595
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "kromah",
-   "name": "Kromah",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    597
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "mulbah",
-   "name": "Mulbah",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    599
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "paye-2",
-   "name": "Paye",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    594
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "sackie",
-   "name": "Sackie",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    593
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "sumo",
-   "name": "Sumo",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    598
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "toe",
-   "name": "Toe",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Unisex",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    600
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "tokpah",
-   "name": "Tokpah",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    596
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
-   ]
-  },
-  {
-   "id": "weah",
-   "name": "Weah",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Male",
-   "tribes": [],
-   "meanings": [],
-   "notes": [],
-   "surname": true,
-   "submissions": 1,
-   "source_rows": [
-    589
-   ],
-   "issues": [
-    "No meaning yet",
-    "Tribe unknown"
    ]
   }
  ]

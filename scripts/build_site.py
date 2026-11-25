@@ -64,11 +64,12 @@ out = [
         e["variants"],
         G[e["gender"]],
         e["tribes"],
-        [[m["text"], m["tribes"], m["count"]] for m in e["meanings"]],
+        [[m["text"], m["tribes"], m["count"], m.get("source", "")] for m in e["meanings"]],
         e["pronunciation"],
         [n for n in e["notes"] if n != INFERRED],
         e["submissions"],
         int("Tribe marked uncertain" in e["issues"]),
+        [[x["title"].split(",")[0], x["url"]] for x in e.get("sources", [])],
     ]
     for e in names
 ]
@@ -226,7 +227,8 @@ for e in names:
     if e["meanings"]:
         lis = []
         for m in e["meanings"]:
-            by = f"Shared by {m['count']} {'person' if m['count'] == 1 else 'people'}"
+            by = (f"Shared by {m['count']} {'person' if m['count'] == 1 else 'people'}" if m["count"]
+                  else f"From {m.get('source') or 'a published source'}")
             if len(e["tribes"]) > 1 and m["tribes"]:
                 by += " · " + ", ".join(m["tribes"])
             lis.append(f"<li>{esc(m['text'])}<small>{esc(by)}</small></li>")
@@ -243,6 +245,10 @@ for e in names:
     if "Tribe marked uncertain" in e["issues"]:
         parts.append('<p class="note">The tribe for this name is marked uncertain. Corrections are welcome.</p>')
 
+    if e.get("sources"):
+        parts.append("<h2>Sources</h2><p>" + "; ".join(
+            f'<a href="{esc(x["url"])}" rel="nofollow noopener">{esc(x["title"])}</a> (accessed {esc(x["accessed"])})'
+            for x in e["sources"]) + ". Published sources are listed until the community confirms the entry.</p>")
     parts.append(f'<div class="actions"><a class="btn" href="/#name={esc(e["id"])}">Open in the archive</a>'
                  '<a class="btn alt" href="/#contribute">Add a meaning, spelling or recording</a></div>')
 

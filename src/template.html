@@ -631,8 +631,8 @@ const state = {q:"", tribe:"", gender:"", theme:"", letter:"", sort:"az", shown:
 function build(){
   entries = RAW.n.map((a,i) => ({
     i, name:a[0], variants:a[1].slice(), g:a[2], tribes:a[3].slice(),
-    meanings:a[4].map(m => ({t:m[0], tr:m[1].slice(), c:m[2]})),
-    pron:a[5].slice(), notes:a[6].map(n => ({text:n})), sub:a[7], unsure:!!a[8], community:false, audio:[]
+    meanings:a[4].map(m => ({t:m[0], tr:m[1].slice(), c:m[2], src:m[3]||""})),
+    pron:a[5].slice(), notes:a[6].map(n => ({text:n})), sub:a[7], unsure:!!a[8], community:false, audio:[], sources:a[9]||[]
   }));
   reindex(); approved.forEach(merge); reindex();
 }
@@ -668,6 +668,8 @@ function merge(s){
   e.community = true;
 }
 const people = n => `<span class="people" title="Shared by ${n} ${n===1?"person":"people"}">${PEOPLE_ICON}<span><b>${n}</b> ${n===1?"person":"people"}</span></span>`;
+/* Entries taken from a published source (no community submissions yet) show where they came from instead of a people count. */
+const who = (n, src) => n ? people(n) : src ? `<span class="people">From ${esc(src)}</span>` : "";
 const gtag = g => `<span class="g g-${g}">${G[g]}</span>`;
 const themeOf = id => THEMES.find(t => t.id === id);
 
@@ -728,7 +730,7 @@ function render(){
       <span class="n">${esc(e.name)}${e.pron.length?`<small>${esc(e.pron[0])}</small>`:e.variants.length?`<small>also ${esc(e.variants.slice(0,2).join(", "))}</small>`:""}</span>
       <span class="m"><span class="t ${m?"":"none"}">${m?esc(m.t):"Meaning not yet shared"}</span>${e.meanings.length>1?`<span class="more">+${e.meanings.length-1} more meaning${e.meanings.length>2?"s":""}</span>`:""}
         <span class="tribes">${e.tribes.length?e.tribes.map(t => `<span class="tchip">${esc(t)}</span>`).join(""):`<span class="tchip" style="background:transparent;border:1px dashed var(--line);color:var(--muted)">Tribe not known</span>`}${e.community?`<span class="comm">Community added</span>`:""}</span></span>
-      <span class="meta">${gtag(e.g)}${people(e.sub)}${e.audio.length?`<span class="has-audio" title="Has a recording"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg><span class="sr">Has a recording</span></span>`:""}</span>
+      <span class="meta">${gtag(e.g)}${who(e.sub, e.sources && e.sources[0] && e.sources[0][0])}${e.audio.length?`<span class="has-audio" title="Has a recording"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg><span class="sr">Has a recording</span></span>`:""}</span>
     </button></li>`;
   });
   $("#results").innerHTML = html;
@@ -766,20 +768,21 @@ function openName(i){
   lastFocus = document.activeElement;
   const carriers = PEOPLE.filter(p => key(p.entry) === key(e.name) || (p.also && key(p.also) === key(e.name)) || e.variants.some(v => key(v) === key(p.entry)));
   const meanings = e.meanings.length ? `<ul class="meanings">${e.meanings.map(m => `<li><div class="t">${esc(m.t)}</div>
-      <div class="by">${people(m.c)}${e.tribes.length>1&&m.tr.length?`<span>· ${esc(m.tr.join(", "))}</span>`:""}${m.community?`<span class="comm">Community added${m.credit?` · ${esc(m.credit)}`:""}</span>`:""}</div></li>`).join("")}</ul>`
+      <div class="by">${who(m.c, m.src)}${e.tribes.length>1&&m.tr.length?`<span>· ${esc(m.tr.join(", "))}</span>`:""}${m.community?`<span class="comm">Community added${m.credit?` · ${esc(m.credit)}`:""}</span>`:""}</div></li>`).join("")}</ul>`
     : `<p class="msg info">No one has shared a meaning for ${esc(e.name)} yet. Do you know it?</p>`;
   $("#card").innerHTML = `<div class="ribbon" aria-hidden="true"></div><div class="inner">
     <div class="head"><div>
       <p class="eyebrow">${e.tribes.length ? esc(e.tribes.join(" · ")) : "Tribe not known yet"}${e.unsure?" (unconfirmed)":""}</p>
       <h2 id="card-title">${esc(e.name)}</h2>
       ${e.pron.length?`<p style="font-family:var(--mono);color:var(--muted);margin-top:10px">say it: ${e.pron.map(esc).join(" · ")}</p>`:""}
-      <div class="meta">${gtag(e.g)}${people(e.sub)}${e.themes.map(t => `<button type="button" class="tchip" data-theme-go="${t}" style="border:0;cursor:pointer">${esc(themeOf(t).label)}</button>`).join("")}</div>
+      <div class="meta">${gtag(e.g)}${who(e.sub, e.sources && e.sources[0] && e.sources[0][0])}${e.themes.map(t => `<button type="button" class="tchip" data-theme-go="${t}" style="border:0;cursor:pointer">${esc(themeOf(t).label)}</button>`).join("")}</div>
     </div><button class="btn quiet" type="button" id="card-close">Close ✕</button></div>
     ${e.audio.length?`<div><h4>Hear it</h4><div style="display:grid;gap:10px">${e.audio.map(a => `<div class="clips">${a.id?`<button type="button" class="play" data-play="${esc(a.id)}"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Play</button>`:""}${a.slow?`<button type="button" class="play" data-play="${esc(a.slow)}"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Play slowly</button>`:`<button type="button" class="play" data-play="${esc(a.id)}" data-rate="0.65"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Play slower</button>`}${a.credit?`<span class="hint" style="align-self:center">${esc(a.credit)}</span>`:""}</div>`).join("")}</div></div>`:""}
     <div><h4>Meaning</h4>${meanings}</div>
     ${e.variants.length?`<div><h4>Also spelled</h4><div class="vars">${e.variants.map(v => `<span>${esc(v)}</span>`).join("")}</div></div>`:""}
     ${carriers.length?`<div><h4>Well-known Liberians with this name</h4>${carriers.map(p => `<p class="carry"><b>${esc(p.name)}</b> · ${esc(p.role)}</p>`).join("")}</div>`:""}
     ${e.notes.length?`<div><h4>Notes from contributors</h4>${e.notes.map(n => `<p class="story">${esc(n.text)}${n.credit?` <span style="color:var(--muted)">— ${esc(n.credit)}</span>`:""}</p>`).join("")}</div>`:""}
+    ${e.sources && e.sources.length?`<div><h4>Source</h4><p class="story">${e.sources.map(([l,u]) => `<a href="${esc(u)}" target="_blank" rel="nofollow noopener">${esc(l)}</a>`).join(", ")}. Listed from a published source until the community confirms it.</p></div>`:""}
     <div class="actions">
       <button class="btn red" type="button" data-suggest="meaning" data-name="${esc(e.name)}">${e.meanings.length?"Add a meaning or correction":"Share the meaning"}</button>
       <button class="btn" type="button" data-suggest="spelling" data-name="${esc(e.name)}">Add a spelling</button>
@@ -851,7 +854,7 @@ function nameHint(){
   const v = $("#c-name").value.trim(), e = v && index.get(key(v));
   const kind = document.querySelector('input[name="kind"]:checked').value, h = $("#c-name-hint");
   if (!v) { h.textContent = ""; return; }
-  if (e && kind === "new") h.textContent = `${e.name} is already in the archive (${e.sub} ${e.sub===1?"person":"people"}). Your answer will count as one more.`;
+  if (e && kind === "new") h.textContent = `${e.name} is already in the archive${e.sub?` (${e.sub} ${e.sub===1?"person":"people"})`:""}. Your answer will count as one more.`;
   else if (e) h.textContent = `Adding to ${e.name}${e.tribes.length?` (${e.tribes.join(", ")})`:""}.`;
   else h.textContent = kind !== "new" ? "This name isn't in the archive yet, so it will be added as a new name." : "";
 }
