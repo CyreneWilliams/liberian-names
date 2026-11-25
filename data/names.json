@@ -21,7 +21,9 @@
      "count": 1
     }
    ],
-   "notes": [],
+   "notes": [
+    "Gender corrected to unisex by Aakehtee Parhmilnee-Sneh (November 2026)."
+   ],
    "surname": false,
    "submissions": 1,
    "source_rows": [
@@ -32,7 +34,7 @@
     {
      "date": "2026-11-25",
      "change": "Gender changed to unisex",
-     "by": "community correction"
+     "by": "Aakehtee Parhmilnee-Sneh"
     }
    ]
   },
@@ -10334,36 +10336,6 @@
    ]
   },
   {
-   "id": "secret",
-   "name": "Secret",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Female",
-   "tribes": [],
-   "meanings": [
-    {
-     "text": "The nine-month “secret” is revealed",
-     "tribes": [],
-     "count": 0,
-     "source": "TLC Africa"
-    }
-   ],
-   "notes": [],
-   "surname": false,
-   "submissions": 0,
-   "source_rows": [],
-   "issues": [
-    "Tribe unknown"
-   ],
-   "sources": [
-    {
-     "title": "TLC Africa, African Names",
-     "url": "https://www.tlcafrica1.com/africa-name/",
-     "accessed": "2026-11-25"
-    }
-   ]
-  },
-  {
    "id": "seengiando",
    "name": "Sèèñgìáñdó",
    "variants": [],
@@ -11875,31 +11847,6 @@
    ],
    "issues": [
     "No gender given"
-   ]
-  },
-  {
-   "id": "tiedi",
-   "name": "Tiedi",
-   "variants": [],
-   "pronunciation": [],
-   "gender": "Female",
-   "tribes": [
-    "Kru"
-   ],
-   "meanings": [],
-   "notes": [],
-   "surname": false,
-   "submissions": 0,
-   "source_rows": [],
-   "issues": [
-    "No meaning yet"
-   ],
-   "sources": [
-    {
-     "title": "TLC Africa, African Names",
-     "url": "https://www.tlcafrica1.com/africa-name/",
-     "accessed": "2026-11-25"
-    }
    ]
   },
   {
